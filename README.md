@@ -7,7 +7,15 @@
 <br>
 <br>
 
-##
+
+-------
+## <div align=center>2018/09/21</div>
+
+<br>
+<br>
+<br>
+
+-------
 ## <div align=center>2018/09/20</div>
 
 *  iPhoneXS 屏幕分辨率终极指南  [点击前往](https://kangzubin.com/iphone-resolutions/ "快点前去查看详情")  
