@@ -7,6 +7,15 @@
 <br>
 <br>
 
+-------
+## <div align=center>2018/09/22</div>
+*  iOS 中集合遍历方法的比较和技巧  [点击前往](http://blog.sunnyxx.com/2014/04/30/ios_iterator/ "快点前去查看详情")  
+
+*  iOS的几种定时器及区别 [点击前往](https://www.jianshu.com/p/5e3784d3ac80 "快点前去查看详情")
+<br>
+<br>
+<br>
+
 
 -------
 ## <div align=center>2018/09/21</div>
