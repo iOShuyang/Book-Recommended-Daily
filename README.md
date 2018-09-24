@@ -7,6 +7,44 @@
 <br>
 <br>
 
+-------
+## <div align=center>2018/09/22</div>
+* iOS如何将父视图透明，而内容不透明的方法[点击前往](https://www.jianshu.com/p/768641b847c1 "快点前去查看详情")  
+    * self.view.backgroundColor = [[UIColor whiteColor]colorWithAlphaComponent:0.7f];
+* iOS开发你可能不知道的细节一：UITextField清空按钮[点击前往](https://www.jianshu.com/p/6d123a8d43d8 "快点前去查看详情")  
+    * textField.clearButtonMode=UITextFieldViewModeWhileEditing; 
+    * UITextFieldViewModeNever,  清空按钮永不出现
+    * UITextFieldViewModeUnlessEditing,  不编辑的时候出现
+    * UITextFieldViewModeAlways 只要输入框有内容就出现
+    * 
+* 在iOS开发中使用iconfont图标[点击前往](https://www.jianshu.com/p/3b10bb95b332 "快点前去查看详情")  
+          使用iconfont的可以达到以下目的
+    * 减小应用体积，字体文件比图片要小；
+    * 图标保真缩放，解决2x/3x乃至将来nx图问题；
+    * 方便更改图标颜色大小，图片复用。   
+* iOS开发技巧-国际化(Localization)，只看一篇就够了[点击前往](https://www.jianshu.com/p/f8edd7b7a217 "快点前去查看详情") 
+    * App名称国际化
+    * 图片、文字国际化
+    * 强制默认显示某种语言
+    * 启动图国际化
+    * iOS10所需的权限配置国际化
+    * xib/storyboard国际化
+   
+*  UIBezierPath介绍 [点击前往](https://www.jianshu.com/p/6c9aa9c5dd68 "快点前去查看详情")  
+    *  iOS的绘图框架有多种，我们平常最常用的就是UIKit，其底层是依赖CoreGraphics实现的，而且绝大多数的图形界面也都是由UIKit完成，并且UIImage、NSString、UIBezierPath、UIColor等都知道如何绘制自己，也提供了一些方法来满足我们常用的绘图需求。除了UIKit，还有CoreGraphics、Core Animation，Core Image，OpenGL ES等多种框架，来满足不同的绘图要求。各个框架的大概介绍如下：
+        * UIKit：最常用的视图框架，封装度最高，都是OC对象
+        * CoreGraphics：主要绘图系统，常用于绘制自定义视图，纯C的API，使用Quartz2D做引擎
+        * CoreAnimation：提供强大的2D和3D动画效果
+        * CoreImage：给图片提供各种滤镜处理，比如高斯模糊、锐化等
+        * OpenGL-ES：主要用于游戏绘制，但它是一套编程规范，具体由设备制造商实现 
+        
+         ![绘图系统](http://cc.cocimg.com/api/uploads/20170809/1502248071320268.png)
+  
+
+<br>
+<br>
+<br>
+
 
 -------
 ## <div align=center>2018/09/22</div>
