@@ -18,6 +18,7 @@
     * 使用AssetsLibrary框架中的ALAssetsLibrary类来实现
     * 使用Photos框架的PHPhotoLibrary类来实现保存到相册功能
 * 针对WKWebView进行内容的截屏[点击前往](https://www.jianshu.com/p/28c70420977c "快点前去查看详情")  
+    * 推荐使用第三方框架DDGScreenShot（swift）
     * 原理：
     
         ```
@@ -26,8 +27,6 @@
 size——绘制图片的大小
 opaque—透明开关,如果图形完全不用透明,设置为YES以优化位图的存储。
 scale—–缩放因子，[UIScreen mainScreen].scale保持原图分辨率
-
-    * 推荐使用第三方框架DDGScreenShot（swift）
     
 * iOS 10打开设置中的指定模块[点击前往](https://www.jianshu.com/p/f9731d82e6de "快点前去查看详情") 
     * 使用url scheme。photos-redirect://
@@ -55,15 +54,15 @@ scale—–缩放因子，[UIScreen mainScreen].scale保持原图分辨率
                 
         ```
             - (NSString *)dencode:(NSString *)base64String
-          {
-              //NSData *base64data = [string dataUsingEncoding:NSUTF8StringEncoding];
-
-              NSData *data = [[NSData alloc]initWithBase64EncodedString:base64String options:NSDataBase64DecodingIgnoreUnknownCharacters];
-
-              NSString *string = [[NSString alloc]initWithData:data encoding:NSUTF8StringEncoding];
-
-              return string;
-          }
+    {
+        //NSData *base64data = [string dataUsingEncoding:NSUTF8StringEncoding];
+        
+        NSData *data = [[NSData alloc]initWithBase64EncodedString:base64String options:NSDataBase64DecodingIgnoreUnknownCharacters];
+        
+        NSString *string = [[NSString alloc]initWithData:data encoding:NSUTF8StringEncoding];
+        
+        return string;
+    }
         ```
 
 
