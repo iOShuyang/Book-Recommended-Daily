@@ -1,14 +1,79 @@
 # <div align=center>每日优秀文章推荐</div>
 
+### ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+
 ### 作者会每天推荐一篇优秀文章给大家
 ### 每天会不定时更新，以下文章均是平时累计 转载请联系文章原作者。
 ### 麻烦给小编一颗🌟，让小编更有动力总结出更多优秀文章和作品。
+
+### ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 <br>
 <br>
 <br>
 
 -------
-## <div align=center>2018/09/22</div>
+## <div align=center>2018/09/25</div>
+* iOS下将照片保存到相册的三种方法[点击前往](https://www.jianshu.com/p/bf20733ba19b "快点前去查看详情")  
+    * 使用UIImageWriteToSavedPhotosAlbum函数将图片保存到相册
+    * 使用AssetsLibrary框架中的ALAssetsLibrary类来实现
+    * 使用Photos框架的PHPhotoLibrary类来实现保存到相册功能
+* 针对WKWebView进行内容的截屏[点击前往](https://www.jianshu.com/p/28c70420977c "快点前去查看详情")  
+    * 原理：
+    
+        ```
+        UIGraphicsBeginImageContextWithOptions(<#CGSize size#>, <#BOOL opaque#>, <#CGFloat scale#>)
+        ```
+size——绘制图片的大小
+opaque—透明开关,如果图形完全不用透明,设置为YES以优化位图的存储。
+scale—–缩放因子，[UIScreen mainScreen].scale保持原图分辨率
+
+    * 推荐使用第三方框架DDGScreenShot（swift）
+    
+* iOS 10打开设置中的指定模块[点击前往](https://www.jianshu.com/p/f9731d82e6de "快点前去查看详情") 
+    * 使用url scheme。photos-redirect://
+但这个scheme是私有的，有风险，而且也没有文档阐述怎么传递参数，你可以试一下。 【为通过审核，对 "photos-redirect://" 进行base64编码混淆后再解码】
+
+* iOS开发之Base64编码与解码[点击前往](https://www.jianshu.com/p/06089c140452 "快点前去查看详情") 
+    * 1>ASCII码是8个二进制位一编码
+    * 2>Base64编码是6个二进制位一编码,所以转换成字符串后会比ASCII内容要多
+        * 64编码
+        
+        ```
+        - (NSString *)encode:(NSString *)string
+        {
+            //先将string转换成data
+            NSData *data = [string dataUsingEncoding:NSUTF8StringEncoding];
+            
+            NSData *base64Data = [data base64EncodedDataWithOptions:0];
+            
+            NSString *baseString = [[NSString alloc]initWithData:base64Data encoding:NSUTF8StringEncoding];
+            
+            return baseString;
+        }
+        ```
+        * 64解码
+                
+        ```
+            - (NSString *)dencode:(NSString *)base64String
+    {
+        //NSData *base64data = [string dataUsingEncoding:NSUTF8StringEncoding];
+        
+        NSData *data = [[NSData alloc]initWithBase64EncodedString:base64String options:NSDataBase64DecodingIgnoreUnknownCharacters];
+        
+        NSString *string = [[NSString alloc]initWithData:data encoding:NSUTF8StringEncoding];
+        
+        return string;
+    }
+        ```
+
+
+
+<br>
+<br>
+<br>
+
+-------
+## <div align=center>2018/09/24</div>
 * iOS如何将父视图透明，而内容不透明的方法[点击前往](https://www.jianshu.com/p/768641b847c1 "快点前去查看详情")  
     * self.view.backgroundColor = [[UIColor whiteColor]colorWithAlphaComponent:0.7f];
 * iOS开发你可能不知道的细节一：UITextField清空按钮[点击前往](https://www.jianshu.com/p/6d123a8d43d8 "快点前去查看详情")  
@@ -47,7 +112,7 @@
 
 
 -------
-## <div align=center>2018/09/22</div>
+## <div align=center>2018/09/23</div>
 *  面向对象设计的六大设计原则（附 Demo 及 UML 类图）  [点击前往](https://juejin.im/post/5b9526c1e51d450e69731dc2 "快点前去查看详情")  
 
 | 缩写 | 英文名称 | 中文名称 | 定义 |
