@@ -12,6 +12,45 @@
 <br>
 
 -------
+## <div align=center>2018/09/26</div>
+* iOS下的实际网络连接检测:RealReachability[点击前往](http://www.cocoachina.com/special/20160222/15374.html "快点前去查看详情")  
+![RealReachability架构图](http://7xr2v8.com1.z0.glb.clouddn.com/111.png)
+
+* iOS【WKWebView转PDF、图片】[点击前往](https://www.jianshu.com/p/4924d00bafc1 "快点前去查看详情") 
+
+* iOS 12正式版新特性总结[点击前往](https://juejin.im/post/5ba1c825e51d450e63220c42 "快点前去查看详情") 
+
+* 十分钟接入iOS 12新特性——Siri Shortcuts[点击前往](https://www.jianshu.com/p/edda18023a7b "快点前去查看详情") 
+    * Siri Shortcuts的API有两大类：NSUserActivity和Intents
+    * 接入步骤
+    
+        ```
+       1. plist添加activity type（Define Shortcut）
+       2. 配置NSUserActivity并通知Siri（Donate Shortcut）
+       3. 在AppDelegate中处理Siri打开APP请求 （Handle Shortcut）
+        ```
+* iOS 快速从OC过渡到Swift，由理论到实战 [点击前往](https://blog.csdn.net/LOLITA0164/article/details/82017800 "快点前去查看详情")
+   1. 常量let和变量var  
+   2. 输出print 
+   3. 数据类型（布尔值、数组、字典、元组、可选类型）
+   4. 几种运算符（区间运算符、空合运算符、溢出运算符）
+   5. 控制语句
+   6. 函数和闭包
+   7. 类和结构体
+   8. 属性（计算属性、延迟属性（懒加载）、属性观察器、类型属性）
+   9. 枚举（枚举语法、关联值）
+   10. 扩展
+   11. 协议（协议语法、可选协议）
+   12. 循环引用（弱引用（weak）、无主引用（unowned））
+   13. 类型转换
+        
+
+
+<br>
+<br>
+<br>
+
+-------
 ## <div align=center>2018/09/25</div>
 * iOS下将照片保存到相册的三种方法[点击前往](https://www.jianshu.com/p/bf20733ba19b "快点前去查看详情")  
     * 使用UIImageWriteToSavedPhotosAlbum函数将图片保存到相册
