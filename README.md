@@ -12,6 +12,55 @@
 <br>
 
 -------
+## <div align=center>2018/09/27</div>
+* iOS 拨打电话三种方式总结[点击前往](https://www.jianshu.com/p/73872e332b24 "快点前去查看详情")
+    * 这种方法,拨打完电话回不到原来的应用,会停留在通讯录里,而且是直接拨打,不弹出提示
+        ```
+        NSMutableString* str=[[NSMutableString alloc]initWithFormat:@"tel:%@",@"186xxxx6979"];
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:str]];
+        
+        ```
+    * 这种方法,打完电话后还会回到原来的程序,也会弹出提示,推荐这种
+        ```
+        NSMutableString* str=[[NSMutableString alloc] initWithFormat:@"tel:%@",@"186xxxx6979"];
+        
+        UIWebView * callWebview = [[UIWebView alloc] init];
+        
+        [callWebview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:str]]];
+        
+        [self.view addSubview:callWebview];
+        
+        ```
+        
+    * 这种方法也会回去到原来的程序里（注意这里的telprompt）,也会弹出提示
+    
+            ``` 
+            NSMutableString *str=[[NSMutableString alloc] initWithFormat:@"telprompt://%@",@"186xxxx6979"];
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:str]]
+            
+            ```
+* iOS动画篇：下拉刷新动画[点击前往](https://www.jianshu.com/p/3c51e4896632 "快点前去查看详情")
+
+* iOS GCD详细介绍[点击前往](https://www.jianshu.com/p/174199ceac04 "快点前去查看详情")
+
+* UILabel设置圆角无效是不是少了这个？[点击前往](https://www.jianshu.com/p/2e3ce8694f3d "快点前去查看详情")
+    ```
+    label.layer.cornerRadius = 2.f;
+    
+    同时需要设置
+    label.clipsToBounds = YES; 
+    或者        
+    label.layer.masksToBounds = YES;
+    
+    ```
+* iOS阴影设置详解[点击前往](https://www.jianshu.com/p/575ce7d7b68f "快点前去查看详情")
+
+    
+<br>
+<br>
+<br>
+
+-------
 ## <div align=center>2018/09/26</div>
 * iOS下的实际网络连接检测:RealReachability[点击前往](http://www.cocoachina.com/special/20160222/15374.html "快点前去查看详情")  
 ![RealReachability架构图](http://7xr2v8.com1.z0.glb.clouddn.com/111.png)
