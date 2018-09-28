@@ -12,6 +12,108 @@
 <br>
 
 -------
+## <div align=center>2018/09/28</div>
+* ios中给view添加圆角并指定位置[点击前往](https://blog.csdn.net/meiyulong518/article/details/63686040 "快点前去查看详情")
+
+ 比较推荐使用第三种，内存消耗少，速度快。
+    * 设置图层的属性 
+    * 第二种使用贝塞尔曲线UIBezierPath,开启图形上下文画出一个圆
+    * 第三种使用UIBezierPath和CAShareLayer设置圆角
+
+
+* iOS 日常工作之常用宏定义大全[点击前往](https://www.jianshu.com/p/213b3b96cafe "快点前去查看详情")
+
+* iOS 枚举的巧用[点击前往](https://www.jianshu.com/p/97e582fe89f3 "快点前去查看详情")
+     * 如果我们在枚举值中看见<<那我们就可以通过|(位运算符:或)进行组合使用
+     ![](https://upload-images.jianshu.io/upload_images/2353624-476df8d2cb3f2524.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/551)
+     * 如下图枚举值中没有<<,这就是普通的NSInteger类型的枚举, 所以不能组合使用:
+     ![](https://upload-images.jianshu.io/upload_images/2353624-87cc026229c4ccc0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/596)
+    
+  
+        ```
+        NS_OPTIONS 与 NS_ENUM 和 enum 是有什么区别呢?
+        ```
+        
+        1. 通过上面介绍我们可以看出enum可以声明一般类型和位掩码(bitmasked)类型
+            
+        2. NS_ENUM声明一般类型, NS_OPTIONS声明掩码(bitmasked)类型
+                
+        3. 那么问题又来了, 直接用enum不就可以了? 答案不是这样的, 苹果建议我们在OC中使用NS_ENUM与NS_OPTIONS, 为什么呢? 因为他们除了推断出不同类型的枚举,再就是当编译Objective-C++模式，它们产生的代码是不同的, 就是因为不同所以混编的时候使用enum会报错!
+        
+<br>
+
+* iOS实现应用外自带地图、高德地图、百度地图导航[点击前往](https://www.jianshu.com/p/183f66da9d9c "快点前去查看详情")
+
+```
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    
+    NSLog(@"numberOfButtons == %ld",actionSheet.numberOfButtons);
+     NSLog(@"buttonIndex == %ld",buttonIndex);
+    
+    if (buttonIndex == 0) {
+        
+        NSLog(@"自带地图触发了");
+        
+        MKMapItem *currentLocation =[MKMapItem mapItemForCurrentLocation];
+        
+        MKMapItem *toLocation = [[MKMapItem alloc] initWithPlacemark:[[MKPlacemark alloc] initWithCoordinate:self.coordinate addressDictionary:nil]];
+        
+        [MKMapItem openMapsWithItems:@[currentLocation,toLocation] launchOptions:@{MKLaunchOptionsDirectionsModeKey:MKLaunchOptionsDirectionsModeDriving,
+            MKLaunchOptionsShowsTrafficKey:[NSNumber numberWithBool:YES]}];
+
+    }
+    //既安装了高德地图，又安装了百度地图
+    if (actionSheet.numberOfButtons == 4) {
+        
+        if (buttonIndex == 2) {
+            
+            NSLog(@"高德地图触发了");
+            
+            NSString *urlsting =[[NSString stringWithFormat:@"iosamap://navi?sourceApplication= &backScheme= &lat=%f&lon=%f&dev=0&style=2",self.coordinate.latitude,self.coordinate.longitude]stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+            [[UIApplication  sharedApplication]openURL:[NSURL URLWithString:urlsting]];
+        }
+        if (buttonIndex == 3) {
+            
+            NSLog(@"百度地图触发了");
+            NSString *urlsting =[[NSString stringWithFormat:@"baidumap://map/direction?origin={{我的位置}}&destination=latlng:%f,%f|name=目的地&mode=driving&coord_type=gcj02",self.coordinate.latitude,self.coordinate.longitude] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlsting]];
+        }
+ 
+    }
+    //安装了高德地图或安装了百度地图
+    if (actionSheet.numberOfButtons == 3) {
+        
+        if (buttonIndex == 2) {
+            
+            if ( [[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"iosamap://"]]) {
+                
+                NSLog(@"只安装的高德地图触发了");
+                NSString *urlsting =[[NSString stringWithFormat:@"iosamap://navi?sourceApplication= &backScheme= &lat=%f&lon=%f&dev=0&style=2",self.coordinate.latitude,self.coordinate.longitude]stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+                [[UIApplication  sharedApplication]openURL:[NSURL URLWithString:urlsting]];
+               
+            }
+            if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"baidumap://"]]) {
+                 NSLog(@"只安装的百度地图触发了");
+                NSString *urlsting =[[NSString stringWithFormat:@"baidumap://map/direction?origin={{我的位置}}&destination=latlng:%f,%f|name=目的地&mode=driving&coord_type=gcj02",self.coordinate.latitude,self.coordinate.longitude] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlsting]];
+            }
+
+           
+        }
+        
+    }
+    
+}
+
+```
+   
+
+<br>
+<br>
+<br>
+
+-------
 ## <div align=center>2018/09/27</div>
 * iOS 拨打电话三种方式总结[点击前往](https://www.jianshu.com/p/73872e332b24 "快点前去查看详情")
     * 这种方法,拨打完电话回不到原来的应用,会停留在通讯录里,而且是直接拨打,不弹出提示
