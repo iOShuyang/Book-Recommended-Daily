@@ -48,7 +48,6 @@
     }
     // 替换末尾\t
     for (NSUInteger i = 0; i < subMuArr.count; i ++) {
-#warning  下面的6是列数，根据需求修改
         if ( i > 0 && (i%6 == 0) ) {
             [muStr replaceCharactersInRange:NSMakeRange([[subMuArr objectAtIndex:i-1] intValue], 1) withString:@"\n"];
         }
@@ -76,8 +75,7 @@
     ```
     [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
         //去掉导航栏底部的黑线
-self.navigationController.navigationBar.shadowImage = [UIImage new];
-        
+        self.navigationController.navigationBar.shadowImage = [UIImage new];
     ```
     * 第二种 
   
