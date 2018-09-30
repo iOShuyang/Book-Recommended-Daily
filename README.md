@@ -16,22 +16,28 @@
 * iOS-Json字符串转字典，字典转Json字符串、以及Json字符串去掉空格、换行符等[点击前往](https://www.jianshu.com/p/1e242df1335b "快点前去查看详情")
 
 <br>
+
 * iOS 中间镂空效果的View[点击前往](https://www.jianshu.com/p/50c46c72e3dd "快点前去查看详情")
 
 <br>
+
 * ios实现颜色渐变的几种方法[点击前往](https://www.jianshu.com/p/3e0e25fd9b85 "快点前去查看详情")
 
 <br>
+
 * CABasicAnimation的使用方法（移动，旋转，缩放）[点击前往](https://blog.csdn.net/chenyongkai1/article/details/75307674 "快点前去查看详情")
 
 <br>
+
 * iOS开发_原生二维码生成与读取[点击前往](https://www.jianshu.com/p/b0c21ea1f4b2 "快点前去查看详情")
 
 
 <br>
+
 * ios 二维码生成（带图标）以及相册识别二维码跳转[点击前往](https://www.jianshu.com/p/84c4b33221f9 "快点前去查看详情")
 
 <br>
+
 * ios 二维码扫描（原生，可限制扫描区域）[点击前往](http://www.360doc.com/content/16/0503/19/27253262_555982864.shtml "快点前去查看详情")
 
 
