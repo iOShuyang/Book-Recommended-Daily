@@ -11,6 +11,129 @@
 <br>
 <br>
 
+
+-------
+## <div align=center>2018/10/05</div>
+* iOS Native混编Flutter交互实践[点击前往](https://juejin.im/post/5bb033515188255c5e66f500 "快点前去查看详情")
+![](https://user-gold-cdn.xitu.io/2018/9/30/1662848993a32e41?imageView2/0/w/1280/h/960/ignore-error/1)
+
+* 流言终结者- Flutter和RN谁才是更好的跨端开发方案？[点击前往](https://juejin.im/post/5b9606055188255c7c6541c3 "快点前去查看详情")
+
+* contentSize、contentOffset和contentInset的图解辨别[点击前往](https://www.jianshu.com/p/9091e5f34df5 "快点前去查看详情")
+> contentSize:即内容,就是scrollview可以滚动的区域,比如frame = (0 ,0 ,100 ,200) contentSize = (100 ,400)，代表你的scrollview可以上下滚动，滚动区域为frame大小的两倍。其中常用的是contentSize.height = 内容的高度。
+> <bar>
+> contentOffset: 即偏移量,其中分为contentOffset.y=内容的顶部和frame顶部的差值,contentOffset.x=内容的左边和frame左边的差值,下面重点阐述contentOffset.y,因为contentOffset.y最为常用。
+> <bar>
+> contentInset:即内边距,contentInset = 在内容周围增加的间距(粘着内容),contentInset的单位是UIEdgeInsets,默认值为UIEdgeInsetsZero。
+
+
+* iOS自定义裁剪区域，正方形圆形图片头像裁剪，仿QQ头像裁剪，圆形遮罩，矩型遮罩[点击前往](https://www.jianshu.com/p/856979c44b42 "快点前去查看详情")
+    * 矩形遮罩 
+    ```
+        //矩形裁剪区域
+    - (void)transparentCutSquareArea{
+        //圆形透明区域
+        UIBezierPath *alphaPath = [UIBezierPath bezierPathWithRect:CGRectMake(0, 0, _selfWidth, _selfHeight)];
+        UIBezierPath *squarePath = [UIBezierPath bezierPathWithRect:_cropFrame];
+        [alphaPath appendPath:squarePath];
+        CAShapeLayer *shapeLayer = [CAShapeLayer layer];
+        shapeLayer.path = alphaPath.CGPath;
+        shapeLayer.fillRule = kCAFillRuleEvenOdd;
+        self.overLayView.layer.mask = shapeLayer;
+        
+        //裁剪框
+        UIBezierPath *cropPath = [UIBezierPath bezierPathWithRect:CGRectMake(_cropFrame.origin.x-1, _cropFrame.origin.y-1, _cropFrame.size.width+2, _cropFrame.size.height+2)];
+        CAShapeLayer *cropLayer = [CAShapeLayer layer];
+        cropLayer.path = cropPath.CGPath;
+        cropLayer.fillColor = [UIColor whiteColor].CGColor;
+        cropLayer.strokeColor = [UIColor whiteColor].CGColor;
+        [self.overLayView.layer addSublayer:cropLayer];
+    }
+    ```
+    
+    * 圆形裁剪遮罩 
+    ```
+        //圆形裁剪区域
+    -(void)transparentCutRoundArea{
+        CGFloat arcX = _cropFrame.origin.x + _cropFrame.size.width/2;
+        CGFloat arcY = _cropFrame.origin.y + _cropFrame.size.height/2;
+        CGFloat arcRadius;
+        if (_cropSize.height > _cropSize.width) {
+            arcRadius = _cropSize.width/2;
+        }else{
+            arcRadius  = _cropSize.height/2;
+        }
+        
+        //圆形透明区域
+        UIBezierPath *alphaPath = [UIBezierPath bezierPathWithRect:CGRectMake(0, 0, _selfWidth, _selfHeight)];
+        UIBezierPath *arcPath = [UIBezierPath bezierPathWithArcCenter:CGPointMake(arcX, arcY) radius:arcRadius startAngle:0 endAngle:2*M_PI clockwise:NO];
+        [alphaPath appendPath:arcPath];
+        CAShapeLayer  *layer = [CAShapeLayer layer];
+        layer.path = alphaPath.CGPath;
+        layer.fillRule = kCAFillRuleEvenOdd;
+        self.overLayView.layer.mask = layer;
+        
+        //裁剪框
+        UIBezierPath *cropPath = [UIBezierPath bezierPathWithArcCenter:CGPointMake(arcX, arcY) radius:arcRadius+1 startAngle:0 endAngle:2*M_PI clockwise:NO];
+        CAShapeLayer *cropLayer = [CAShapeLayer layer];
+        cropLayer.path = cropPath.CGPath;
+        cropLayer.strokeColor = [UIColor whiteColor].CGColor;
+        cropLayer.fillColor = [UIColor whiteColor].CGColor;
+        [self.overLayView.layer addSublayer:cropLayer];
+    }
+    ```
+    
+    * 裁剪矩形图片
+    ```
+        -(UIImage *)getSubImage{
+        //裁剪区域在原始图片上的位置
+        CGRect myImageRect = CGRectMake(leftTopPoint.x * scaleRatio, leftTopPoint.y*scaleRatio, width, height);
+        
+        //裁剪图片
+        CGImageRef imageRef = self.image.CGImage;
+        CGImageRef subImageRef = CGImageCreateWithImageInRect(imageRef, myImageRect);
+        UIGraphicsBeginImageContext(myImageRect.size);
+        CGContextRef context = UIGraphicsGetCurrentContext();
+        CGContextDrawImage(context, myImageRect, subImageRef);
+        UIImage* smallImage = [UIImage imageWithCGImage:subImageRef];
+        CGImageRelease(subImageRef);
+        UIGraphicsEndImageContext();
+        
+        //是否需要圆形图片
+        if (self.isRound) {
+            //将图片裁剪成圆形
+            smallImage = [self clipCircularImage:smallImage];
+        }
+        return smallImage;
+    }
+    ```
+    
+    * 裁剪圆形图片
+    ```
+        //将图片裁剪成圆形
+    -(UIImage *)clipCircularImage:(UIImage *)image{
+        CGFloat arcCenterX = image.size.width/ 2;
+        CGFloat arcCenterY = image.size.height / 2;
+        UIGraphicsBeginImageContext(image.size);
+        CGContextRef context = UIGraphicsGetCurrentContext();
+        CGContextBeginPath(context);
+        CGContextAddArc(context, arcCenterX, arcCenterY, image.size.width/2, 0.0, 2*M_PI, NO);
+        CGContextClip(context);
+        CGRect myRect = CGRectMake(0 , 0, image.size.width ,  image.size.height);
+        [image drawInRect:myRect];
+        
+        UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+        UIGraphicsEndImageContext();
+        
+        return  newImage;
+    }
+    ```
+    
+    
+<br>
+<br>
+<br>
+
 -------
 ## <div align=center>2018/09/30</div>
 * iOS-Json字符串转字典，字典转Json字符串、以及Json字符串去掉空格、换行符等[点击前往](https://www.jianshu.com/p/1e242df1335b "快点前去查看详情")
