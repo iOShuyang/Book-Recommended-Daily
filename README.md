@@ -11,6 +11,113 @@
 <br>
 <br>
 
+-------
+## <div align=center>2018/10/06</div>
+* 重识iOS之Property[点击前往](https://www.jianshu.com/p/21db1fe50ebf "快点前去查看详情")
+
+    * 简介：属性（property）是Objective-C的一项特性，用于封装对象中的数据。这一特性可以令编译器自动编写与属性相关的存取方法，并且保存为各种实例变量。
+    * 本质：属性的本质是实例变量与存取方法的结合。@property = ivar + getter + setter
+    
+    <br>
+    `
+    strong：表示指向并拥有该对象。其修饰的对象引用计数会 +1 ，该对象只要引用计数不为 0 就不会销毁，强行置空可以销毁它。一般用于修饰对象类型、字符串和集合类的可变版本。
+   `
+   ` 
+copy：与 strong类似，设置方法会拷贝一份副本。一般用于修饰字符串和集合类的不可变版以及block （历史遗留问题）。
+   `
+   `
+weak：表示指向但不拥有该对象。其修饰的对象引用计数不会增加，属性所指的对象销毁时属性值会清空。ARC环境下一般用于修饰可能会引起循环引用的对象，delegate 、xib 控件用 weak 修饰。
+   `
+   `
+assign：主要用于修饰基本数据类型，如 NSIteger 、CGFloat 等，这些数值主要存在于栈中。
+    `
+  <br>
+    
+* iOS常用正则表达式[点击前往](https://www.jianshu.com/p/13774c6bbdaa "快点前去查看详情")
+  
+    ```
+    /**
+ *  正则表达式简单说明
+ *  语法：
+ .       匹配除换行符以外的任意字符
+ \\w      匹配字母或数字或下划线或汉字
+ \\s      匹配任意的空白符
+ \\d      匹配数字
+ \\b      匹配单词的开始或结束
+ ^       匹配字符串的开始
+ $       匹配字符串的结束
+ *       重复零次或更多次
+ +       重复一次或更多次
+ ?       重复零次或一次
+ {n}    重复n次
+ {n,}   重复n次或更多次
+ {n,m}  重复n到m次
+ \\W      匹配任意不是字母，数字，下划线，汉字的字符
+ \\S      匹配任意不是空白符的字符
+ \\D      匹配任意非数字的字符
+ \\B      匹配不是单词开头或结束的位置
+ [^x]   匹配除了x以外的任意字符
+ [^aeiou]匹配除了aeiou这几个字母以外的任意字符
+ *?      重复任意次，但尽可能少重复
+ +?      重复1次或更多次，但尽可能少重复
+ ??      重复0次或1次，但尽可能少重复
+ {n,m}?     重复n到m次，但尽可能少重复
+ {n,}?  重复n次以上，但尽可能少重复
+ \\a      报警字符(打印它的效果是电脑嘀一声)
+ \\b      通常是单词分界位置，但如果在字符类里使用代表退格
+ \\t      制表符，Tab
+ \\r      回车
+ \\v      竖向制表符
+ \\f      换页符
+ \\n      换行符
+ \\e      Escape
+ \\0nn  ASCII代码中八进制代码为nn的字符
+ \\xnn  ASCII代码中十六进制代码为nn的字符
+ \\unnnn    Unicode代码中十六进制代码为nnnn的字符
+ \\cN   ASCII控制字符。比如\\cC代表Ctrl+C
+ \\A      字符串开头(类似^，但不受处理多行选项的影响)
+ \\Z      字符串结尾或行尾(不受处理多行选项的影响)
+ \\z      字符串结尾(类似$，但不受处理多行选项的影响)
+ \\G      当前搜索的开头
+ \\p{name}  Unicode中命名为name的字符类，例如\\p{IsGreek}
+ (?>exp)    贪婪子表达式
+ (?<x>-<y>exp)  平衡组
+ (?im-nsx:exp)  在子表达式exp中改变处理选项
+ (?im-nsx)       为表达式后面的部分改变处理选项
+ (?(exp)yes|no)     把exp当作零宽正向先行断言，如果在这个位置能匹配，使用yes作为此组的表达式；否则使用no
+ (?(exp)yes)    同上，只是使用空表达式作为no
+ (?(name)yes|no) 如果命名为name的组捕获到了内容，使用yes作为表达式；否则使用no
+ (?(name)yes)   同上，只是使用空表达式作为no
+ 
+ 捕获
+ (exp)               匹配exp,并捕获文本到自动命名的组里
+ (?<name>exp)        匹配exp,并捕获文本到名称为name的组里，也可以写成(?'name'exp)
+ (?:exp)             匹配exp,不捕获匹配的文本，也不给此分组分配组号
+ 零宽断言
+ (?=exp)             匹配exp前面的位置
+ (?<=exp)            匹配exp后面的位置
+ (?!exp)             匹配后面跟的不是exp的位置
+ (?<!exp)            匹配前面不是exp的位置
+ 注释
+ (?#comment)         这种类型的分组不对正则表达式的处理产生任何影响，用于提供注释让人阅读
+ */
+
+    ```
+    > 我们先来举个例子分析一个可以匹配几种格式的电话号码，像(010)88886666，或022-22334455，或02912345678等的表达式
+    表达式: \\(?0\d{2}[) -]?\d{8}
+    首先是一个转义字符\(,它能出现0次或1次(?),然后是一个0，后面跟着2个数字(\d{2})，然后是)或-或空格中的一个，它出现1次或不出现(?)，
+    最后是8个数字(\d{8})
+
+
+* UICollectionView（一）——整体总结[点击前往](https://www.jianshu.com/p/c59a5c92f859 "快点前去查看详情")
+    * 包括基本使用，自定义布局，自定义插入删除动画，自定义转场动画等几部分。
+* iOS实现多个可变cell复杂界面的制作 [点击前往](https://www.jianshu.com/p/9fc838d46f5e "快点前去查看详情")
+![多个可变cell复杂界面](https://upload-images.jianshu.io/upload_images/3611309-3a3dafacf25018a4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/274)
+
+<br>
+<br>
+<br>
+
 
 -------
 ## <div align=center>2018/10/05</div>
@@ -21,9 +128,9 @@
 
 * contentSize、contentOffset和contentInset的图解辨别[点击前往](https://www.jianshu.com/p/9091e5f34df5 "快点前去查看详情")
 > contentSize:即内容,就是scrollview可以滚动的区域,比如frame = (0 ,0 ,100 ,200) contentSize = (100 ,400)，代表你的scrollview可以上下滚动，滚动区域为frame大小的两倍。其中常用的是contentSize.height = 内容的高度。
-> <bar>
+> <br>
 > contentOffset: 即偏移量,其中分为contentOffset.y=内容的顶部和frame顶部的差值,contentOffset.x=内容的左边和frame左边的差值,下面重点阐述contentOffset.y,因为contentOffset.y最为常用。
-> <bar>
+> <br>
 > contentInset:即内边距,contentInset = 在内容周围增加的间距(粘着内容),contentInset的单位是UIEdgeInsets,默认值为UIEdgeInsetsZero。
 
 
