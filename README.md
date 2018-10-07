@@ -11,6 +11,41 @@
 <br>
 <br>
 
+
+-------
+## <div align=center>2018/10/06</div>
+* iOS --苹果自带的UIMenuController功能扩展[点击前往](https://www.jianshu.com/p/ddd59867909a "快点前去查看详情")
+ ![](https://upload-images.jianshu.io/upload_images/831339-a9615cb6c1677e2c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000)
+
+* 做一个 App 前需要考虑的几件事[点击前往](http://limboy.me/tech/2016/07/06/starting-an-app.html "快点前去查看详情")
+    * 完善的日志系统
+    * Commit Message 规范
+    * 代码规范
+    * 准备一份编程守则
+    * 页面布局规范
+    * 统计埋点
+    * App 架构
+    * 页面跳转机制
+    * 在线配置
+    * 选择合适的 Crash 平台
+    * Code Review
+    * 选择合适的开发模式
+    * 持续集成
+    * Bug 管理系统
+    * 项目管理工具
+    * Checklist
+
+
+
+* ReactiveCocoa基本用法[点击前往](https://www.jianshu.com/p/bae2eeba118d "快点前去查看详情") 
+> 在我们iOS开发过程中，经常会响应某些事件来处理某些业务逻辑，例如按钮的点击，上下拉刷新，网络请求，属性的变化（通过KVO）或者用户位置的变化（通过CoreLocation）。但是这些事件都用不同的方式来处理，比如action、delegate、KVO、callback等。
+> <br>
+> 其实这些事件，都可以通过RAC处理，ReactiveCocoa为事件提供了很多处理方法，而且利用RAC处理事件很方便，可以把要处理的事情，和监听的事情的代码放在一起，这样非常方便我们管理，就不需要跳到对应的方法里。非常符合我们开发中高聚合，低耦合的思想。
+
+<br>
+<br>
+<br>
+
 -------
 ## <div align=center>2018/10/06</div>
 * 重识iOS之Property[点击前往](https://www.jianshu.com/p/21db1fe50ebf "快点前去查看详情")
