@@ -7,17 +7,66 @@
 ### 麻烦给小编一颗🌟，让小编更有动力总结出更多优秀文章和作品。
 
 ### ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+标签：
+
+-------
+
+【==规范==】【==定义==】【==语法==】
+
+-------
+
+【==基础知识==】【==基础控件==】
+
+-------
+
+【==小常识==】【==时间==】【==颜色==】【==二维码==】【==地图==】【==网络==】【==相册==】【==定时器==】
+
+-------
+
+【==动画==】【==性能==】【==多线程==】【==安全==】【==算法==】
+
+-------
+
+【==框架==】【==三方框架==】【==绘图框架==】
+
+-------
+
+【==开发模式==】【==混编==】【==开发==】
+
+-------
+
 <br>
 <br>
 <br>
 
 
 -------
-## <div align=center>2018/10/06</div>
-* iOS --苹果自带的UIMenuController功能扩展[点击前往](https://www.jianshu.com/p/ddd59867909a "快点前去查看详情")
+## <div align=center>2018/10/08</div>
+* iOS 简约加载动画详解[点击前往](https://www.jianshu.com/p/3d62a6d9fdaf "快点前去查看详情") 【==动画==】
+  ![](https://upload-images.jianshu.io/upload_images/1401103-f016cbb06c803c30.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/368)
+
+
+* UITableView ReloadData那些坑[点击前往](https://www.jianshu.com/p/4ffdd772c864 "快点前去查看详情")【==小常识==】
+
+    `调用reloadData 之后,立即调用numberOfRowsInSection,但是cellForRowAt和heightForRow 是异步调用,回到当前RunLoop,布局cell时才会被调用.
+    reloadData 这样的特性就导致了没有及时调用相对应的代理方法,如果在reloadData之后,我们想要执行某些操作,就会导致出现不可预见的结果.
+    `
+* iOS时间格式化输出技巧[点击前往](https://www.jianshu.com/p/8f68fe8be4f4 "快点前去查看详情")【==时间==】    
+![](https://upload-images.jianshu.io/upload_images/2229730-e2d5192debec537c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/622)    
+
+* IOS性能优化篇[点击前往](https://juejin.im/post/5b7a9c466fb9a019eb43b0d5 "快点前去查看详情")【==性能==】
+    
+<br>
+<br>
+<br>
+
+
+-------
+## <div align=center>2018/10/07</div>
+* iOS --苹果自带的UIMenuController功能扩展[点击前往](https://www.jianshu.com/p/ddd59867909a "快点前去查看详情")【==基础控件==】
  ![](https://upload-images.jianshu.io/upload_images/831339-a9615cb6c1677e2c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000)
 
-* 做一个 App 前需要考虑的几件事[点击前往](http://limboy.me/tech/2016/07/06/starting-an-app.html "快点前去查看详情")
+* 做一个 App 前需要考虑的几件事[点击前往](http://limboy.me/tech/2016/07/06/starting-an-app.html "快点前去查看详情")【==框架==】
     * 完善的日志系统
     * Commit Message 规范
     * 代码规范
@@ -37,7 +86,7 @@
 
 
 
-* ReactiveCocoa基本用法[点击前往](https://www.jianshu.com/p/bae2eeba118d "快点前去查看详情") 
+* ReactiveCocoa基本用法[点击前往](https://www.jianshu.com/p/bae2eeba118d "快点前去查看详情") 【==三方框架==】
 > 在我们iOS开发过程中，经常会响应某些事件来处理某些业务逻辑，例如按钮的点击，上下拉刷新，网络请求，属性的变化（通过KVO）或者用户位置的变化（通过CoreLocation）。但是这些事件都用不同的方式来处理，比如action、delegate、KVO、callback等。
 > <br>
 > 其实这些事件，都可以通过RAC处理，ReactiveCocoa为事件提供了很多处理方法，而且利用RAC处理事件很方便，可以把要处理的事情，和监听的事情的代码放在一起，这样非常方便我们管理，就不需要跳到对应的方法里。非常符合我们开发中高聚合，低耦合的思想。
@@ -48,7 +97,7 @@
 
 -------
 ## <div align=center>2018/10/06</div>
-* 重识iOS之Property[点击前往](https://www.jianshu.com/p/21db1fe50ebf "快点前去查看详情")
+* 重识iOS之Property[点击前往](https://www.jianshu.com/p/21db1fe50ebf "快点前去查看详情")【==基础知识==】
 
     * 简介：属性（property）是Objective-C的一项特性，用于封装对象中的数据。这一特性可以令编译器自动编写与属性相关的存取方法，并且保存为各种实例变量。
     * 本质：属性的本质是实例变量与存取方法的结合。@property = ivar + getter + setter
@@ -72,17 +121,21 @@ assign：主要用于修饰基本数据类型，如 NSIteger 、CGFloat 等，�
     
   <br>
     
+<<<<<<< HEAD
+* iOS常用正则表达式[点击前往](https://www.jianshu.com/p/13774c6bbdaa "快点前去查看详情")【==基础知识==】
+=======
 * iOS常用正则表达式[点击前往](https://www.jianshu.com/p/13774c6bbdaa "快点前去查看详情")
 
+>>>>>>> origin/master
     > 我们先来举个例子分析一个可以匹配几种格式的电话号码，像(010)88886666，或022-22334455，或02912345678等的表达式
     表达式: \\(?0\d{2}[) -]?\d{8}
     首先是一个转义字符\(,它能出现0次或1次(?),然后是一个0，后面跟着2个数字(\d{2})，然后是)或-或空格中的一个，它出现1次或不出现(?)，
     最后是8个数字(\d{8})
 
 
-* UICollectionView（一）——整体总结[点击前往](https://www.jianshu.com/p/c59a5c92f859 "快点前去查看详情")
+* UICollectionView（一）——整体总结[点击前往](https://www.jianshu.com/p/c59a5c92f859 "快点前去查看详情")【==基础控件==】
     * 包括基本使用，自定义布局，自定义插入删除动画，自定义转场动画等几部分。
-* iOS实现多个可变cell复杂界面的制作 [点击前往](https://www.jianshu.com/p/9fc838d46f5e "快点前去查看详情")
+* iOS实现多个可变cell复杂界面的制作 [点击前往](https://www.jianshu.com/p/9fc838d46f5e "快点前去查看详情")【==基础控件==】
 ![多个可变cell复杂界面](https://upload-images.jianshu.io/upload_images/3611309-3a3dafacf25018a4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/274)
 
 <br>
@@ -92,12 +145,12 @@ assign：主要用于修饰基本数据类型，如 NSIteger 、CGFloat 等，�
 
 -------
 ## <div align=center>2018/10/05</div>
-* iOS Native混编Flutter交互实践[点击前往](https://juejin.im/post/5bb033515188255c5e66f500 "快点前去查看详情")
+* iOS Native混编Flutter交互实践[点击前往](https://juejin.im/post/5bb033515188255c5e66f500 "快点前去查看详情")【==开发模式==】
 ![](https://user-gold-cdn.xitu.io/2018/9/30/1662848993a32e41?imageView2/0/w/1280/h/960/ignore-error/1)
 
-* 流言终结者- Flutter和RN谁才是更好的跨端开发方案？[点击前往](https://juejin.im/post/5b9606055188255c7c6541c3 "快点前去查看详情")
+* 流言终结者- Flutter和RN谁才是更好的跨端开发方案？[点击前往](https://juejin.im/post/5b9606055188255c7c6541c3 "快点前去查看详情")【==开发模式==】
 
-* contentSize、contentOffset和contentInset的图解辨别[点击前往](https://www.jianshu.com/p/9091e5f34df5 "快点前去查看详情")
+* contentSize、contentOffset和contentInset的图解辨别[点击前往](https://www.jianshu.com/p/9091e5f34df5 "快点前去查看详情")【==基础知识==】
 > contentSize:即内容,就是scrollview可以滚动的区域,比如frame = (0 ,0 ,100 ,200) contentSize = (100 ,400)，代表你的scrollview可以上下滚动，滚动区域为frame大小的两倍。其中常用的是contentSize.height = 内容的高度。
 > <br>
 > contentOffset: 即偏移量,其中分为contentOffset.y=内容的顶部和frame顶部的差值,contentOffset.x=内容的左边和frame左边的差值,下面重点阐述contentOffset.y,因为contentOffset.y最为常用。
@@ -105,7 +158,7 @@ assign：主要用于修饰基本数据类型，如 NSIteger 、CGFloat 等，�
 > contentInset:即内边距,contentInset = 在内容周围增加的间距(粘着内容),contentInset的单位是UIEdgeInsets,默认值为UIEdgeInsetsZero。
 
 
-* iOS自定义裁剪区域，正方形圆形图片头像裁剪，仿QQ头像裁剪，圆形遮罩，矩型遮罩[点击前往](https://www.jianshu.com/p/856979c44b42 "快点前去查看详情")
+* iOS自定义裁剪区域，正方形圆形图片头像裁剪，仿QQ头像裁剪，圆形遮罩，矩型遮罩[点击前往](https://www.jianshu.com/p/856979c44b42 "快点前去查看详情")【==绘图框架==】
     * 矩形遮罩 
     ```
         //矩形裁剪区域
@@ -214,32 +267,32 @@ assign：主要用于修饰基本数据类型，如 NSIteger 、CGFloat 等，�
 
 -------
 ## <div align=center>2018/09/30</div>
-* iOS-Json字符串转字典，字典转Json字符串、以及Json字符串去掉空格、换行符等[点击前往](https://www.jianshu.com/p/1e242df1335b "快点前去查看详情")
+* iOS-Json字符串转字典，字典转Json字符串、以及Json字符串去掉空格、换行符等[点击前往](https://www.jianshu.com/p/1e242df1335b "快点前去查看详情")【==基础知识==】
 
 <br>
 
-* iOS 中间镂空效果的View[点击前往](https://www.jianshu.com/p/50c46c72e3dd "快点前去查看详情")
+* iOS 中间镂空效果的View[点击前往](https://www.jianshu.com/p/50c46c72e3dd "快点前去查看详情")【==绘图框架==】
 
 <br>
 
-* ios实现颜色渐变的几种方法[点击前往](https://www.jianshu.com/p/3e0e25fd9b85 "快点前去查看详情")
+* ios实现颜色渐变的几种方法[点击前往](https://www.jianshu.com/p/3e0e25fd9b85 "快点前去查看详情")【==颜色==】
 
 <br>
 
-* CABasicAnimation的使用方法（移动，旋转，缩放）[点击前往](https://blog.csdn.net/chenyongkai1/article/details/75307674 "快点前去查看详情")
+* CABasicAnimation的使用方法（移动，旋转，缩放）[点击前往](https://blog.csdn.net/chenyongkai1/article/details/75307674 "快点前去查看详情")【==动画==】
 
 <br>
 
-* iOS开发_原生二维码生成与读取[点击前往](https://www.jianshu.com/p/b0c21ea1f4b2 "快点前去查看详情")
+* iOS开发_原生二维码生成与读取[点击前往](https://www.jianshu.com/p/b0c21ea1f4b2 "快点前去查看详情")【==二维码==】
 
 
 <br>
 
-* ios 二维码生成（带图标）以及相册识别二维码跳转[点击前往](https://www.jianshu.com/p/84c4b33221f9 "快点前去查看详情")
+* ios 二维码生成（带图标）以及相册识别二维码跳转[点击前往](https://www.jianshu.com/p/84c4b33221f9 "快点前去查看详情")【==二维码==】
 
 <br>
 
-* ios 二维码扫描（原生，可限制扫描区域）[点击前往](http://www.360doc.com/content/16/0503/19/27253262_555982864.shtml "快点前去查看详情")
+* ios 二维码扫描（原生，可限制扫描区域）[点击前往](http://www.360doc.com/content/16/0503/19/27253262_555982864.shtml "快点前去查看详情")【==二维码==】
 
 
 <br>
@@ -248,7 +301,7 @@ assign：主要用于修饰基本数据类型，如 NSIteger 、CGFloat 等，�
 
 -------
 ## <div align=center>2018/09/29</div>
-* iOS 生成Excel文件[点击前往](https://www.jianshu.com/p/b4efb5762e1e "快点前去查看详情")
+* iOS 生成Excel文件[点击前往](https://www.jianshu.com/p/b4efb5762e1e "快点前去查看详情")【==基础知识==】
 
     ```
     // 创建存放XLS文件数据的数组
@@ -299,12 +352,12 @@ assign：主要用于修饰基本数据类型，如 NSIteger 、CGFloat 等，�
     [fileManager createFileAtPath:filePath contents:fileData attributes:nil];
     ```
 
-* 一份走心的iOS开发规范[点击前往](https://www.jianshu.com/p/c818c00e0690 "快点前去查看详情")
+* 一份走心的iOS开发规范[点击前往](https://www.jianshu.com/p/c818c00e0690 "快点前去查看详情")【==规范==】
 
-* Objective-C实现链式编程语法（DSL）[点击前往](https://www.jianshu.com/p/82012265e882 "快点前去查看详情") 
+* Objective-C实现链式编程语法（DSL）[点击前往](https://www.jianshu.com/p/82012265e882 "快点前去查看详情")【==语法==】 
 
-* Swift和OC互调 [点击前往](https://www.jianshu.com/p/119dfefae6cc "快点前去查看详情") 
-* iOS-导航栏变透明的几种方法[点击前往](https://www.jianshu.com/p/2fad7965f114 "快点前去查看详情") 
+* Swift和OC互调 [点击前往](https://www.jianshu.com/p/119dfefae6cc "快点前去查看详情") 【==混编==】
+* iOS-导航栏变透明的几种方法[点击前往](https://www.jianshu.com/p/2fad7965f114 "快点前去查看详情")【==小常识==】 
     * 第一种 
     
     ```
@@ -328,12 +381,12 @@ assign：主要用于修饰基本数据类型，如 NSIteger 、CGFloat 等，�
     }
     ```
 
-* iOS 中 UIView 的 clipsTobounds 属性[点击前往](https://www.jianshu.com/p/2fad7965f114 "快点前去查看详情")
+* iOS 中 UIView 的 clipsTobounds 属性[点击前往](https://www.jianshu.com/p/2fad7965f114 "快点前去查看详情")【==小常识==】
     * clipsToBounds 决定了子视图的显示范围。
 具体的说，就是当它取值为 YES 时，剪裁超出父视图范围的子视图部分；当它取值为 NO 时，不剪裁子视图。
 默认值为 NO，但是在 UIScrollView 中，它的默认值是 YES，也就是说默认裁剪的。
 
-* iOS 如何让button上的字体居左居右对齐[点击前往](https://www.jianshu.com/p/737553cd8eb5 "快点前去查看详情")
+* iOS 如何让button上的字体居左居右对齐[点击前往](https://www.jianshu.com/p/737553cd8eb5 "快点前去查看详情")【==小常识==】
     ```
     首先，这里使用button.titleLabel.textAlignment = NSTextAlignmentLeft; 这行代码是没有效果的，这只是让标签中的文本左对齐，但并没有改变标签在按钮中的对齐方式。
     
@@ -346,7 +399,7 @@ assign：主要用于修饰基本数据类型，如 NSIteger 、CGFloat 等，�
 
 -------
 ## <div align=center>2018/09/28</div>
-* ios中给view添加圆角并指定位置[点击前往](https://blog.csdn.net/meiyulong518/article/details/63686040 "快点前去查看详情")
+* ios中给view添加圆角并指定位置[点击前往](https://blog.csdn.net/meiyulong518/article/details/63686040 "快点前去查看详情")【==绘图框架==】
 
  比较推荐使用第三种，内存消耗少，速度快。
     * 设置图层的属性 
@@ -354,9 +407,9 @@ assign：主要用于修饰基本数据类型，如 NSIteger 、CGFloat 等，�
     * 第三种使用UIBezierPath和CAShareLayer设置圆角
 
 
-* iOS 日常工作之常用宏定义大全[点击前往](https://www.jianshu.com/p/213b3b96cafe "快点前去查看详情")
+* iOS 日常工作之常用宏定义大全[点击前往](https://www.jianshu.com/p/213b3b96cafe "快点前去查看详情")【==定义==】
 
-* iOS 枚举的巧用[点击前往](https://www.jianshu.com/p/97e582fe89f3 "快点前去查看详情")
+* iOS 枚举的巧用[点击前往](https://www.jianshu.com/p/97e582fe89f3 "快点前去查看详情")【==基础知识==】
      * 如果我们在枚举值中看见<<那我们就可以通过|(位运算符:或)进行组合使用
      ![](https://upload-images.jianshu.io/upload_images/2353624-476df8d2cb3f2524.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/551)
      * 如下图枚举值中没有<<,这就是普通的NSInteger类型的枚举, 所以不能组合使用:
@@ -375,7 +428,7 @@ assign：主要用于修饰基本数据类型，如 NSIteger 、CGFloat 等，�
         
 <br>
 
-* iOS实现应用外自带地图、高德地图、百度地图导航[点击前往](https://www.jianshu.com/p/183f66da9d9c "快点前去查看详情")
+* iOS实现应用外自带地图、高德地图、百度地图导航[点击前往](https://www.jianshu.com/p/183f66da9d9c "快点前去查看详情")【==地图==】
 
 ```
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
@@ -448,7 +501,7 @@ assign：主要用于修饰基本数据类型，如 NSIteger 、CGFloat 等，�
 
 -------
 ## <div align=center>2018/09/27</div>
-* iOS 拨打电话三种方式总结[点击前往](https://www.jianshu.com/p/73872e332b24 "快点前去查看详情")
+* iOS 拨打电话三种方式总结[点击前往](https://www.jianshu.com/p/73872e332b24 "快点前去查看详情")【==小常识==】
     * 这种方法,拨打完电话回不到原来的应用,会停留在通讯录里,而且是直接拨打,不弹出提示
         ```
         NSMutableString* str=[[NSMutableString alloc]initWithFormat:@"tel:%@",@"186xxxx6979"];
@@ -474,11 +527,11 @@ assign：主要用于修饰基本数据类型，如 NSIteger 、CGFloat 等，�
             [[UIApplication sharedApplication] openURL:[NSURL URLWithString:str]]
             
             ```
-* iOS动画篇：下拉刷新动画[点击前往](https://www.jianshu.com/p/3c51e4896632 "快点前去查看详情")
+* iOS动画篇：下拉刷新动画[点击前往](https://www.jianshu.com/p/3c51e4896632 "快点前去查看详情")【==动画==】
 
-* iOS GCD详细介绍[点击前往](https://www.jianshu.com/p/174199ceac04 "快点前去查看详情")
+* iOS GCD详细介绍[点击前往](https://www.jianshu.com/p/174199ceac04 "快点前去查看详情")【==多线程==】
 
-* UILabel设置圆角无效是不是少了这个？[点击前往](https://www.jianshu.com/p/2e3ce8694f3d "快点前去查看详情")
+* UILabel设置圆角无效是不是少了这个？[点击前往](https://www.jianshu.com/p/2e3ce8694f3d "快点前去查看详情")【==小常识==】
     ```
     label.layer.cornerRadius = 2.f;
     
@@ -488,7 +541,7 @@ assign：主要用于修饰基本数据类型，如 NSIteger 、CGFloat 等，�
     label.layer.masksToBounds = YES;
     
     ```
-* iOS阴影设置详解[点击前往](https://www.jianshu.com/p/575ce7d7b68f "快点前去查看详情")
+* iOS阴影设置详解[点击前往](https://www.jianshu.com/p/575ce7d7b68f "快点前去查看详情")【==小常识==】
 
     
 <br>
@@ -497,14 +550,14 @@ assign：主要用于修饰基本数据类型，如 NSIteger 、CGFloat 等，�
 
 -------
 ## <div align=center>2018/09/26</div>
-* iOS下的实际网络连接检测:RealReachability[点击前往](http://www.cocoachina.com/special/20160222/15374.html "快点前去查看详情")  
+* iOS下的实际网络连接检测:RealReachability[点击前往](http://www.cocoachina.com/special/20160222/15374.html "快点前去查看详情")【==网络==】 
 ![RealReachability架构图](http://7xr2v8.com1.z0.glb.clouddn.com/111.png)
 
-* iOS【WKWebView转PDF、图片】[点击前往](https://www.jianshu.com/p/4924d00bafc1 "快点前去查看详情") 
+* iOS【WKWebView转PDF、图片】[点击前往](https://www.jianshu.com/p/4924d00bafc1 "快点前去查看详情") 【==基础控件==】
 
-* iOS 12正式版新特性总结[点击前往](https://juejin.im/post/5ba1c825e51d450e63220c42 "快点前去查看详情") 
+* iOS 12正式版新特性总结[点击前往](https://juejin.im/post/5ba1c825e51d450e63220c42 "快点前去查看详情") 【==小常识==】
 
-* 十分钟接入iOS 12新特性——Siri Shortcuts[点击前往](https://www.jianshu.com/p/edda18023a7b "快点前去查看详情") 
+* 十分钟接入iOS 12新特性——Siri Shortcuts[点击前往](https://www.jianshu.com/p/edda18023a7b "快点前去查看详情") 【==框架==】
     * Siri Shortcuts的API有两大类：NSUserActivity和Intents
     * 接入步骤
     
@@ -513,7 +566,7 @@ assign：主要用于修饰基本数据类型，如 NSIteger 、CGFloat 等，�
        2. 配置NSUserActivity并通知Siri（Donate Shortcut）
        3. 在AppDelegate中处理Siri打开APP请求 （Handle Shortcut）
         ```
-* iOS 快速从OC过渡到Swift，由理论到实战 [点击前往](https://blog.csdn.net/LOLITA0164/article/details/82017800 "快点前去查看详情")
+* iOS 快速从OC过渡到Swift，由理论到实战 [点击前往](https://blog.csdn.net/LOLITA0164/article/details/82017800 "快点前去查看详情")【==混编==】
    1. 常量let和变量var  
    2. 输出print 
    3. 数据类型（布尔值、数组、字典、元组、可选类型）
@@ -536,11 +589,11 @@ assign：主要用于修饰基本数据类型，如 NSIteger 、CGFloat 等，�
 
 -------
 ## <div align=center>2018/09/25</div>
-* iOS下将照片保存到相册的三种方法[点击前往](https://www.jianshu.com/p/bf20733ba19b "快点前去查看详情")  
+* iOS下将照片保存到相册的三种方法[点击前往](https://www.jianshu.com/p/bf20733ba19b "快点前去查看详情")【==相册==】  
     * 使用UIImageWriteToSavedPhotosAlbum函数将图片保存到相册
     * 使用AssetsLibrary框架中的ALAssetsLibrary类来实现
     * 使用Photos框架的PHPhotoLibrary类来实现保存到相册功能
-* 针对WKWebView进行内容的截屏[点击前往](https://www.jianshu.com/p/28c70420977c "快点前去查看详情")  
+* 针对WKWebView进行内容的截屏[点击前往](https://www.jianshu.com/p/28c70420977c "快点前去查看详情") 【==基础控件==】 
     * 推荐使用第三方框架DDGScreenShot（swift）
     * 原理：
     
@@ -551,11 +604,11 @@ size——绘制图片的大小
 opaque—透明开关,如果图形完全不用透明,设置为YES以优化位图的存储。
 scale—–缩放因子，[UIScreen mainScreen].scale保持原图分辨率
     
-* iOS 10打开设置中的指定模块[点击前往](https://www.jianshu.com/p/f9731d82e6de "快点前去查看详情") 
+* iOS 10打开设置中的指定模块[点击前往](https://www.jianshu.com/p/f9731d82e6de "快点前去查看详情")【==小常识==】 
     * 使用url scheme。photos-redirect://
 但这个scheme是私有的，有风险，而且也没有文档阐述怎么传递参数，你可以试一下。 【为通过审核，对 "photos-redirect://" 进行base64编码混淆后再解码】
 
-* iOS开发之Base64编码与解码[点击前往](https://www.jianshu.com/p/06089c140452 "快点前去查看详情") 
+* iOS开发之Base64编码与解码[点击前往](https://www.jianshu.com/p/06089c140452 "快点前去查看详情")【==安全==】 
     * 1>ASCII码是8个二进制位一编码
     * 2>Base64编码是6个二进制位一编码,所以转换成字符串后会比ASCII内容要多
         * 64编码
@@ -596,20 +649,20 @@ scale—–缩放因子，[UIScreen mainScreen].scale保持原图分辨率
 
 -------
 ## <div align=center>2018/09/24</div>
-* iOS如何将父视图透明，而内容不透明的方法[点击前往](https://www.jianshu.com/p/768641b847c1 "快点前去查看详情")  
+* iOS如何将父视图透明，而内容不透明的方法[点击前往](https://www.jianshu.com/p/768641b847c1 "快点前去查看详情") 【==小常识==】 
     * self.view.backgroundColor = [[UIColor whiteColor]colorWithAlphaComponent:0.7f];
-* iOS开发你可能不知道的细节一：UITextField清空按钮[点击前往](https://www.jianshu.com/p/6d123a8d43d8 "快点前去查看详情")  
+* iOS开发你可能不知道的细节一：UITextField清空按钮[点击前往](https://www.jianshu.com/p/6d123a8d43d8 "快点前去查看详情") 【==小常识==】 
     * textField.clearButtonMode=UITextFieldViewModeWhileEditing; 
     * UITextFieldViewModeNever,  清空按钮永不出现
     * UITextFieldViewModeUnlessEditing,  不编辑的时候出现
     * UITextFieldViewModeAlways 只要输入框有内容就出现
     * 
-* 在iOS开发中使用iconfont图标[点击前往](https://www.jianshu.com/p/3b10bb95b332 "快点前去查看详情")  
+* 在iOS开发中使用iconfont图标[点击前往](https://www.jianshu.com/p/3b10bb95b332 "快点前去查看详情")【==基础知识==】  
           使用iconfont的可以达到以下目的
     * 减小应用体积，字体文件比图片要小；
     * 图标保真缩放，解决2x/3x乃至将来nx图问题；
     * 方便更改图标颜色大小，图片复用。   
-* iOS开发技巧-国际化(Localization)，只看一篇就够了[点击前往](https://www.jianshu.com/p/f8edd7b7a217 "快点前去查看详情") 
+* iOS开发技巧-国际化(Localization)，只看一篇就够了[点击前往](https://www.jianshu.com/p/f8edd7b7a217 "快点前去查看详情") 【==基础知识==】
     * App名称国际化
     * 图片、文字国际化
     * 强制默认显示某种语言
@@ -617,7 +670,7 @@ scale—–缩放因子，[UIScreen mainScreen].scale保持原图分辨率
     * iOS10所需的权限配置国际化
     * xib/storyboard国际化
    
-*  UIBezierPath介绍 [点击前往](https://www.jianshu.com/p/6c9aa9c5dd68 "快点前去查看详情")  
+*  UIBezierPath介绍 [点击前往](https://www.jianshu.com/p/6c9aa9c5dd68 "快点前去查看详情") 【==绘图框架==】 
     *  iOS的绘图框架有多种，我们平常最常用的就是UIKit，其底层是依赖CoreGraphics实现的，而且绝大多数的图形界面也都是由UIKit完成，并且UIImage、NSString、UIBezierPath、UIColor等都知道如何绘制自己，也提供了一些方法来满足我们常用的绘图需求。除了UIKit，还有CoreGraphics、Core Animation，Core Image，OpenGL ES等多种框架，来满足不同的绘图要求。各个框架的大概介绍如下：
         * UIKit：最常用的视图框架，封装度最高，都是OC对象
         * CoreGraphics：主要绘图系统，常用于绘制自定义视图，纯C的API，使用Quartz2D做引擎
@@ -627,7 +680,8 @@ scale—–缩放因子，[UIScreen mainScreen].scale保持原图分辨率
         
          ![绘图系统](http://cc.cocimg.com/api/uploads/20170809/1502248071320268.png)
   
-
+* IOS 常用动画的实现方式整理（主讲：CoreAnimation）[点击前往](https://www.jianshu.com/p/9aead7675221 "快点前去查看详情")【==动画==】
+![](https://upload-images.jianshu.io/upload_images/1642760-85e2c9a00b4c8cde.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800)
 <br>
 <br>
 <br>
@@ -635,7 +689,7 @@ scale—–缩放因子，[UIScreen mainScreen].scale保持原图分辨率
 
 -------
 ## <div align=center>2018/09/23</div>
-*  面向对象设计的六大设计原则（附 Demo 及 UML 类图）  [点击前往](https://juejin.im/post/5b9526c1e51d450e69731dc2 "快点前去查看详情")  
+*  面向对象设计的六大设计原则（附 Demo 及 UML 类图）  [点击前往](https://juejin.im/post/5b9526c1e51d450e69731dc2 "快点前去查看详情") 【==基础知识==】 
 
 | 缩写 | 英文名称 | 中文名称 | 定义 |
 | --- | --- | --- |  --- | 
@@ -647,7 +701,7 @@ scale—–缩放因子，[UIScreen mainScreen].scale保持原图分辨率
 | DIP | Dependency Inversion Principle | 依赖倒置原则 |所有引用基类的地方必须能透明地使用其子类的对象，也就是说子类对象可以替换其父类对象，而程序执行效果不变。|
 
 
-*  iOS数组排序(倒叙 生序 降序) [点击前往](https://www.jianshu.com/p/e9d561140f5b "快点前去查看详情")
+*  iOS数组排序(倒叙 生序 降序) [点击前往](https://www.jianshu.com/p/e9d561140f5b "快点前去查看详情")【==算法==】
     * 倒序
         `
         NSMutableArray *temp = [NSMutableArray arrayWithObjects:@"5",@"1",@"4",@"2",nil];
@@ -664,7 +718,7 @@ scale—–缩放因子，[UIScreen mainScreen].scale保持原图分辨率
 
 -------
 ## <div align=center>2018/09/22</div>
-*  iOS 中集合遍历方法的比较和技巧  [点击前往](http://blog.sunnyxx.com/2014/04/30/ios_iterator/ "快点前去查看详情")  
+*  iOS 中集合遍历方法的比较和技巧  [点击前往](http://blog.sunnyxx.com/2014/04/30/ios_iterator/ "快点前去查看详情")  【==算法==】
    
 | 遍历方法 | 100对象遍历操作（耗时） |  1000000对象遍历操作（耗时） | 100对象遍历执行一个很费时的操作（耗时） |
 | --- | --- | --- | --- |
@@ -679,9 +733,9 @@ scale—–缩放因子，[UIScreen mainScreen].scale保持原图分辨率
 
 
 
-*  iOS的几种定时器及区别 [点击前往](https://www.jianshu.com/p/5e3784d3ac80 "快点前去查看详情")
-*  iOS三种定时器的用法NSTimer、CADisplayLink、GCD [点击前往](http://www.cocoachina.com/ios/20160919/17595.html "快点前去查看详情")
-* iOS定时器，你真的会使用吗？[点击前往](https://www.jianshu.com/p/c167ca4d1e7e "快点前去查看详情") 
+*  iOS的几种定时器及区别 [点击前往](https://www.jianshu.com/p/5e3784d3ac80 "快点前去查看详情")【==定时器==】
+*  iOS三种定时器的用法NSTimer、CADisplayLink、GCD [点击前往](http://www.cocoachina.com/ios/20160919/17595.html "快点前去查看详情")【==定时器==】
+* iOS定时器，你真的会使用吗？[点击前往](https://www.jianshu.com/p/c167ca4d1e7e "快点前去查看详情")【==定时器==】 
 
 | 定时器 | 定义 |  
 | --- | --- | 
@@ -700,9 +754,9 @@ scale—–缩放因子，[UIScreen mainScreen].scale保持原图分辨率
 
 -------
 ## <div align=center>2018/09/21</div>
-*  如何用最快速度撸个最简单的markdown编辑器  [点击前往](https://www.jianshu.com/p/b6ae8c2d5f05 "快点前去查看详情")  
+*  如何用最快速度撸个最简单的markdown编辑器  [点击前往](https://www.jianshu.com/p/b6ae8c2d5f05 "快点前去查看详情") 【==开发==】 
 
-*  iOS 12 中的 Siri Shortcuts 简介 （Siri Shortcuts 是由前 WWDC 奖学金获得者开发的 iOS 自动化应用程序 Workflow 演变而来的。） [点击前往](https://juejin.im/post/5ba33afd5188255c600416fa "快点前去查看详情")
+*  iOS 12 中的 Siri Shortcuts 简介 （Siri Shortcuts 是由前 WWDC 奖学金获得者开发的 iOS 自动化应用程序 Workflow 演变而来的。） [点击前往](https://juejin.im/post/5ba33afd5188255c600416fa "快点前去查看详情")【==框架==】
 <br>
 <br>
 <br>
@@ -710,6 +764,6 @@ scale—–缩放因子，[UIScreen mainScreen].scale保持原图分辨率
 -------
 ## <div align=center>2018/09/20</div>
 
-*  iPhoneXS 屏幕分辨率终极指南  [点击前往](https://kangzubin.com/iphone-resolutions/ "快点前去查看详情")  
+*  iPhoneXS 屏幕分辨率终极指南  [点击前往](https://kangzubin.com/iphone-resolutions/ "快点前去查看详情") 【==定义==】 
 
-*  iOS小技巧总结，绝对有你想要的 [点击前往](https://www.jianshu.com/p/4523eafb4cd4 "快点前去查看详情")
+*  iOS小技巧总结，绝对有你想要的 [点击前往](https://www.jianshu.com/p/4523eafb4cd4 "快点前去查看详情")【==小常识==】
