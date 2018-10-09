@@ -38,6 +38,40 @@
 <br>
 <br>
 
+## <div align=center>2018/10/08</div>
+* iOS 相机拍照、相册获取照片(仿微信) 一一 拍照、图片裁剪[点击前往](https://blog.csdn.net/a44496913/article/details/72934955 "快点前去查看详情") 【==相册==】
+
+* iOS Xcode工程目录的 folder 和 group的区别(蓝色和黄色文件夹的区别)[点击前往](https://blog.csdn.net/fanjunxi1990/article/details/9352917 "快点前去查看详情") 【==基础知识==】
+`group 一般只在你的工程中是文件夹的形式，但是在本地的目录中还是以散乱的形式放在一起的，除非你是从外部以group的形式引用进来的。
+folder 只能作为资源，整个引用进项目，不能编译代码，也就是说，以folder形式引用进来的文件，不能被放在complie sources列表里面。`
+
+* iOS view被导航条遮挡[点击前往](https://blog.csdn.net/u010545480/article/details/51149552 "快点前去查看详情") 【==小常识==】
+ 
+```
+1. 设置edgesForExtendedLayout
+self.edgesForExtendedLayout = UIRectEdgeNone; //view不需要拓展到整个屏幕
+2. 设置导航条的透明度
+self.navigationController.navigationBar.translucent = NO;
+```
+  
+* UIViewContentMode 图片显示模式(iOS)[点击前往](https://www.jianshu.com/p/8c3bc470ee7a "快点前去查看详情")【==基础知识==】
+![](https://upload-images.jianshu.io/upload_images/1483801-939aa9f30c377571.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/441)
+
+
+
+* iOS开发中遇到过的坑[点击前往](http://www.cocoachina.com/ios/20170221/18735.html "快点前去查看详情")【==小常识==】
+    * 手机录音或通话时，app界面整体下移
+    * 点击导航栏下方也会触发导航栏按钮的点击事件
+    * 输入中文时限制字符长度
+    * 修改导航栏颜色
+    * 界面莫名其妙下移
+    * GCD组函数
+    * UISearchController
+    * 自定义相机照片截取
+ 
+<br>
+<br>
+<br>
 
 -------
 ## <div align=center>2018/10/08</div>
