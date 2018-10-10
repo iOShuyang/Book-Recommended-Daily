@@ -34,11 +34,53 @@
 
 -------
 
+【==审核==】 【==推广==】
+
+-------
+
 <br>
 <br>
 <br>
 
-## <div align=center>2018/10/08</div>
+
+-------
+## <div align=center>2018/10/10</div>
+* iOS App提交指南(二)-协议、税务和银行业务[点击前往](https://www.jianshu.com/p/c7cf65911bc1) 【==审核==】
+
+ `由于App属于收费应用，还需要填写协议、税务和银行信息
+ 流程如上连接
+ `
+ 
+* 用 Tesseract 开发一个你自己的文字识别应用[点击前往](https://www.sohu.com/a/211567336_487516) 【==三方框架==】
+
+    `文字识别，缩写叫做 OCR，全称 Optical character recognition，译为光学字符识别`
+    
+* APP推广实战技能—— iOS100字符关键词覆盖！[点击前往](https://www.sohu.com/a/238424298_546355) 【==推广==】
+
+ `关键词也称关键词覆盖，可以简单的理解为当你在IOS上想到的任何词类，这个App都会出现在你眼前，那说明这个关键词你的产品就覆盖上了（当然，有些大咖给出专业化的术语，即用户在 App Store 搜索一些词时，如果一款 App 出现在搜索结果中，那么该 App 就覆盖了这些词。）。
+ 关键词覆盖范围越广，App 就有越多的机会展示给用户，自然用户的下载量当然也会随波逐涨，这对于App推广运营大有好处。`
+ 
+* 数据安全及各种加密算法对比[点击前往](https://www.jianshu.com/p/b44927161081) 【==算法==】
+ 
+    * Base64编码（基础）
+    * 单项散列函数 MD5、SHA1、SHA256、SHA512等
+    * 消息认证码 HMAC-MD5、HMAC-SHA1
+    * 对称加密 DES|3DES|AES（高级加密标准）
+    * 非对称加密 RSA
+    * 数字签名
+    * 证书
+
+* iOS绘图教程[点击前往](http://www.cocoachina.com/industry/20140115/7703.html) 【==绘图框架==】
+
+  `iOS支持两套图形API族：Core Graphics/QuartZ 2D 和OpenGL ES。OpenGL ES是跨平台的图形API，属于OpenGL的一个简化版本。QuartZ 2D是苹果公司开发的一套API，它是Core Graphics Framework的一部分。`
+
+<br>
+<br>
+<br>
+
+
+-------
+## <div align=center>2018/10/09</div>
 * iOS 相机拍照、相册获取照片(仿微信) 一一 拍照、图片裁剪[点击前往](https://blog.csdn.net/a44496913/article/details/72934955 "快点前去查看详情") 【==相册==】
 
 * iOS Xcode工程目录的 folder 和 group的区别(蓝色和黄色文件夹的区别)[点击前往](https://blog.csdn.net/fanjunxi1990/article/details/9352917 "快点前去查看详情") 【==基础知识==】
