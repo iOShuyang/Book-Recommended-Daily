@@ -43,9 +43,34 @@
 <br>
 
 -------
+## <div align=center>2018/10/13</div>
+* IOS加载本地html5及修改[点击前往](https://www.jianshu.com/p/07723613295d) 【==小常识==】
+ `document.getElementsByClassName() //根据class属性
+document.getElementsByName() //根据name属性
+document.getElementById()//根据id属性
+document.getElementsByTagName()//根据标签名
+`
+* iOS 【Objective-C 微博发布日期格式化】[点击前往](https://blog.csdn.net/Felicity294250051/article/details/52144511) 【==时间==】
+
+* iOS---防止UIButton重复点击的三种实现方式[点击前往](https://blog.csdn.net/icetime17/article/details/51782983) 【==小常识==】
+
+* iOS UIView 和 CALayer 的关系 [点击前往](https://blog.csdn.net/flover5724059/article/details/54943284) 【==基础知识==】
+
+<br>
+<br>
+<br>
+
+
+-------
 ## <div align=center>2018/10/12</div>
+* iOS UITextView 高度随文字自动增加，并跟随键盘移动（一）[点击前往](https://blog.csdn.net/lwjok2007/article/details/47401293) 【==基础控件==】
+* iOS UITextView 高度随文字自动增加，并跟随键盘移动（二）[点击前往](https://blog.csdn.net/lwjok2007/article/details/47403511) 【==基础控件==】
+* iOS:如何优雅的让UITextView根据输入文字实时改变高度[点击前往](https://www.jianshu.com/p/9e960757de86) 【==基础控件==】
+* 史上最全的iOS之UITextView实现placeHolder占位文字的N种方法[点击前往](https://www.jianshu.com/p/9edb8be75e0b) 【==基础控件==】
 
+* iOS 使用IQKeyboardManager出现导航栏电池条变白、变透明问题处理[点击前往](https://blog.csdn.net/mr17liu/article/details/80712049) 【==小常识==】
 
+* iOSTableview 禁止下拉,允许上拉[点击前往](http://www.cnblogs.com/sunfuyou/p/7131474.html) 【==小常识==】 
 <br>
 <br>
 <br>
