@@ -43,6 +43,64 @@
 <br>
 
 -------
+## <div align=center>2018/10/15</div>
+* 适合写api接口文档的管理工具有哪些？[点击前往](https://www.jianshu.com/p/d7b13670e0eb) 【==小常识==】
+   1.MinDoc [网址](https://www.iminho.me/)
+   2.eoLinker [网址](https://www.eolinker.com/)
+   3.apizza [网址](http://apizza.cc/)
+   4.RAML [网址](https://raml.org/)
+   5.Swagger [网址](https://swagger.io/)
+   6.Showdoc [网址](https://www.showdoc.cc/)
+   7.apidoc [网址](http://apidocjs.com/)  
+   8.RAP     [网址](http://rap.taobao.org/org/index.do)
+   9.APIJSON [网址](http://jsonapi.org/)
+   
+* iOS-MRC与ARC区别以及五大内存区[点击前往](https://www.jianshu.com/p/5eac83471b23) 【==基础知识==】
+
+    ```
+    1.五大内存区域
+    1.1 栈区
+    1.2 堆区
+    1.3 全局区
+    1.4 常量区
+    1.5 代码区
+    1.6 自由存储区
+    1.7 static静态变量
+    1.8 extern全局变量
+    1.9 const常量
+    -
+    2.属性标识符
+    2.1 @property、@synthesize、@dynamic
+    2.2 nonatomic与atomic
+    2.3 strong、weak、retain、assgin、copy、unsafe_unretained
+    2.4 readOnly、readWrite、getter=、setter=
+    2.5 __unsafe_unretained、__weak、__strong
+    -
+    3.MRC与ARC区别
+    3.1 MRC手动内存管理
+    3.2 ARC自动内存管理
+    3.3 autoreleasepool自动释放池
+    -
+    4.NSString单独说
+    ```
+ 
+ * iOS-八大基本排序 [点击前往](https://www.jianshu.com/p/5eac83471b23) 【==算法==】
+ 
+       `1.冒泡排序
+        2.选择排序
+        3.堆排序
+        4.快速排序
+        5.(插入排序)直接插入排序
+        6.(插入排序)希尔排序
+        7.归并排序
+        8.基数排序
+       `
+
+<br>
+<br>
+<br>
+
+-------
 ## <div align=center>2018/10/13</div>
 * IOS加载本地html5及修改[点击前往](https://www.jianshu.com/p/07723613295d) 【==小常识==】
  `document.getElementsByClassName() //根据class属性
