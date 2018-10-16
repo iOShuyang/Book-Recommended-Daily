@@ -43,6 +43,26 @@
 <br>
 
 -------
+## <div align=center>2018/10/16</div>
+
+* iOS游戏引擎 [点击前往](https://www.jianshu.com/p/25e6b793b1c7) 【==基础知识==】
+
+    | 名称 | 效果 | 平台 |
+    | --- | --- | --- |
+    | cocos2dx | 2D | 跨平台 |
+    | unity3d | 3D | 跨平台 |
+    | Spritekit | 2D | iOS |
+    | SceneKit | 3D | iOS |
+
+* iOS中忽略警告 [点击前往](https://www.jianshu.com/p/34c2aa625aba) 【==小常识==】
+
+* OC 多线程之 GCD知识从基础到进阶 （1）[点击前往](https://www.jianshu.com/p/31b810b7986b) 【==多线程==】
+ 
+<br>
+<br>
+<br>
+
+-------
 ## <div align=center>2018/10/15</div>
 * 适合写api接口文档的管理工具有哪些？[点击前往](https://www.jianshu.com/p/d7b13670e0eb) 【==小常识==】
    1.MinDoc [网址](https://www.iminho.me/)
