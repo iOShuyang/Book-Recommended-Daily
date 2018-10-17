@@ -45,6 +45,38 @@
 -------
 ## <div align=center>2018/10/16</div>
 
+* 检测设备是否为 iPhone X/XS/XR 的几种方式 [点击前往](https://kangzubin.com/iphonex-detect/) 【==小常识==】
+
+    `方式一：通过获取设备的 device model 来判断
+     方式二：通过获取屏幕的宽高来判断
+     方式三：通过底部安全区域的高度来判断
+     方式四：通过是否支持 FaceID 判断
+     方式五：通过 UIStatusBar 的高度判断`
+     
+* Swift基于CocoaAsyncSocket开发Socket通信 [点击前往](https://www.jianshu.com/p/ef466b55ba34) 【==三方框架==】
+
+     `基于Scoket原生：代表框架 CocoaAsyncSocket。
+基于WebScoket：代表框架 SocketRocket。
+基于MQTT：代表框架 MQTTKit。
+基于XMPP：代表框架 XMPPFramework。`
+
+
+* iOS：基于Socket的第三方框架CocoaAsyncSocket的使用[点击前往](http://www.cnblogs.com/XYQ-208910/p/5169209.html) 【==三方框架==】
+
+     `CocoaAsyncSocket无疑是目前封装得最完善的Socket库了：支持异步TCP/UDP，支持GCD，Objective-C接口封装,同时还有日志跟踪功能，使用此日志跟踪，程序员可以很方便的进行调试。`
+     
+* iOS开发--APP调用打印机（非蓝牙）[点击前往](https://www.jianshu.com/p/75703aa10633)【==框架==】
+
+     `利用苹果iOS系统内置AirPrint功能WiFi无线打印照片，Word，PDF等各种文件到你的Air Printer打印机，但有个前提是你的打印机必须支持苹果Air Print功能，即AirPrint-Enable Printer。`
+ 
+<br>
+<br>
+<br>
+
+
+-------
+## <div align=center>2018/10/16</div>
+
 * iOS游戏引擎 [点击前往](https://www.jianshu.com/p/25e6b793b1c7) 【==基础知识==】
 
     | 名称 | 效果 | 平台 |
