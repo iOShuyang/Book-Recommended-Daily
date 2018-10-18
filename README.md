@@ -43,7 +43,21 @@
 <br>
 
 -------
-## <div align=center>2018/10/16</div>
+## <div align=center>2018/10/18</div>
+* iOS打印功能详解 UIPrint​Interaction​Controller[点击前往](https://blog.csdn.net/gavin__fan/article/details/53520593) 【==基础知识==】
+
+* iOS UIPrintInteractionController打印[点击前往](https://www.cnblogs.com/Milo-CTO/p/6856815.html) 【==基础知识==】
+
+* 使用iOS AirPrint 让你的APP轻松实现打印功能[点击前往](http://ios.jobbole.com/85020/) 【==基础知识==】 
+
+* AirPrint：无交互的后台打印实现[点击前往](http://www.cocoachina.com/ios/20160121/14965.html) 【==基础知识==】 
+
+<br>
+<br>
+<br>
+
+-------
+## <div align=center>2018/10/17</div>
 
 * 检测设备是否为 iPhone X/XS/XR 的几种方式 [点击前往](https://kangzubin.com/iphonex-detect/) 【==小常识==】
 
