@@ -42,18 +42,80 @@
 <br>
 <br>
 
+-------
+## <div align=center>2018/10/22</div>
+* iOS 快捷修改文件名[点击前往](https://www.jianshu.com/p/232912095c9e) 【==小常识==】
+
+* iOS App内评分[点击前往](https://www.jianshu.com/p/4f9fe2e1879e) 【==小常识==】
+
+<br>
+<br>
+<br>
 
 -------
 ## <div align=center>2018/10/21</div>
+* iOS界面渲染流程分析[点击前往](https://www.jianshu.com/p/39b91ecaaac8) 【==基础知识==】
+  `iOS渲染视图的核心是Core Animation
+  其渲染层次依次为：图层树->呈现树->渲染树
+  1.CPU阶段
+    布局（Frame）
+    显示（Core Graphics）
+    准备（QuartzCore/Core Animation）
+    通过IPC提交(打包好的图层树以及动画属性)
+  2.OpenGL ES阶段
+    生成(Generate)
+    绑定(Bind)
+    缓存数据(Buffer Data)
+    启用(Enable)
+    设置指针(Set Pointers)
+    绘图(Draw)
+    清除(Delete)
+   3.GPU阶段
+   接收提交的纹理（Texture）和顶点描述（三角形）
+    应用变换（transform）
+    合并渲染（离屏渲染等）
+    其iOS平台渲染核心原理的重点主要围绕前后帧缓存、Vsync信号、CADisplayLink
+`
 
 
+* iOS 快速从OC过渡到Swift，由理论到实战[点击前往](https://www.jianshu.com/p/54b9fe310167)【==混编==】
+
+* OC和Swift混编 - 在Swift中实现OC中静态常量和宏的效果[点击前往](https://www.jianshu.com/p/057986c8897b)【==混编==】 
+
+* 从 OC 到 Swift 的快速入门与专业实践[点击前往](https://www.jianshu.com/p/dcf208268caf)【==混编==】
+
+  `1.数据
+   1.1 简单使用
+   1.2 数据类型
+   1.3 可选与非可选数据类型
+   1.4 结构体
+   1.5 枚举
+   `
+   `2.方法到函数
+   `
+   `3.类
+   3.1 简单的定义
+   3.2 特殊方法
+   3.3 setter 与 getter 方法
+   3.4 属性监听
+  `
+  `4.协议（代理）
+  `
+  `5.控制器中的代码布局
+  `
+  `6.@objc
+   6.1 协议中使用
+   6.2 函数中使用
+  `
+  
 <br>
 <br>
 <br>
-
 
 -------
 ## <div align=center>2018/10/18</div>
+* iOS 后台无UI交互打印[点击前往](https://www.jianshu.com/p/1775b2be871b) 【==基础知识==】
+
 * iOS打印功能详解 UIPrint​Interaction​Controller[点击前往](https://blog.csdn.net/gavin__fan/article/details/53520593) 【==基础知识==】
 
 * iOS UIPrintInteractionController打印[点击前往](https://www.cnblogs.com/Milo-CTO/p/6856815.html) 【==基础知识==】
