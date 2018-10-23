@@ -42,6 +42,28 @@
 <br>
 <br>
 
+
+-------
+## <div align=center>2018/10/23</div>
+* CocoaAsyncSocket[点击前往](https://www.jianshu.com/p/9ea0f0c84990) 【==三方框架==】
+
+* 关于使用GCDAsyncSocket[点击前往](https://www.jianshu.com/p/bccc8d8fcc9c) 【==三方框架==】
+
+* iOS Socket封包、粘包、拆包处理[点击前往](https://www.jianshu.com/p/9ea0f0c84990) 【==三方框架==】
+
+* iOS 使用GCDAsyncSocket及粘包、半包处理[点击前往](https://www.jianshu.com/p/9ccb8ad2d22f) 【==三方框架==】
+
+* iOS 使用CocoaAsyncSocket自定义协议的byte方式传输[点击前往](https://blog.csdn.net/u012852597/article/details/81951592) 【==三方框架==】
+
+* 利用CocoaAsyncSocket实现socket客户端（swift4）[点击前往](https://www.jianshu.com/p/21f0f189842f) 【==三方框架==】
+
+* Swift 中的位操作[点击前往](https://www.jianshu.com/p/88d30477b1f6) 【==基础知识==】
+
+<br>
+<br>
+<br>
+
+
 -------
 ## <div align=center>2018/10/22</div>
 * iOS 快捷修改文件名[点击前往](https://www.jianshu.com/p/232912095c9e) 【==小常识==】
