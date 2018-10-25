@@ -42,6 +42,16 @@
 <br>
 <br>
 
+-------
+## <div align=center>2018/10/25</div>
+* iOS套接字连接小票打印机[点击前往](https://www.jianshu.com/p/52bdd2e41b11) 【==基础知识==】
+
+* iOS Bluetooth 打印小票(一)[点击前往](https://www.jianshu.com/p/2d624044a27b) 【==基础知识==】
+
+* iOS Bluetooth 打印小票(二)[点击前往](https://www.jianshu.com/p/90cc08d11b5a) 【==基础知识==】
+<br>
+<br>
+<br>
 
 -------
 ## <div align=center>2018/10/23</div>
