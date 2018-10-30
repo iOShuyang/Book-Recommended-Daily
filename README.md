@@ -41,10 +41,25 @@
 <br>
 <br>
 
+-------
+## <div align=center>2018/10/30</div>
+* iOS 富文本风格NSMutableParagraphStyle、定制UITextView插入图片和定制复制[点击前往](https://www.jianshu.com/p/52bdd2e41b11) 【==基础知识==】
+
+* iOS UIButton之UIEdgeInsets详解[点击前往](https://www.jianshu.com/p/b4cb35c41bf0) 【==基础知识==】
+
+* App预览制作，看我就够了[点击前往](https://www.jianshu.com/p/b7750683218a) 【==审核==】
+
+<br>
+<br>
+<br>
 
 -------
 ## <div align=center>2018/10/29</div>
+* iOS性能优化（一）[点击前往](https://www.jianshu.com/p/848567ff9884) 【==性能==】
 
+* iOS性能优化（二）[点击前往](https://www.jianshu.com/p/d569f3a6eb20) 【==性能==】
+
+* iOS性能优化（三）[点击前往](https://www.jianshu.com/p/e3bd6a62ecae) 【==性能==】
 
 <br>
 <br>
