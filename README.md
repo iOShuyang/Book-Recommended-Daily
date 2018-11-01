@@ -42,6 +42,21 @@
 <br>
 
 -------
+## <div align=center>2018/11/01</div>
+* iOS动画总结(Core Animation&POP&贝塞尔&Transform)[点击前往](https://www.jianshu.com/p/7e2d71ff702d)【==动画==】
+
+* iOS 模拟器调试大法了解一下?[点击前往](https://juejin.im/post/5bd99ca7e51d4568383e80ea)【==基础知识==】
+
+* iOS自动布局——Masonry详解[点击前往](https://juejin.im/post/5bd7d1cbe51d454372525f2f)【==三方框架==】
+
+* iOS 关于全面屏适配的方案及UI在不同尺寸下适配方案[点击前往](https://juejin.im/post/5bd2a094518825289f7f3d17)【==基础知识==】
+
+
+<br>
+<br>
+<br>
+
+-------
 ## <div align=center>2018/10/30</div>
 * iOS 富文本风格NSMutableParagraphStyle、定制UITextView插入图片和定制复制[点击前往](https://www.jianshu.com/p/52bdd2e41b11) 【==基础知识==】
 
