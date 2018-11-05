@@ -42,6 +42,30 @@
 <br>
 
 -------
+## <div align=center>2018/11/05</div>
+* iOS 性能调优,成为一名合格iOS程序员必须掌握的技能[点击前往](https://www.jianshu.com/p/05b68c84913a)【==性能==】
+    * Instuments
+        * Activity Monitor
+        * Allocations
+    * Core Animation
+        * Color Blended Layers（混合过度绘制）
+        * Color Hits Green and Misses Red(光栅化缓存图层的命中情况)
+        * Color Copied Image (拷贝的图片)
+        * Color Immediately (颜色立即更新)
+        * Color Misaligned Image (图片对齐方式)
+        * Color Offscreen- Rendered Yellow (离屏渲染)
+        * Color Compositing Fast-Path Blue
+        * Flash Updated Regions (Core Graphics 绘制的图层)
+    * Leaks
+    * Time Profiler
+
+* CoreBluetooth- iOS蓝牙开发[点击前往](https://www.jianshu.com/p/31da7966467a)【==基础知识==】
+<br>
+<br>
+<br>
+
+
+-------
 ## <div align=center>2018/11/01</div>
 * iOS动画总结(Core Animation&POP&贝塞尔&Transform)[点击前往](https://www.jianshu.com/p/7e2d71ff702d)【==动画==】
 
