@@ -42,6 +42,27 @@
 <br>
 
 -------
+## <div align=center>2018/11/06</div>
+* 学习绘制iOS雷达图[点击前往](https://www.jianshu.com/p/1f5c4e13cd5e)【==绘图框架==】
+    * 用UIBezierPath + CAShaperLayer绘制
+    
+* iOS | 小收获：自动埋点[点击前往](https://www.jianshu.com/p/ae8d45e10ac5)【==小常识==】
+    `用户行为统计，俗称埋点，是一个成熟项目中必不可少的环节。埋点的常规做法是在项目中所有需要埋点的地方插入埋点，但随着项目不断壮大，埋点的地方越来越多，埋点代码散落在项目中不同角落，不易于管理和后期维护，出于简化埋点开发的目的，针对自动埋点做了小小的总结。`
+
+* iOS自适应cell行高的那点破事儿[点击前往](http://www.cocoachina.com/ios/20181101/25353.html)【==小常识==】
+  * iOS8之后就更简单了，直接使用：（这里要注意delegate中的返回高度方法就不用在写了）
+
+    ```
+    self.tableView.estimatedRowHeight = 666;
+    self.tableView.rowHeight = UITableViewAutomaticDimension;
+    ```
+    
+* 如何精确度量 iOS App 的启动时间[点击前往](https://www.jianshu.com/p/c14987eee107)【==小常识==】
+<br>
+<br>
+<br>
+
+-------
 ## <div align=center>2018/11/05</div>
 * iOS 性能调优,成为一名合格iOS程序员必须掌握的技能[点击前往](https://www.jianshu.com/p/05b68c84913a)【==性能==】
     * Instuments
