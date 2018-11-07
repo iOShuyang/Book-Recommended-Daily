@@ -41,6 +41,31 @@
 <br>
 <br>
 
+
+-------
+## <div align=center>2018/11/07</div>
+* iOS计算机视觉—人脸识别[点击前往](https://juejin.im/post/5bb1da0bf265da0b001f4374)【==框架==】
+    `人脸识别是计算机视觉的一种应用，iOS中常用的有四种实现方式：CoreImage、Vision、OpenCV、AVFoundation。`
+
+* iOS 时间处理(仿朋友圈、微博发布时间)[点击前往](https://www.jianshu.com/p/e42431045177)【==时间==】
+    ![](https://upload-images.jianshu.io/upload_images/2906617-30ca670a2a1d6e1b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/634)
+    
+* NSNumberFormatter介绍和用法[点击前往](https://www.jianshu.com/p/95952b145a8e)    
+    * NSNumberFormatter可以用来处理NSString和NSNumber之间的转化，可以满足基本的数字形式的转化。
+        * 四舍五入到整数
+        * 货币数字形式
+        * 货币的形式，带本地化的货币符号
+        * 百分数形式,并且四舍五入到百分比的整数部分
+        * 科学计数形式
+        * 本地化拼写形式
+        * 序数形式
+        * 货币形式 显示ISO分配的货币符号
+        * 货币形式
+        * 会计形式
+<br>
+<br>
+<br>
+
 -------
 ## <div align=center>2018/11/06</div>
 * 学习绘制iOS雷达图[点击前往](https://www.jianshu.com/p/1f5c4e13cd5e)【==绘图框架==】
