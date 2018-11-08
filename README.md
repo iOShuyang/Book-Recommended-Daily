@@ -40,11 +40,30 @@
 <br>
 <br>
 <br>
+-------
+## <div align=center>2018/11/08</div>
+* iOS中static，const，extern相关的问题[点击前往](https://www.jianshu.com/p/123570248502)【==基础知识==】
+
+* iOS--随机数rand、random、arc4random[点击前往](https://www.jianshu.com/p/106475cbd3da)【==小常识==】
+
+    ```iOS 有如下三种随机数方法：
+    1.srand((unsigned)time(0)); //不加这句每次产生的随机数不变
+    int i = rand() % 5;
+    
+    2.srandom(time(0));
+    int i = random() % 5;
+    
+    3.int i = arc4random() % 5 ;
+    ```
+
+* iOS保存App中的照片到系统相册或自建相册的方法[点击前往](https://www.jb51.net/article/82250.htm)【==相册==】
+
+* iOS-使用WKWebview实现新闻详情页(JS和OC交互)[点击前往](https://www.jianshu.com/p/75f3abd40cc1)【==基础控件==】
 
 
 -------
 ## <div align=center>2018/11/07</div>
-* iOS计算机视觉—人脸识别[点击前往](https://juejin.im/post/5bb1da0bf265da0b001f4374)【==框架==】
+* iOS计算机视觉—人脸识别[点击前往](https://www.jianshu.com/p/106475cbd3da)【==框架==】
     `人脸识别是计算机视觉的一种应用，iOS中常用的有四种实现方式：CoreImage、Vision、OpenCV、AVFoundation。`
 
 * iOS 时间处理(仿朋友圈、微博发布时间)[点击前往](https://www.jianshu.com/p/e42431045177)【==时间==】
