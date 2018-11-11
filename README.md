@@ -43,6 +43,34 @@
 
 
 -------
+## <div align=center>2018/11/11</div>
+* 10 个 iOS 开发实用小技巧[点击前往](https://mp.weixin.qq.com/s?__biz=MzA5NzMwODI0MA==&mid=2647760473&idx=1&sn=ef09d4eb4963f3168928e899b6523c24&chksm=8887e566bff06c70d485428b47dcbbb6863c558b963afb9449f72747b813662fab9c9b3ae25e&scene=21#wechat_redirect)【==小常识==】
+    1. 控件的局部圆角问题
+    2. navigationBar 的透明问题
+    3. 全局设置 navigationBar 标题的样式和 barItem 的标题样式
+    4. navigationBar 隐藏显示的过度
+    5. 侧滑手势返回
+    6. 给 webView 添加头视图
+    7. 模态跳转的动画设置
+    8. 图片处理只拿到图片的一部分
+    9. 给 UIView 设置图片
+    10.  给 TableView 或者 CollectionView 的 cell 添加简单动画
+
+* valueForKeyPath:的妙用[点击前往](https://www.jianshu.com/p/501b8f4f8ae5)【==小常识==】
+    * valueForKeyPath:针对集合的使用（Array Set）
+    * 集合运算符
+    * 简单集合操作符
+    * 对象操作符
+    * 嵌套集合操作符
+    
+* Protocol Buffer 入门使用: iOS[点击前往](https://www.jianshu.com/p/501b8f4f8ae5)【==小常识==】
+  `Protocol Buffer是google于2008推出的一种数据交换的格式，它独立于语言，独立于平台。`
+
+<br>
+<br>
+<br>
+
+-------
 ## <div align=center>2018/11/08</div>
 * iOS中static，const，extern相关的问题[点击前往](https://www.jianshu.com/p/123570248502)【==基础知识==】
 
