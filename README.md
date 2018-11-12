@@ -41,6 +41,26 @@
 <br>
 <br>
 
+-------
+## <div align=center>2018/11/12</div>
+* HealthKit Swift 教程: 开始[点击前往](https://blog.csdn.net/kmyhy/article/details/78328927)【==框架==】
+
+    `HealthKit 从 iOS 8 开始出现。它实际上是一个关于所有健康数据的集中式存储库，允许用户构建一个生物数据库并存储健康数据。
+    在这篇 HealthKit 教程中，你将创建一个简单的跟踪健康数据的 App，同时学习：
+    如何请求 HealthKit 访问权限
+    如何读取 HealthKit 数据并显示到 UITableView中
+    如何将数据写入到 HealthKit 的核心数据库
+`
+
+* iOS HealthKit 健康应用[点击前往](https://www.jianshu.com/p/020e62b581ad)【==框架==】
+
+* iOS中GIF图片的分解、合成与显示[点击前往](https://www.jianshu.com/p/4771e9ca65af)【==相册==】
+
+
+
+<br>
+<br>
+<br>
 
 -------
 ## <div align=center>2018/11/11</div>
