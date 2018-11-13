@@ -42,6 +42,26 @@
 <br>
 
 -------
+## <div align=center>2018/11/13</div>
+* iOS 集成友盟分享图片链接为http时无法加载问题解决[点击前往](https://www.cnblogs.com/liuzhuan155/p/8073977.html)【==小常识==】
+
+ `问题描述
+UMShareWebpageObject *obj = [UMShareWebpageObject shareObjectWithTitle:title descr:shareText thumImage:imgUrl];里面thumImage如果是本地图片，分享的时候就能够显示图片，但是如果换成http的网络图片地址，就无法显示`
+
+* HTTP、TCP、UDP以及SOCKET之间的区别/联系[点击前往](https://www.cnblogs.com/jing99/p/6181488.html)【==基础知识==】
+
+    `在网络层:有IP协议、ICMP协议、ARP协议、RARP协议和BOOTP协议。
+    在传输层:中有TCP协议与UDP协议。
+    在应用层:有FTP、HTTP、TELNET、SMTP、DNS等协议。`
+    ![](https://images2015.cnblogs.com/blog/1010726/201612/1010726-20161214232544808-154772042.png)
+    
+* iOS开发 | 自定义不规则label[点击前往](labelhttps://www.jianshu.com/p/fade8341c316)【==绘图框架==】
+
+<br>
+<br>
+<br>
+
+-------
 ## <div align=center>2018/11/12</div>
 * HealthKit Swift 教程: 开始[点击前往](https://blog.csdn.net/kmyhy/article/details/78328927)【==框架==】
 
@@ -367,7 +387,6 @@
 <br>
 <br>
 <br>
-
 
 -------
 ## <div align=center>2018/10/16</div>
