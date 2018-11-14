@@ -43,6 +43,21 @@
 
 -------
 ## <div align=center>2018/11/13</div>
+* AFNetworking到底做了什么？[点击前往](https://www.jianshu.com/p/856f0e26279d)【==三方框架==】
+
+    `作为一个iOS开发，也许你不知道NSUrlRequest、不知道NSUrlConnection、也不知道NSURLSession...（说不下去了...怎么会什么都不知道...）但是你一定知道AFNetworking。`
+    
+* iOS-UIBezierPath和各种layer把我玩坏了[点击前往](https://www.jianshu.com/p/9ac372683735)【==绘图框架==】
+
+     `UIBezierPath对象是CGPathRef数据类型的封装。path如果是基于矢量形状的，都用直线和曲线段去创建。我们使用直线段去创建矩形和多边形，使用曲线段去创建弧（arc），圆或者其他复杂的曲线形状。每一段都包括一个或者多个点，绘图命令定义如何去诠释这些点。每一个直线段或者曲线段的结束的地方是下一个的开始的地方。每一个连接的直线或者曲线段的集合成为subpath。一个UIBezierPath对象定义一个完整的路径包括一个或者多个subpaths。`
+    
+    
+<br>
+<br>
+<br>
+
+-------
+## <div align=center>2018/11/13</div>
 * iOS 集成友盟分享图片链接为http时无法加载问题解决[点击前往](https://www.cnblogs.com/liuzhuan155/p/8073977.html)【==小常识==】
 
  `问题描述
