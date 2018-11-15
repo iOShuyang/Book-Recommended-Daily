@@ -42,6 +42,28 @@
 <br>
 
 -------
+## <div align=center>2018/11/14</div>
+* iOS中堆和栈的使用[点击前往](https://www.jianshu.com/p/6f7cbe63f177)【==基础知识==】
+
+    `堆和栈都是一种数据项按序排列的数据结构，只能在一端(称为栈顶(top))对数据项进行插入和删除。堆，队列优先,先进先出（FIFO—first in first out）；栈，先进后出(FILO—First-In/Last-Out)。一般情况下，如果有人把堆栈合起来说，那它的意思是栈，而不是堆。`
+    
+* 以SDWebImage为例谈论源码[点击前往](https://www.jianshu.com/p/f14b17467dd9)【==基础知识==】 
+
+     `SDWebImage是一个图片缓存的框架。相较于AFNetworking集成的UIImageView+AFNetworking.h，对于图片的缓存实际应用的是NSURLCache自带的cache机制。而NSURLCache每次都要把缓存的raw data 再转化为UIImage，就带来了数据处理和内存方面的更多操作。SDWebImage的缓存由SDImageCache类来实现，这是一个单例类，该类负责处理内存缓存及一个可选的磁盘缓存，其中磁盘缓存的写操作是异步的，这样就不会对UI操作造成影响。`
+     
+     `SDWebImage有沙盒缓存机制，主要由三块组成
+     1.内存图片缓存
+     2.内存操作缓存
+     3.磁盘沙盒缓存
+     `
+     
+     ![](https://upload-images.jianshu.io/upload_images/1170656-8c5e61bb0b11d4e0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/604)
+
+<br>
+<br>
+<br>
+
+-------
 ## <div align=center>2018/11/13</div>
 * AFNetworking到底做了什么？[点击前往](https://www.jianshu.com/p/856f0e26279d)【==三方框架==】
 
