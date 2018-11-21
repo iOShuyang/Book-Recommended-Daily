@@ -41,6 +41,23 @@
 <br>
 <br>
 
+
+-------
+## <div align=center>2018/11/21</div>
+* UINavigationBar添加渐变的背景颜色[点击前往](https://blog.csdn.net/longshihua/article/details/78564273)【==小常识==】
+
+* iOS 高德地图 路径规划[点击前往](https://www.jianshu.com/p/79b455c74679)【==地图==】
+
+* iOS高德地图自定义定位小蓝点[点击前往](https://www.jianshu.com/p/9cfce5303acc)【==地图==】
+
+* 【iOS】高德地图MAMapKit的使用：导航功能。[点击前往](https://www.jianshu.com/p/ee1c6e034409)【==地图==】
+
+* 高德地图[点击前往](https://www.jianshu.com/p/f09a7011ffc4)【==地图==】
+
+<br>
+<br>
+<br>
+
 -------
 ## <div align=center>2018/11/14</div>
 * iOS中堆和栈的使用[点击前往](https://www.jianshu.com/p/6f7cbe63f177)【==基础知识==】
