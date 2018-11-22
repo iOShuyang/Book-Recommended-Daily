@@ -41,6 +41,41 @@
 <br>
 <br>
 
+-------
+## <div align=center>2018/11/22</div>
+* 一行代码实现 UIView 镂空效果[点击前往](https://juejin.im/post/5bed41df6fb9a04a0163e34a)【==小常识==】
+
+     `本质上是 UIView 的 maskView 效果的「取反」。`
+
+* Python的iOS自动化打包[点击前往](https://juejin.im/post/5bed3657518825604e0e4289)【==小常识==】
+
+    `使用xcodebuild来控制Xcode进行一系列的操作,从而完成打包的操作.
+    1.找到对应的项目
+    2.clean项目
+    3.archive项目
+    4.export IPA
+    5.上传蒲公英
+    6.发送邮件
+    7.收工
+    `
+    
+* iOS 内存管理研究[点击前往](https://juejin.im/post/5bec0efcf265da61273cf333)【==性能==】
+
+    `网上的绝大多数关于 iOS 内存管理的文章，大多是围绕 ARC/MRC、循环引用的原理或者是如何找寻内存泄漏来展开的，而这些内容更准确的说应该是 ObjC 或者 Swift 的内存管理，是语言层面带来的特性，而不是操作系统本身的内存管理。`
+    * 物理内存
+    * 虚拟内存(VM for Virtual Memory)
+       * 页
+       * Page In/Out
+       * Wired memory
+       * VM Region
+       * VM Object
+       * Resident Page
+    
+    
+
+<br>
+<br>
+<br>
 
 -------
 ## <div align=center>2018/11/21</div>
