@@ -22,11 +22,11 @@
 
 -------
 
-【==动画==】【==性能==】【==多线程==】【==安全==】【==算法==】
+【==动画==】【==性能==】【==多线程==】【==安全==】【==算法==】【==视频==】【==绘制==】
 
 -------
 
-【==框架==】【==三方框架==】【==绘图框架==】
+【==框架==】【==三方框架==】
 
 -------
 
@@ -37,6 +37,29 @@
 【==审核==】 【==推广==】
 
 -------
+<br>
+<br>
+<br>
+
+-------
+## <div align=center>2018/11/26</div>
+* iOS图片设置圆角性能优化[点击前往](https://www.cnblogs.com/junhuawang/p/5652220.html)【==性能==】
+    * 第一种:设置CALayer的cornerRadius
+    
+    `注意：ios9.0之后对UIImageView的圆角设置做了优化，UIImageView这样设置圆角
+不会触发离屏渲染，ios9.0之前还是会触发离屏渲染。而UIButton还是都会触发离屏渲染。`
+    * 第二种:shouldRasterize=YES设置光栅化
+    * 通过Core Graphics重新绘制带圆角的视图
+    
+     `这种方式性能最好，但是UIButton上不知道怎么绘制，可以用UIimageView添加个 点击手势当做UIButton使用`
+    * 通过混合图层
+    
+* “抖音”式的酷炫短视频开发进阶[点击前往](https://blog.csdn.net/vn9plgzvnps1522s82g/article/details/79124926)【==视频==】
+
+* iOS实现波浪效果[点击前往](http://www.cocoachina.com/ios/20181113/25454.html)【==绘制==】
+
+* 简易的iOS导航栏颜色渐变方案[点击前往](https://www.jianshu.com/p/10c71cb19b5e)【==小常识==】
+
 <br>
 <br>
 <br>
@@ -121,7 +144,7 @@
 
     `作为一个iOS开发，也许你不知道NSUrlRequest、不知道NSUrlConnection、也不知道NSURLSession...（说不下去了...怎么会什么都不知道...）但是你一定知道AFNetworking。`
     
-* iOS-UIBezierPath和各种layer把我玩坏了[点击前往](https://www.jianshu.com/p/9ac372683735)【==绘图框架==】
+* iOS-UIBezierPath和各种layer把我玩坏了[点击前往](https://www.jianshu.com/p/9ac372683735)【==绘制==】
 
      `UIBezierPath对象是CGPathRef数据类型的封装。path如果是基于矢量形状的，都用直线和曲线段去创建。我们使用直线段去创建矩形和多边形，使用曲线段去创建弧（arc），圆或者其他复杂的曲线形状。每一段都包括一个或者多个点，绘图命令定义如何去诠释这些点。每一个直线段或者曲线段的结束的地方是下一个的开始的地方。每一个连接的直线或者曲线段的集合成为subpath。一个UIBezierPath对象定义一个完整的路径包括一个或者多个subpaths。`
     
@@ -144,7 +167,7 @@ UMShareWebpageObject *obj = [UMShareWebpageObject shareObjectWithTitle:title des
     在应用层:有FTP、HTTP、TELNET、SMTP、DNS等协议。`
     ![](https://images2015.cnblogs.com/blog/1010726/201612/1010726-20161214232544808-154772042.png)
     
-* iOS开发 | 自定义不规则label[点击前往](labelhttps://www.jianshu.com/p/fade8341c316)【==绘图框架==】
+* iOS开发 | 自定义不规则label[点击前往](labelhttps://www.jianshu.com/p/fade8341c316)【==绘制==】
 
 <br>
 <br>
@@ -246,7 +269,7 @@ UMShareWebpageObject *obj = [UMShareWebpageObject shareObjectWithTitle:title des
 
 -------
 ## <div align=center>2018/11/06</div>
-* 学习绘制iOS雷达图[点击前往](https://www.jianshu.com/p/1f5c4e13cd5e)【==绘图框架==】
+* 学习绘制iOS雷达图[点击前往](https://www.jianshu.com/p/1f5c4e13cd5e)【==绘制==】
     * 用UIBezierPath + CAShaperLayer绘制
     
 * iOS | 小收获：自动埋点[点击前往](https://www.jianshu.com/p/ae8d45e10ac5)【==小常识==】
@@ -615,7 +638,7 @@ document.getElementsByTagName()//根据标签名
     * 数字签名
     * 证书
 
-* iOS绘图教程[点击前往](http://www.cocoachina.com/industry/20140115/7703.html) 【==绘图框架==】
+* iOS绘图教程[点击前往](http://www.cocoachina.com/industry/20140115/7703.html) 【==绘制==】
 
   `iOS支持两套图形API族：Core Graphics/QuartZ 2D 和OpenGL ES。OpenGL ES是跨平台的图形API，属于OpenGL的一个简化版本。QuartZ 2D是苹果公司开发的一套API，它是Core Graphics Framework的一部分。`
 
@@ -773,7 +796,7 @@ assign：主要用于修饰基本数据类型，如 NSIteger 、CGFloat 等，�
 > contentInset:即内边距,contentInset = 在内容周围增加的间距(粘着内容),contentInset的单位是UIEdgeInsets,默认值为UIEdgeInsetsZero。
 
 
-* iOS自定义裁剪区域，正方形圆形图片头像裁剪，仿QQ头像裁剪，圆形遮罩，矩型遮罩[点击前往](https://www.jianshu.com/p/856979c44b42 "快点前去查看详情")【==绘图框架==】
+* iOS自定义裁剪区域，正方形圆形图片头像裁剪，仿QQ头像裁剪，圆形遮罩，矩型遮罩[点击前往](https://www.jianshu.com/p/856979c44b42 "快点前去查看详情")【==绘制==】
     * 矩形遮罩 
     ```
         //矩形裁剪区域
@@ -886,7 +909,7 @@ assign：主要用于修饰基本数据类型，如 NSIteger 、CGFloat 等，�
 
 <br>
 
-* iOS 中间镂空效果的View[点击前往](https://www.jianshu.com/p/50c46c72e3dd "快点前去查看详情")【==绘图框架==】
+* iOS 中间镂空效果的View[点击前往](https://www.jianshu.com/p/50c46c72e3dd "快点前去查看详情")【==绘制==】
 
 <br>
 
@@ -1014,7 +1037,7 @@ assign：主要用于修饰基本数据类型，如 NSIteger 、CGFloat 等，�
 
 -------
 ## <div align=center>2018/09/28</div>
-* ios中给view添加圆角并指定位置[点击前往](https://blog.csdn.net/meiyulong518/article/details/63686040 "快点前去查看详情")【==绘图框架==】
+* ios中给view添加圆角并指定位置[点击前往](https://blog.csdn.net/meiyulong518/article/details/63686040 "快点前去查看详情")【==绘制==】
 
  比较推荐使用第三种，内存消耗少，速度快。
     * 设置图层的属性 
@@ -1285,7 +1308,7 @@ scale—–缩放因子，[UIScreen mainScreen].scale保持原图分辨率
     * iOS10所需的权限配置国际化
     * xib/storyboard国际化
    
-*  UIBezierPath介绍 [点击前往](https://www.jianshu.com/p/6c9aa9c5dd68 "快点前去查看详情") 【==绘图框架==】 
+*  UIBezierPath介绍 [点击前往](https://www.jianshu.com/p/6c9aa9c5dd68 "快点前去查看详情") 【==绘制==】 
     *  iOS的绘图框架有多种，我们平常最常用的就是UIKit，其底层是依赖CoreGraphics实现的，而且绝大多数的图形界面也都是由UIKit完成，并且UIImage、NSString、UIBezierPath、UIColor等都知道如何绘制自己，也提供了一些方法来满足我们常用的绘图需求。除了UIKit，还有CoreGraphics、Core Animation，Core Image，OpenGL ES等多种框架，来满足不同的绘图要求。各个框架的大概介绍如下：
         * UIKit：最常用的视图框架，封装度最高，都是OC对象
         * CoreGraphics：主要绘图系统，常用于绘制自定义视图，纯C的API，使用Quartz2D做引擎
