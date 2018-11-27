@@ -42,6 +42,27 @@
 <br>
 
 -------
+## <div align=center>2018/11/27</div>
+* UITableView/UICollectionView调用reloadData刷新时界面闪烁[点击前往](https://blog.csdn.net/potato512/article/details/78550125)【==小常识==】
+    * 造成闪烁的原因，主要是因为CALayer有一个隐式动画，只要在调用reloadData刷新时，关闭隐式动画就可以避免了。代码示例如下：
+    
+    ``` 
+    [CATransaction setDisableActions:YES];
+    [self.collectionView reloadData];
+    [CATransaction commit];
+    ```
+    
+* Xcode 快速开发 代码块[点击前往](https://www.jianshu.com/p/76def4cbe39d)【==小常识==】
+    * Xcode的代码片段(Code Snippets)创建自定义的代码片段，当你重用这些代码片段时，会给你带来很大的方便。
+
+* Runtime的运用和减少应用崩溃[点击前往](https://www.jianshu.com/p/35971a7e8bf6)【==基础知识==】
+    * Objective-C 是一个动态语言，它需要一个运行时系统来动态的创建类和对象、进行消息传递和转发。
+
+<br>
+<br>
+<br>
+
+-------
 ## <div align=center>2018/11/26</div>
 * iOS图片设置圆角性能优化[点击前往](https://www.cnblogs.com/junhuawang/p/5652220.html)【==性能==】
     * 第一种:设置CALayer的cornerRadius
