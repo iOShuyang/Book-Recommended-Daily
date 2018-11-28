@@ -42,6 +42,45 @@
 <br>
 
 -------
+## <div align=center>2018/11/28</div>
+* iOS 如何防止https抓包(中间人攻击),及charles抓包原理[点击前往](https://www.jianshu.com/p/4682aecf162d?open_source=weibo_search)【==安全==】
+      ![](https://upload-images.jianshu.io/upload_images/5505686-68a34f7acfa8ebf3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/825)
+      
+* iOS Charles 抓包指南 - 从入门到精通[点击前往](https://blog.csdn.net/u013538542/article/details/79107106)【==安全==】
+    1. 安装 Charles
+    2. 注册 License 
+    3. 添加 SSL 配置 
+    4. 配置手机代理 
+    5. 安装 Charles 证书 
+
+* [iOS]iOS中网络请求判断是否设置代理[点击前往](https://www.jianshu.com/p/c3b950dbf86a)【==安全==】 
+        
+    ```
+    NSDictionary *proxySettings = (__bridge NSDictionary *(CFNetworkCopySystemProxySettings());
+    
+    NSArray *proxies = (__bridge NSArray *)(CFNetworkCopyProxiesForURL((__bridge CFURLRef _Nonnull)([NSURL URLWithString:@"http://www.baidu.com&quot;]), (__bridge CFDictionaryRef _Nonnull)(proxySettings)));
+    NSLog(@"\n%@",proxies);
+    
+    NSDictionary *settings = proxies[0];
+    NSLog(@"%@",[settings objectForKey:(NSString *)kCFProxyHostNameKey]);
+    NSLog(@"%@",[settings objectForKey:(NSString *)kCFProxyPortNumberKey]);
+    NSLog(@"%@",[settings objectForKey:(NSString *)kCFProxyTypeKey]);
+    
+    if ([[settings objectForKey:(NSString *)kCFProxyTypeKey] isEqualToString:@"kCFProxyTypeNone"])
+    {
+    NSLog(@"没代理");
+    }
+    else
+    {
+    NSLog(@"设置了代理");
+    }
+    ```
+
+<br>
+<br>
+<br>
+
+-------
 ## <div align=center>2018/11/27</div>
 * UITableView/UICollectionView调用reloadData刷新时界面闪烁[点击前往](https://blog.csdn.net/potato512/article/details/78550125)【==小常识==】
     * 造成闪烁的原因，主要是因为CALayer有一个隐式动画，只要在调用reloadData刷新时，关闭隐式动画就可以避免了。代码示例如下：
