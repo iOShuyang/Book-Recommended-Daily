@@ -42,6 +42,28 @@
 <br>
 
 -------
+## <div align=center>2018/11/29</div>
+* iOS应用流畅度辨析[点击前往](https://www.jianshu.com/p/f4adce56166f)【==性能==】
+    * 用 Instruments 来检验你的app
+    
+    `iOS界面处理是在主线程下进行的，系统图形服务通过 CADisplayLink 等机制通知 App，App 主线程开始在 CPU 中计算显示内容，比如视图的创建、布局计算、图片解码、文本绘制等。随后 CPU 会将计算好的内容提交到 GPU 去，由 GPU 进行变换、合成、渲染。随后 GPU 会把渲染结果提交到帧缓冲区去，等待下一次刷新信号到来时显示到屏幕上。显示器通常以固定频率进行刷新，如果在一个刷新时间内，CPU 或者 GPU 没有完成内容提交，则那一帧就会被丢弃，等待下一次机会再显示，而这时显示屏会保留之前的内容不变。这就是界面卡顿的原因。CPU 和 GPU 不论哪个阻碍了显示流程，都会造成掉帧现象。`
+    
+* 如何去除Xcode中的警告⚠️[点击前往](https://www.jianshu.com/p/e80bb47f0444)【==小常识==】
+
+      `开发一个项目时，难免会产生很多无关紧要的警告，很多是第三方或是老代码不再被支持造成的，但并不影响使用，花大力气去解决警告也不合时宜，偷个懒，把一些隐藏掉吧！`
+      
+* iOS开发——Category在项目中的实际运用[点击前往](https://www.jianshu.com/p/8f2b173263f9)【==小常识==】
+    1. 扩展类的方法
+    2. 扩展类的属性（结合runtime）
+    3. 在没有源代码的情况下可以用来修复BUG
+    4. 整体替换
+      
+
+<br>
+<br>
+<br>
+
+-------
 ## <div align=center>2018/11/28</div>
 * iOS 如何防止https抓包(中间人攻击),及charles抓包原理[点击前往](https://www.jianshu.com/p/4682aecf162d?open_source=weibo_search)【==安全==】
       ![](https://upload-images.jianshu.io/upload_images/5505686-68a34f7acfa8ebf3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/825)
