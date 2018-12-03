@@ -43,6 +43,20 @@
 
 -------
 ## <div align=center>2018/11/29</div>
+* iOS 代码注释[点击前往](https://www.jianshu.com/p/c44867b2c3f1)【==小常识==】
+
+
+* OC-简单粗暴理解Block的本质[点击前往](https://www.jianshu.com/p/976fe9a3c9a1)【==基础知识==】
+
+
+* iOS-weakSelf和strongSelf[点击前往](https://www.jianshu.com/p/ca094cb7ab28)【==基础知识==】
+
+<br>
+<br>
+<br>
+
+-------
+## <div align=center>2018/11/29</div>
 * iOS应用流畅度辨析[点击前往](https://www.jianshu.com/p/f4adce56166f)【==性能==】
     * 用 Instruments 来检验你的app
     
