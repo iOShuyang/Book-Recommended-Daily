@@ -30,7 +30,7 @@
 
 -------
 
-【==开发模式==】【==混编==】【==开发==】
+【==开发模式==】【==混编==】【==开发==】【==版本管理==】
 
 -------
 
@@ -42,7 +42,95 @@
 <br>
 
 -------
-## <div align=center>2018/11/29</div>
+## <div align=center>2018/12/04</div>
+* GIT版本管理看这一篇就够了[点击前往](https://www.jianshu.com/p/0e9d07ec76f9)【==版本管理==】
+
+
+    `GIT基本上是目前最为先进的分布式版本控制系统，通过GIT能够非常方便的管理文件多个版本，能够实现版本的回滚，比对等功能，并且支持分布式也就是多人协同工作。`
+    1. init
+    2. clone
+    3. status
+    4. add
+    5. commit
+    6. rm
+    7. reset
+    8. diff
+    9. log
+    10. tag
+    11. branch
+    12. checkout
+    13. merge
+    14. remote
+    15. fetch
+    16. pull
+    17. push
+
+* iOS开发经验总结[点击前往](https://www.jianshu.com/p/d333cf6ae4b0)【==小常识==】
+    1. iPhone Size
+    2. 给navigation Bar 设置 title 颜色
+    3. 如何把一个CGPoint存入数组里
+    4.  UIColor 获取 RGB 值
+    5. 修改textField的placeholder的字体颜色、大小
+    6. 两点之间的距离
+    7. IOS开发－关闭/收起键盘方法总结
+    8. 在使用 ImagesQA.xcassets 时需要注意
+    9. UIPickerView 判断开始选择到选择结束
+    10. iOS模拟器 键盘事件
+    11. 在ios7上使用size classes后上面下面黑色
+    12. 设置不同size在size classes
+    13. 线程中更新 UILabel的text
+    14. 使用UIScrollViewKeyboardDismissMode实现了Message app的行为
+    15. 报错 "_sqlite3_bind_blob", referenced from:
+    16. ios7 statusbar 文字颜色
+    17. 获得当前硬盘空间
+    18. 给UIView 设置透明度，不影响其他sub views
+    19. 将color转为UIImage
+    20. NSTimer 用法
+    21. Bundle identifier 应用标示符
+    22. NSDate 获取几年前的时间
+    23. iOS加载启动图的时候隐藏statusbar
+    24. iOS 开发，工程中混合使用 ARC 和非ARC
+    25. iOS7 中 boundingRectWithSize:options:attributes:context:计算文本尺寸的使用
+    26. NSDate使用 注意
+    27. 在UIViewController中property的一个UIViewController的Present问题
+    28. UITableViewCell indentationLevel 使用
+    29. ActivityViewController 使用AirDrop分享
+    30. 获取CGRect的height
+    31. 打印 %
+    32. 在工程中查看是否使用 IDFA
+    33. APP 屏蔽 触发事件
+    34. 设置Status bar颜色
+    35. NSDictionary 转 NSString
+    36. iOS7 中UIButton setImage 没有起作用
+    37. User-Agent 判断设备
+    38. UIPasteboard 屏蔽paste 选项
+    39. class_addMethod 使用
+    40. AFNetworking 传送 form-data
+    41. 非空判断注意
+    42. iOS 8.4 UIAlertView 键盘显示问题
+    43. 模拟器中文输入法设置
+    44. iPhone number pad
+    45. UIView 自带动画翻转界面
+    46. KVO 监听其他类的变量
+    47. ios9 crash animateWithDuration
+    48. 对NSString进行URL编码转换
+    49. Xcode iOS加载图片只能用PNG
+    50. 保存全屏为image
+    51. 判断定位状态 locationServicesEnabled
+    52. 微信分享的时候注意大小
+    53. 图片缓存的清空
+    54. TableView Header View 跟随Tableview 滚动
+    55. TabBar的title 设置
+    56. UITabBar,移除顶部的阴影
+    57. 当一行中，多个UIKit 都是动态的宽度设置
+    58. JSON的“<null>” 转换为nil
+
+<br>
+<br>
+<br>
+
+-------
+## <div align=center>2018/12/03</div>
 * iOS 代码注释[点击前往](https://www.jianshu.com/p/c44867b2c3f1)【==小常识==】
 
 
