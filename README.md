@@ -43,6 +43,29 @@
 
 -------
 ## <div align=center>2018/12/04</div>
+* iOS中打开的文件如何用其他应用打开选择自己的app[点击前往](https://www.jianshu.com/p/a950b411a8e7)【==基础知识==】
+    1. 设置 Info.plist
+    2. 设置 AppDelegate
+    3. 接收通知
+
+* 使用UIDocumentInteractionController和QLPreviewController预览文件[点击前往](https://www.jianshu.com/p/73048dbe6a7d)【==基础知识==】
+
+* iOS 调起第三方程序打开文件 ( UIDocumentInteractionController )[点击前往](https://blog.csdn.net/lg767201403/article/details/77185181)【==基础知识==】
+
+* iOS开发打开word、excel、ppt、txt、pdf文档(可在线浏览)[点击前往](https://www.jianshu.com/p/4277a81c0798)【==基础知识==】
+
+
+ `打开文件的方法：
+1.获取文件的沙盒路径path
+2.将path路径转化URL
+3.用webView显示出来`
+
+<br>
+<br>
+<br>
+
+-------
+## <div align=center>2018/12/04</div>
 * GIT版本管理看这一篇就够了[点击前往](https://www.jianshu.com/p/0e9d07ec76f9)【==版本管理==】
 
 
