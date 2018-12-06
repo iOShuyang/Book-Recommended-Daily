@@ -42,7 +42,21 @@
 <br>
 
 -------
-## <div align=center>2018/12/04</div>
+## <div align=center>2018/12/06</div>
+`SwiftLint 是 Realm 推出的一款 Swift 代码规范检查工具，Realm 就不用介绍了，他们家推出的移动端跨平台数据库在业内的名气还是很大的，就算没有用过，相信大多数人也是听过的。
+SwiftLint 基于 Github 公布的 Swift 代码规范进行代码检查，并且能够很好的和 Xcode 整合。配置好所有的设置之后，在 Xcode 中执行编译时，SwiftLint 会自动运行检查，不符合规范的代码会通过警告或者 error 的形式指示出来，并且拥有丰富的配置项，可以进行大量的自定义，相当方便。`
+
+* Xcode 配置 Swift Lint 规范代码风格[点击前往](https://www.jianshu.com/p/86c56ebc590c)【==规范==】 
+* SwiftLint，规范代码，成为完美的偏执患者[点击前往](https://www.jianshu.com/p/40aa8695503f)【==规范==】
+* 使用 SwiftLint 进行 Swift 代码规范检查[点击前往](https://www.jianshu.com/p/c8337160fcd4)【==规范==】
+
+
+<br>
+<br>
+<br>
+
+-------
+## <div align=center>2018/12/05</div>
 * iOS中打开的文件如何用其他应用打开选择自己的app[点击前往](https://www.jianshu.com/p/a950b411a8e7)【==基础知识==】
     1. 设置 Info.plist
     2. 设置 AppDelegate
