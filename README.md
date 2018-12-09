@@ -42,6 +42,28 @@
 <br>
 
 -------
+## <div align=center>2018/12/09</div>
+* OC与swift的数据传输[点击前往](https://www.jianshu.com/p/451f452bf588)【==混编==】
+
+    `
+    1、swift之间的页面跳转与返回
+    2、oc监听swift推送的通知
+    3、swift内部推送接收的通知
+    4、oc调用swift的代理方法
+    5、swift调用oc代码块
+    6、oc对swift的属性传值、方法调用、代码块调用
+    7、swift对oc的属性传值、方法调用、代码块调用
+    8、swift之间的传值`
+
+* ARKit和CoreLocation：第一部分[点击前往](https://www.jianshu.com/p/60f27dc574fa)【==框架==】
+    
+    `第一部分将介绍ARKit的基础知识，从MapKit获取方向以及触摸矩阵变换的基础知识。在第二部分将讨论计算两个位置，以及如何利用位置数据，并变换成在ARKit场景的位置之间的轴承。`
+
+<br>
+<br>
+<br>
+
+-------
 ## <div align=center>2018/12/06</div>
 `SwiftLint 是 Realm 推出的一款 Swift 代码规范检查工具，Realm 就不用介绍了，他们家推出的移动端跨平台数据库在业内的名气还是很大的，就算没有用过，相信大多数人也是听过的。
 SwiftLint 基于 Github 公布的 Swift 代码规范进行代码检查，并且能够很好的和 Xcode 整合。配置好所有的设置之后，在 Xcode 中执行编译时，SwiftLint 会自动运行检查，不符合规范的代码会通过警告或者 error 的形式指示出来，并且拥有丰富的配置项，可以进行大量的自定义，相当方便。`
