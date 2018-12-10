@@ -42,6 +42,35 @@
 <br>
 
 -------
+## <div align=center>2018/12/10</div>
+* iOS-收集的不常用却实用的小方法和技巧[点击前往](https://www.jianshu.com/p/a492eb6ad7fa)【==小常识==】
+    1. 颜色转变成图片
+    2. app评分跳转
+    3. 获取当前系统语言环境
+    4. 计算字符串的高度
+    5. 强行关闭app的方法
+    6. 如何快速的查看一段代码的执行时间
+    7. 在使用view的缩放的时候，layer.border.width随着view的放大，会出现锯齿化的问题，解决这个问题需要设置这个属性。
+    8. instrument中time profile 中的self, #self,%self各代表什么 ?
+    9. 神器计算图片位置的函数：AVMakeRectWithAspectRatioInsideRect（）
+    10. 关于 如果一个矩形如果做了平移旋转缩放等一系列操作之后，上下左右的四个点（甚至矩形上任意一个点）的位置。
+    11. tableViewCell上的button,点击获取所在row
+    12. 设置粘贴内容
+    13. iPhone为了节省电力所以有一个自动休眠机制，如果想让我们的APP不自动进入休眠只需要设置 UIApplication的idleTimerDisabled 属性为 YES 即可。（切勿滥用）
+    14. UIApplicationUserDidTakeScreenshotNotification通知，当用户截屏时触发
+
+    
+* iOS中书写代码规范35条小建议:[点击前往](https://www.jianshu.com/p/a492eb6ad7fa)【==规范==】
+
+
+* iOS常用正则表达式[点击前往](https://www.jianshu.com/p/ea10003d224a)【==基础知识==】
+    `又称正规表示法、常规表示法（英语：Regular Expression，在代码中常简写为regex、regexp或RE），计算机科学的一个概念。正则表达式使用单个字符串来描述、匹配一系列符合某个句法规则的字符串。在很多文本编辑器里，正则表达式通常被用来检索、替换那些符合某个模式的文本;`
+    
+<br>
+<br>
+<br>
+
+-------
 ## <div align=center>2018/12/09</div>
 * OC与swift的数据传输[点击前往](https://www.jianshu.com/p/451f452bf588)【==混编==】
 
