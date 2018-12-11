@@ -41,6 +41,32 @@
 <br>
 <br>
 
+
+## <div align=center>2018/12/10</div>
+* ios新特性：自动填充用户名密码UIRemoteKeyboardWindow[点击前往](https://www.jianshu.com/p/85b9f2524211)【==小常识==】
+     ![](https://upload-images.jianshu.io/upload_images/2048812-c65de2b84c07639e.png?imageMogr2/auto-orient/)
+     
+* swift -- 系统自带分享功能[点击前往](https://www.jianshu.com/p/85b9f2524211)【==小常识==】
+
+    ```let textToShare = "百度"
+        let imageToShare = UIImage.init(named: "img_01")
+        let urlToShare = NSURL.init(string: "http://www.baidu.com")
+        let items = [textToShare,imageToShare ?? "WeShare",urlToShare ?? "WeShare"] as [Any]
+        let activityVC = UIActivityViewController(
+            activityItems: items,
+            applicationActivities: nil)
+       activityVC.completionWithItemsHandler =  { activity, success, items, error in 
+       }
+        self.present(activityVC, animated: true, completion: { () -> Void in
+        })
+        ```
+
+
+
+<br>
+<br>
+<br>
+
 -------
 ## <div align=center>2018/12/10</div>
 * iOS-收集的不常用却实用的小方法和技巧[点击前往](https://www.jianshu.com/p/a492eb6ad7fa)【==小常识==】
