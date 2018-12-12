@@ -41,6 +41,24 @@
 <br>
 <br>
 
+## <div align=center>2018/12/10</div>
+* iOS开发编码建议与编程经验[点击前往](https://www.jianshu.com/p/f33634d1ab5e)【==小常识==】
+
+    `在开发过程中，我们不仅要去看别人的代码，也要让别人看我们的代码。那么，有一个良好的编码习惯将会非常重要。下面将会罗列使用Objective-C来开发iOS的编码建议。`
+       
+* iOS应用间跳转[点击前往](https://www.jianshu.com/p/732c5e1720d0)【==小常识==】
+ ![](https://upload-images.jianshu.io/upload_images/987457-e04fcf9fbd2d67dc.png?imageMogr2/auto-orient/)
+
+* iOS通讯录介绍和使用[点击前往](https://www.jianshu.com/p/732c5e1720d0)【==小常识==】
+
+ ![通讯录的介绍](https://upload-images.jianshu.io/upload_images/987457-0e3476d43388a95e.png?imageMogr2/auto-orient/)
+ 
+ ![通讯录的使用](https://upload-images.jianshu.io/upload_images/987457-a99ced4897708c01.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000)
+
+<br>
+<br>
+<br>
+
 
 ## <div align=center>2018/12/10</div>
 * ios新特性：自动填充用户名密码UIRemoteKeyboardWindow[点击前往](https://www.jianshu.com/p/85b9f2524211)【==小常识==】
