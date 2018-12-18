@@ -41,7 +41,18 @@
 <br>
 <br>
 
-## <div align=center>2018/12/10</div>
+## <div align=center>2018/12/18</div>
+* ios文字转语音后台（转，待验证）[点击前往](https://www.jianshu.com/p/5e773bcf13d6)【==框架==】
+
+* iOS端使用replaykit录制屏幕的技术细节[点击前往](https://www.jianshu.com/p/401b5b632d5b)【==框架==】
+
+* UIBezierPath绘制柱状图、折线图和饼状图[点击前往](https://www.jianshu.com/p/e37493cf093e)【==绘制==】
+
+<br>
+<br>
+<br>
+
+## <div align=center>2018/12/17</div>
 * delegate和protocol(区别)[点击前往](https://blog.csdn.net/mad1989/article/details/8463460)【==基础知识==】
 
 
@@ -53,7 +64,7 @@
 <br>
 <br>
 
-## <div align=center>2018/12/10</div>
+## <div align=center>2018/12/12</div>
 * iOS开发编码建议与编程经验[点击前往](https://www.jianshu.com/p/f33634d1ab5e)【==小常识==】
 
     `在开发过程中，我们不仅要去看别人的代码，也要让别人看我们的代码。那么，有一个良好的编码习惯将会非常重要。下面将会罗列使用Objective-C来开发iOS的编码建议。`
@@ -72,7 +83,7 @@
 <br>
 
 
-## <div align=center>2018/12/10</div>
+## <div align=center>2018/12/11</div>
 * ios新特性：自动填充用户名密码UIRemoteKeyboardWindow[点击前往](https://www.jianshu.com/p/85b9f2524211)【==小常识==】
      ![](https://upload-images.jianshu.io/upload_images/2048812-c65de2b84c07639e.png?imageMogr2/auto-orient/)
      
