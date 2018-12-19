@@ -41,6 +41,43 @@
 <br>
 <br>
 
+## <div align=center>2018/12/19</div>
+* ios lable中电话号码点击拨打电话 [点击前往](https://blog.csdn.net/feifeiwuxian/article/details/78595393)【==小常识==】
+    
+```
+#pragma mark-<获取电话号码的坐标>
++ (CGRect)boundingRectForCharacterRange:(NSRange)range andLable:(UILabel *)lable lableSize:(CGSize)lableSize{
+//    NSMutableAttributedString *attributeString = [[NSMutableAttributedString alloc] initWithString:contentStr];
+//    NSMutableParagraphStyle *paraStyle = [[NSMutableParagraphStyle alloc] init];
+//    paraStyle.lineSpacing = 6;
+//    NSDictionary *attrs =@{NSFontAttributeName : [UIFont systemFontOfSize:12.0], NSParagraphStyleAttributeName : paraStyle};
+//    [attributeString setAttributes:attrs range:NSMakeRange(0, contentStr.length)];
+    
+    NSTextStorage *textStorage = [[NSTextStorage alloc] initWithAttributedString:lable.attributedText];
+    NSLayoutManager *layoutManager = [[NSLayoutManager alloc] init];
+    [textStorage addLayoutManager:layoutManager];
+    NSTextContainer *textContainer = [[NSTextContainer alloc] initWithSize:lableSize];
+    textContainer.lineFragmentPadding = 0;
+    [layoutManager addTextContainer:textContainer];
+    
+    NSRange glyphRange;
+    
+    [layoutManager characterRangeForGlyphRange:range actualGlyphRange:&glyphRange];
+    
+    CGRect rect = [layoutManager boundingRectForGlyphRange:glyphRange inTextContainer:textContainer];
+//    CGFloat yOfset =  rect.origin.y;
+//    rect.origin.y = yOfset + 3;
+    
+    return rect;
+}
+```
+
+* iOS 识别文字中的手机号码高亮显示点击可拨打电话 [点击前往](https://www.aliyun.com/jiaocheng/360135.html)【==小常识==】
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2018/12/18</div>
 * ios文字转语音后台（转，待验证）[点击前往](https://www.jianshu.com/p/5e773bcf13d6)【==框架==】
 
