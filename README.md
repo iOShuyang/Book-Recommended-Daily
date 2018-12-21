@@ -41,6 +41,22 @@
 <br>
 <br>
 
+## <div align=center>2018/12/21</div>
+* 项目需求(此项目需要科学上网)
+![](https://raw.githubusercontent.com/iOShuyang/Save_PhotoAlbum/master/屏幕快照%202018-12-21%20上午11.51.52.png)
+
+* [Google Analytics](https://analytics.google.com/analytics/web/#/report-home/a131142122w190749662p186858962)是著名互联网公司Google为网站提供的数据统计服务。可以对目标网站进行访问数据统计和分析，并提供多种参数供网站拥有者使用。
+
+* [Real Time Reporting API](https://developers.google.cn/analytics/devguides/reporting/realtime/v3/)获取目前发生在媒体资源上的用户活动。实时报告每隔数秒钟就会更新，让您构建实时信息中心，监控任一时刻有多少用户正在与您的媒体资源互动。
+
+* [Google APIs Client Library for Objective-C for REST](https://github.com/google/google-api-objectivec-client-for-rest)该库由Google编写，是一个灵活高效的Objective-C框架，用于访问JSON API。
+
+* [Introduction to the Google APIs Client Library for Objective-C for REST](https://github.com/google/google-api-objectivec-client-for-rest/wiki)客户端库简介以及集成流程
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2018/12/19</div>
 * ios lable中电话号码点击拨打电话 [点击前往](https://blog.csdn.net/feifeiwuxian/article/details/78595393)【==小常识==】
     
