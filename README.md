@@ -40,6 +40,25 @@
 <br>
 <br>
 <br>
+
+## <div align=center>2018/12/25</div>
+
+* Google 地图官方文档[点击前往](https://developers.google.com/maps/documentation/ios-sdk/utility/heatmap#add_a_simple_heatmap)【==地图==】
+
+* Google 地图github[点击前往](https://github.com/googlemaps?utf8=%E2%9C%93&q=&type=&language=objective-c)
+
+* iOS 接入谷歌地图[点击前往](https://www.jianshu.com/p/60ea3a19e661)【==地图==】
+    
+* iOS GMSMap(谷歌地图） 地图下载和初级使用[点击前往](https://www.jianshu.com/p/cc919aadaa60)【==地图==】
+    
+* iOS Google地图开发小结(2017)[点击前往](https://www.jianshu.com/p/7c1293ee83ff)【==地图==】
+    
+* Google map生成热力图[点击前往](https://www.jianshu.com/p/f1c33ebd891b)【==地图==】
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2018/12/24</div>
 `是一家提供让个人或公司在互联网上接受付款服务的科技公司。Stripe提供在网上接受付款所需的技术、避免信用卡诈骗技术及银行基础设施`
 * Stripe 官方集成文档[点击前往](https://stripe.com/docs/mobile/ios/custom)【==支付==】
