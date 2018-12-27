@@ -41,6 +41,24 @@
 <br>
 <br>
 
+## <div align=center>2018/12/27</div>
+* 最火移动端跨平台方案盘点：React Native、weex、Flutter[点击前往](https://baijiahao.baidu.com/s?id=1608650340331187704&wfr=spider&for=pc)【==开发模式==】
+    
+    `1）react native、weex均使用JavaScript作为编程语言，目前JavaScript在跨平台开发中，可谓占据半壁江山，大有“一统天下”的趋势；`
+    
+    `2）kotlin-native开始支持 iOS 和 Web 开发，（kotlin已经成为android的一级语言）也想尝试“一统天下”；`
+    
+    `3）flutter是Google跨平台移动UI框架，Dart作为谷歌的亲儿子，毫无疑问Dart成为flutter的编程语言。作为巨头新生儿，在flutter官网也可以看出，flutter同样“心怀天下”（可支持Web端、Android端、iOS端等）。`
+    
+* Apple Pay--iOS开发  [点击前往](https://www.jianshu.com/p/807a730135ca)【==支付==】
+     `Apple Pay，简单来说, 就是一种移动支付方式。通过Touch ID/ Passcode，用户可使用存储在iPhone 6, 6p等设备上的信用卡和借记卡支付证书来授权支付； 它是苹果公司在2014苹果秋季新品发布会上发布的一种基于NFC的手机支付功能，于2014年10月20日在美国正式上线，2016年2月18日凌晨5：00， Apple Pay 业务在中国上线。`
+     
+* iOS 使用模拟器模拟定位  [点击前往](https://www.jianshu.com/p/c8e5badacd37)【==小常识==】 
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2018/12/25</div>
 
 * Google 地图官方文档[点击前往](https://developers.google.com/maps/documentation/ios-sdk/utility/heatmap#add_a_simple_heatmap)【==地图==】
