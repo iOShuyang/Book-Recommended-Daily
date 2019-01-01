@@ -41,6 +41,24 @@
 <br>
 <br>
 
+## <div align=center>2019/01/01</div>
+* iOS 基于PhotoKit框架的自定义相册[点击前往](http://www.cocoachina.com/ios/20181221/25915.html)【==相册==】
+
+    `之前公司的项目需要自定义相册，并且需要获取图片的经纬度信息，使用UIImagePickerController自然是实现不了的。所以就用到了我们今天所说的PhotoKit框架，因为PhotoKit是iOS8之后出的，所以iOS8以前的项目是不能使用的（可以使用AssetsLibrary，这里就不多介绍了）。`
+
+* UITableView性能优化-中级篇[点击前往](http://www.cocoachina.com/ios/20181218/25843.html)【==性能==】
+
+    `最近遇到一个需求，对tableView有中级优化需求
+    要求 tableView 滚动的时候,滚动到哪行，哪行的图片才加载并显示,滚动过程中图片不加载显示;
+    页面跳转的时候，取消当前页面的图片加载请求；`
+
+* 新手也看得懂的 iOS Runtime 教程[点击前往](http://www.cocoachina.com/ios/20181213/25821.html)【==基础知识==】
+
+     `在 C 语言中，将代码转换为可执行程序，一般要经历三个步骤，即编译、链接、运行。在链接的时候，对象的类型、方法的实现就已经确定好了。
+     而在 Objective-C 中，却将一些在编译和链接过程中的工作，放到了运行阶段。也就是说，就算是一个编译好的 .ipa 包，在程序没运行的时候，也不知道调用一个方法会发生什么。这也为后来大行其道的「热修复」提供了可能。因此我们称 Objective-C 为一门动态语言。
+     这样的设计使 Objective-C 变得灵活，甚至可以让我们在程序运行的时候，去动态修改一个方法的实现。而实现这一切的基础就是 Runtime 。
+     简单来说， Runtime 是一个库，这个库使我们可以在程序运行时创建对象、检查对象，修改类和对象的方法。`
+
 ## <div align=center>2018/12/27</div>
 * 最火移动端跨平台方案盘点：React Native、weex、Flutter[点击前往](https://baijiahao.baidu.com/s?id=1608650340331187704&wfr=spider&for=pc)【==开发模式==】
     
