@@ -41,6 +41,20 @@
 <br>
 <br>
 
+
+## <div align=center>2019/01/02</div>
+* [Charts的github](https://github.com/danielgindi/Charts)
+
+* iOS使用Charts框架绘制—柱形图[点击前往](https://www.jianshu.com/p/5f777671e9e4)【==三方框架==】
+![](https://upload-images.jianshu.io/upload_images/1803339-5c0f985eec02e11a.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/315)
+
+* iOS BarChartView的使用，Charts版本3.2.1[点击前往](https://www.jianshu.com/p/85d8ecd95c14)【==三方框架==】
+
+
+* 学会使用Objective-C中的block[点击前往](https://www.jianshu.com/p/d911cd16c100)【==基础知识==】
+
+    `Apple从OS X 10.4和iOS 4以后开始支持block，相对于delegate，block有很多便捷之处，使得代码更简洁，可读性更强。但是如果使用不当，则会造成很多问题。本文结合自己的经验和《Pro Multithreading and Memory Management for iOS and OS X: with ARC, Grand Central Dispatch, and Blocks》书中的知识点，介绍block的相关知识点。`
+
 ## <div align=center>2019/01/01</div>
 * iOS 基于PhotoKit框架的自定义相册[点击前往](http://www.cocoachina.com/ios/20181221/25915.html)【==相册==】
 
