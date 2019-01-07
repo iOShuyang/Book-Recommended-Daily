@@ -41,6 +41,20 @@
 <br>
 <br>
 
+## <div align=center>2019/01/07</div>
+* 获取网络图片的大小[点击前往](http://www.cocoachina.com/ios/20181210/25770.html)【==小常识==】
+
+* 网络请求优化之取消请求[点击前往](https://juejin.im/post/5c04fb896fb9a04a016413b0)【==网络==】
+`页面返回的时候，将网络请求取消 
+同一个请求多次请求时，短时间忽略相同的请求 
+同一个请求多次请求时，取消之前发出的请求 
+发送的请求，多次尝试并确保成功`
+
+* 初级程序员需要知道的基本代码规范[点击前往](http://www.cocoachina.com/ios/20181203/25675.html)【==规范==】
+
+<br>
+<br>
+<br>
 
 ## <div align=center>2019/01/03</div>
 * Apple TV 编程指南--介绍[点击前往](http://www.cocoachina.com/ios/20151120/14335.html)【==框架==】
