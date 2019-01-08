@@ -41,6 +41,18 @@
 <br>
 <br>
 
+## <div align=center>2019/01/08</div>
+* 😊GitHub可免费创建无限量私人储存库
+![](http://t11.baidu.com/it/u=3027523945,746257153&fm=173&app=49&f=JPEG?w=636&h=394&s=24F0E53201907DCA02E5DCDA000070B1)
+
+* [git lfs](https://git-lfs.github.com)
+
+`Git LFS（Large File Storage, 大文件存储）是可以把音乐、图片、视频等指定的任意文件存在 Git 仓库之外，而在 Git 仓库中用一个占用空间 1KB 不到的文本指针来代替的小工具。通过把大文件存储在 Git 仓库之外，可以减小 Git 仓库本身的体积，使克隆 Git 仓库的速度加快，也使得 Git 不会因为仓库中充满大文件而损失性能。`
+
+* 处理 github 不允许上传超过 100MB 文件的问题[点击前往](http://www.liuxiao.org/2017/02/git-处理-github-不允许上传超过-100mb-文件的问题/)【==小常识==】
+
+* 上传超过100M的文件到github[点击前往](https://www.jianshu.com/p/f8339c74fbe3)【==小常识==】
+
 ## <div align=center>2019/01/07</div>
 * 获取网络图片的大小[点击前往](http://www.cocoachina.com/ios/20181210/25770.html)【==小常识==】
 
