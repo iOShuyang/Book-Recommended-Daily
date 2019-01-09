@@ -165,6 +165,8 @@
 
 * [Real Time Reporting API](https://developers.google.cn/analytics/devguides/reporting/realtime/v3/)获取目前发生在媒体资源上的用户活动。实时报告每隔数秒钟就会更新，让您构建实时信息中心，监控任一时刻有多少用户正在与您的媒体资源互动。
 
+* [Google API 控制台](https://console.developers.google.com/apis/dashboard?project=vaulted-dolphin-226105)Google 会提供您稍后需要用到的信息，例如客户端 ID 和客户端密钥。
+
 * [Google APIs Client Library for Objective-C for REST](https://github.com/google/google-api-objectivec-client-for-rest)该库由Google编写，是一个灵活高效的Objective-C框架，用于访问JSON API。
 
 * [Introduction to the Google APIs Client Library for Objective-C for REST](https://github.com/google/google-api-objectivec-client-for-rest/wiki)客户端库简介以及集成流程
