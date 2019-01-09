@@ -41,6 +41,12 @@
 <br>
 <br>
 
+## <div align=center>2019/01/09</div>
+* CocoaPods 都做了什么？[点击前往](https://mp.weixin.qq.com/s?__biz=MzA5NzMwODI0MA==&mid=2647761981&idx=1&sn=49d0dd19bdb79bf3797756c646aef4ca&chksm=8887df02bff05614bdd422ff39833c9f2c5708ca9861922b968bc97604f59e7aa0d2e1967717&scene=21#wechat_redirect)【==小常识==】
+
+* 使用 Metal 和 Core ML 评价照片质量[点击前往](https://mp.weixin.qq.com/s?__biz=MzA5NzMwODI0MA==&mid=2647761989&idx=1&sn=f9e5cbbaea284a44789e7a6f47c269b6&chksm=8887df7abff0566c1936600e032208201a07f2c53e9b66657ff53bff087a330361f754a3efa5&scene=21#wechat_redirect)【==框架==】
+
+
 ## <div align=center>2019/01/08</div>
 * 😊GitHub可免费创建无限量私人储存库
 ![](http://t11.baidu.com/it/u=3027523945,746257153&fm=173&app=49&f=JPEG?w=636&h=394&s=24F0E53201907DCA02E5DCDA000070B1)
