@@ -41,6 +41,16 @@
 <br>
 <br>
 
+## <div align=center>2019/01/11</div>
+![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1547485151617&di=4ffae9b59bc4552919c1fe9d1a3c2f0c&imgtype=0&src=http%3A%2F%2Fww1.sinaimg.cn%2Fcrop.0.0.889.499.1000.562%2Fe9475adegw1f8myfsfftqj20p00dwaa7.jpg)
+* iOS马甲包混淆必过4.3审核上线解决方案[点击前往](https://zhuanlan.zhihu.com/p/38481422)【==审核==】
+
+* 苹果又被拒了：Guideline 4.3 - Design[点击前往](https://blog.csdn.net/quantum7/article/details/81195660?utm_source=blogxgwz6)【==审核==】
+
+* iOS4.3马甲包审核被拒和解决方法、[点击前往](https://www.jianshu.com/p/d7cea95bf899)【==审核==】
+
+* Guideline 4.2.2 - Design - Minimum Functionality 被拒及解决方法[点击前往](https://blog.csdn.net/qq_31810357/article/details/84654401)【==审核==】
+
 ## <div align=center>2019/01/10</div>
 * 高德地图绘制面官方文档[点击前往](https://lbs.amap.com/api/ios-sdk/guide/draw-on-map/draw-plane)【==地图==】
 
