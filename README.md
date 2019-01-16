@@ -41,6 +41,20 @@
 <br>
 <br>
 
+## <div align=center>2019/01/16</div>
+* iOS后台模式开发指南[点击前往](http://www.codeceo.com/article/ios-background-guide.html)【==小常识==】
+
+    `每一次iOS的发布都会在后台操作和细节上的放宽限制，以此提升用户体验和延长电池寿命.对于在iOS中实现”真正”的多任务来说,后台模式不是一个神奇的解决办法.当用户切换到其他的APP应用时,大多数的APP应用仍然会完全的暂停运行.你的应用只被允许在很特殊的情况下才能在后台中继续运行.例如,这些包括播放音频,获取位置更新,或者从服务器获取最新内容的情况.`
+    
+* warning: templates not found /usr/local/git/share/git-core/templates[点击前往](https://blog.csdn.net/qq_15602525/article/details/70802589)【==小常识==】
+
+* CAEmitterLayer 粒子动画[点击前往](http://www.cocoachina.com/ios/20190110/26093.html)【==动画==】
+ ![](https://upload-images.jianshu.io/upload_images/1680733-2061ece5f61b6c73.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/341/format/webp)
+ 
+ * iOS 按时间给 model 数组排序[点击前往](https://www.jianshu.com/p/bb83975a244a)【==小常识==】
+
+* Flutter实战详解--高仿好奇心日报[点击前往](https://juejin.im/post/5c31f7236fb9a04a04412d0b)【==开发模式==】
+
 ## <div align=center>2019/01/11</div>
 ![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1547485151617&di=4ffae9b59bc4552919c1fe9d1a3c2f0c&imgtype=0&src=http%3A%2F%2Fww1.sinaimg.cn%2Fcrop.0.0.889.499.1000.562%2Fe9475adegw1f8myfsfftqj20p00dwaa7.jpg)
 * iOS马甲包混淆必过4.3审核上线解决方案[点击前往](https://zhuanlan.zhihu.com/p/38481422)【==审核==】
