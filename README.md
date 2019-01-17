@@ -18,7 +18,7 @@
 
 -------
 
-【==小常识==】【==时间==】【==颜色==】【==二维码==】【==地图==】【==网络==】【==相册==】【==定时器==】
+【==小常识==】【==时间==】【==颜色==】【==二维码==】【==地图==】【==网络==】【==相册==】【==定时器==】【==推送==】
 
 -------
 
@@ -40,6 +40,24 @@
 <br>
 <br>
 <br>
+
+## <div align=center>2019/01/17</div>
+* UICollectionViewCell「居左显示」[点击前往](https://www.jianshu.com/p/d8297960d797)【==小常识==】
+
+* ios 设置导航器navigationItem.titleView无效问题记录[点击前往](https://www.jianshu.com/p/a377377ba3db)【==小常识==】
+
+    `只有在push进导航器的vc或者是作为导航器 rootViewController的vc才能够修改titleView.由于tabbar继承于UIViewController,且为导航器的rootViewController,所以如果要修改titleView只能够在tabbarView中去实现,在tabbar里面的vc去设置是不会出现效果的.`
+
+* iOS12远程推送新特性[点击前往](https://www.jianshu.com/p/6175911ad14d)【==推送==】
+
+ `新特性
+Grouped notifications 推送分组
+Provisional authorization 临时授权
+Notification management 推送消息的管理
+Critical alerts 警告性质的推送
+Notification content extensions 推送内容扩展中的可交互和动态更改Action`
+
+* iOS 链式编程一行代码完成屏幕适配[点击前往](https://www.jianshu.com/p/292e5c8185e9)【==小常识==】
 
 ## <div align=center>2019/01/16</div>
 * iOS后台模式开发指南[点击前往](http://www.codeceo.com/article/ios-background-guide.html)【==小常识==】
