@@ -41,6 +41,17 @@
 <br>
 <br>
 
+## <div align=center>2019/01/21</div>
+* ios开发——解决UICollectionView的cell间距与设置不符问题[点击前往](https://blog.csdn.net/u013604612/article/details/41450167)【==小常识==】
+
+* UICollectionView中Cell左对齐 居中 右对齐 等间距------你想要的，这里都有[点击前往](https://www.cnblogs.com/liangyi-cn/p/7520387.html)【==小常识==】
+
+
+* 使用水平和垂直滑动的UICollectionView来制作粘性的行和列[点击前往](https://www.jianshu.com/p/a0089f2db49e)【==小常识==】
+![](https://upload-images.jianshu.io/upload_images/318204-d52b7b752f79a9e0.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/312)
+
+
+
 ## <div align=center>2019/01/17</div>
 * UICollectionViewCell「居左显示」[点击前往](https://www.jianshu.com/p/d8297960d797)【==小常识==】
 
