@@ -41,6 +41,21 @@
 <br>
 <br>
 
+## <div align=center>2019/01/22</div>
+![](https://raw.githubusercontent.com/iOShuyang/Save_PhotoAlbum/master/屏幕快照%202019-01-22%20下午4.12.59.png)
+* 集成[身份管理和认证平台Auth0](https://auth0.com/)
+
+* [Auth0登录后的Dashboard](https://manage.auth0.com/#/)
+
+* [Auth0集成文档](https://auth0.com/docs/quickstart/native/ios-swift)
+
+* [Auth0的GitHub上的demo](https://github.com/auth0/Auth0.swift)
+
+
+![](https://www.tradingview.com/x/8GpeJWJz/)
+* [TradingView](https://cn.tradingview.com/publishing-tools/)是股票、期货和外汇市场里的交易者和投资者社交网络! 图表库附带 API 以显示您自己的数据。 可定制且易于安装。
+
+
 ## <div align=center>2019/01/21</div>
 * ios开发——解决UICollectionView的cell间距与设置不符问题[点击前往](https://blog.csdn.net/u013604612/article/details/41450167)【==小常识==】
 
