@@ -41,6 +41,24 @@
 <br>
 <br>
 
+## <div align=center>2019/01/26</div>
+
+![](https://www.tradingview.com/x/8GpeJWJz/)
+* [TradingView](https://cn.tradingview.com/publishing-tools/)是股票、期货和外汇市场里的交易者和投资者社交网络! 图表库附带 API 以显示您自己的数据。 可定制且易于安装。
+
+
+* [序言· tradingView开发文档](https://zlq4863947.gitbooks.io/tradingview/book/Package-Content.html)
+
+* [github上的demo](https://github.com/tradingview/charting-library-examples)
+
+* [24小时精通TradingView开发教学视频](https://space.bilibili.com/19853384?spm_id_from=333.788.b_765f7570696e666f.1)
+
+* [TradingView + WebSocket 实时推送 K 线脱坑指南](https://juejin.im/post/5bb1f22151882557305835f8?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com)
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2019/01/22</div>
 ![](https://raw.githubusercontent.com/iOShuyang/Save_PhotoAlbum/master/屏幕快照%202019-01-22%20下午4.12.59.png)
 * 集成[身份管理和认证平台Auth0](https://auth0.com/)
@@ -51,9 +69,9 @@
 
 * [Auth0的GitHub上的demo](https://github.com/auth0/Auth0.swift)
 
-
-![](https://www.tradingview.com/x/8GpeJWJz/)
-* [TradingView](https://cn.tradingview.com/publishing-tools/)是股票、期货和外汇市场里的交易者和投资者社交网络! 图表库附带 API 以显示您自己的数据。 可定制且易于安装。
+<br>
+<br>
+<br>
 
 
 ## <div align=center>2019/01/21</div>
@@ -65,7 +83,9 @@
 * 使用水平和垂直滑动的UICollectionView来制作粘性的行和列[点击前往](https://www.jianshu.com/p/a0089f2db49e)【==小常识==】
 ![](https://upload-images.jianshu.io/upload_images/318204-d52b7b752f79a9e0.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/312)
 
-
+<br>
+<br>
+<br>
 
 ## <div align=center>2019/01/17</div>
 * UICollectionViewCell「居左显示」[点击前往](https://www.jianshu.com/p/d8297960d797)【==小常识==】
@@ -85,6 +105,10 @@ Notification content extensions 推送内容扩展中的可交互和动态更改
 
 * iOS 链式编程一行代码完成屏幕适配[点击前往](https://www.jianshu.com/p/292e5c8185e9)【==小常识==】
 
+<br>
+<br>
+<br>
+
 ## <div align=center>2019/01/16</div>
 * iOS后台模式开发指南[点击前往](http://www.codeceo.com/article/ios-background-guide.html)【==小常识==】
 
@@ -99,6 +123,10 @@ Notification content extensions 推送内容扩展中的可交互和动态更改
 
 * Flutter实战详解--高仿好奇心日报[点击前往](https://juejin.im/post/5c31f7236fb9a04a04412d0b)【==开发模式==】
 
+<br>
+<br>
+<br>
+
 ## <div align=center>2019/01/11</div>
 ![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1547485151617&di=4ffae9b59bc4552919c1fe9d1a3c2f0c&imgtype=0&src=http%3A%2F%2Fww1.sinaimg.cn%2Fcrop.0.0.889.499.1000.562%2Fe9475adegw1f8myfsfftqj20p00dwaa7.jpg)
 * iOS马甲包混淆必过4.3审核上线解决方案[点击前往](https://zhuanlan.zhihu.com/p/38481422)【==审核==】
@@ -108,6 +136,10 @@ Notification content extensions 推送内容扩展中的可交互和动态更改
 * iOS4.3马甲包审核被拒和解决方法、[点击前往](https://www.jianshu.com/p/d7cea95bf899)【==审核==】
 
 * Guideline 4.2.2 - Design - Minimum Functionality 被拒及解决方法[点击前往](https://blog.csdn.net/qq_31810357/article/details/84654401)【==审核==】
+
+<br>
+<br>
+<br>
 
 ## <div align=center>2019/01/10</div>
 * 高德地图绘制面官方文档[点击前往](https://lbs.amap.com/api/ios-sdk/guide/draw-on-map/draw-plane)【==地图==】
@@ -120,12 +152,20 @@ Notification content extensions 推送内容扩展中的可交互和动态更改
 
 * MKMapView 位置与地图(三)给地图添加覆盖层[点击前往](https://blog.csdn.net/hmt20130412/article/details/36009093)【==地图==】
 
+<br>
+<br>
+<br>
+
 
 ## <div align=center>2019/01/09</div>
 * CocoaPods 都做了什么？[点击前往](https://mp.weixin.qq.com/s?__biz=MzA5NzMwODI0MA==&mid=2647761981&idx=1&sn=49d0dd19bdb79bf3797756c646aef4ca&chksm=8887df02bff05614bdd422ff39833c9f2c5708ca9861922b968bc97604f59e7aa0d2e1967717&scene=21#wechat_redirect)【==小常识==】
 
 * 使用 Metal 和 Core ML 评价照片质量[点击前往](https://mp.weixin.qq.com/s?__biz=MzA5NzMwODI0MA==&mid=2647761989&idx=1&sn=f9e5cbbaea284a44789e7a6f47c269b6&chksm=8887df7abff0566c1936600e032208201a07f2c53e9b66657ff53bff087a330361f754a3efa5&scene=21#wechat_redirect)【==框架==】
 
+
+<br>
+<br>
+<br>
 
 ## <div align=center>2019/01/08</div>
 * 😊GitHub可免费创建无限量私人储存库
@@ -168,6 +208,10 @@ Notification content extensions 推送内容扩展中的可交互和动态更改
 
 * iOS仿滴滴预约用车时间选择器[点击前往](https://www.jianshu.com/p/ca60479a6ce0)【==时间==】
 
+<br>
+<br>
+<br>
+
 ## <div align=center>2019/01/02</div>
 * [Charts的github](https://github.com/danielgindi/Charts)
 
@@ -180,6 +224,10 @@ Notification content extensions 推送内容扩展中的可交互和动态更改
 * 学会使用Objective-C中的block[点击前往](https://www.jianshu.com/p/d911cd16c100)【==基础知识==】
 
     `Apple从OS X 10.4和iOS 4以后开始支持block，相对于delegate，block有很多便捷之处，使得代码更简洁，可读性更强。但是如果使用不当，则会造成很多问题。本文结合自己的经验和《Pro Multithreading and Memory Management for iOS and OS X: with ARC, Grand Central Dispatch, and Blocks》书中的知识点，介绍block的相关知识点。`
+
+<br>
+<br>
+<br>
 
 ## <div align=center>2019/01/01</div>
 * iOS 基于PhotoKit框架的自定义相册[点击前往](http://www.cocoachina.com/ios/20181221/25915.html)【==相册==】
@@ -198,6 +246,10 @@ Notification content extensions 推送内容扩展中的可交互和动态更改
      而在 Objective-C 中，却将一些在编译和链接过程中的工作，放到了运行阶段。也就是说，就算是一个编译好的 .ipa 包，在程序没运行的时候，也不知道调用一个方法会发生什么。这也为后来大行其道的「热修复」提供了可能。因此我们称 Objective-C 为一门动态语言。
      这样的设计使 Objective-C 变得灵活，甚至可以让我们在程序运行的时候，去动态修改一个方法的实现。而实现这一切的基础就是 Runtime 。
      简单来说， Runtime 是一个库，这个库使我们可以在程序运行时创建对象、检查对象，修改类和对象的方法。`
+
+<br>
+<br>
+<br>
 
 ## <div align=center>2018/12/27</div>
 * 最火移动端跨平台方案盘点：React Native、weex、Flutter[点击前往](https://baijiahao.baidu.com/s?id=1608650340331187704&wfr=spider&for=pc)【==开发模式==】
