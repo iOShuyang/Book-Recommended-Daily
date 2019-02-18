@@ -41,6 +41,17 @@
 <br>
 <br>
 
+## <div align=center>2019/02/18</div>
+* 怎么让self.view的Y从navigationBar下面开始计算[点击前往](https://www.jianshu.com/p/c9fdf8086435)【==小常识==】
+
+* iOS 开发工具 - Swift VS Objective-C[点击前往](https://www.jianshu.com/p/cdd049ef1c3e)【==混编==】
+
+* iOS 了解Xcode Bitcode[点击前往](https://www.jianshu.com/p/4fa8168e2892)【==小常识==】
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2019/01/26</div>
 
 ![](https://www.tradingview.com/x/8GpeJWJz/)
