@@ -41,6 +41,23 @@
 <br>
 <br>
 
+## <div align=center>2019/02/19</div>
+* 搞iOS的，面试官问Hash干嘛？原因远比我下面要介绍的多[点击前往](https://juejin.im/post/5c6abfc86fb9a049c04396a7)【==基础知识==】
+
+    ![](https://user-gold-cdn.xitu.io/2019/2/18/16900fde7fec739e?imageslim)
+
+* [译] 用这些 iOS 技巧让你的 APP 性能更佳[点击前往](https://juejin.im/post/5c6a0b6ef265da2de660f83f)【==小常识==】
+    * `简要概括: 良好的性能对于提供良好的用户体验至关重要，iOS 用户通常对其应用程序抱有很高的期望。缓慢且无响应的应用可能会让用户放弃使用你的应用，或者更糟糕的是，对应用留下差评。
+    虽然现代 iOS 硬件功能十分强大，足以处理许多密集和复杂的任务，但是如果你不关心你的 APP 是怎么执行的话，用户的设备仍会出现无响应的情况。在本文中，我们将研究五种优化技巧，使你的 APP 更流畅。`
+
+* iOS 本地图片优化实践[点击前往](https://juejin.im/post/5c6826656fb9a049dc02c958)【==小常识==】
+    * `删除无用图片、去重复、压缩、分析、网络下载、Xcode 配置`
+
+<br>
+<br>
+<br>
+
+
 ## <div align=center>2019/02/18</div>
 * 怎么让self.view的Y从navigationBar下面开始计算[点击前往](https://www.jianshu.com/p/c9fdf8086435)【==小常识==】
 
