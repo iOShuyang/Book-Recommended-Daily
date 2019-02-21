@@ -41,10 +41,36 @@
 <br>
 <br>
 
+## <div align=center>2019/02/21</div>
+* iOS中常见Crash总结[点击前往](https://juejin.im/post/5c617b85e51d45015e0475ac)【==小常识==】
+    * 
+```
+ 1、找不到方法的实现unrecognized selector sent to instance
+找不到方法的实现unrecognized selector sent to instance
+ 2、KVC造成的crash
+ 3、EXC_BAD_ACCESS
+ 4、KVO引起的崩溃
+ 5、集合类相关崩溃
+ 6、多线程中的崩溃
+ 7、Socket长连接，进入后台没有关闭
+ 8、Watch Dog超时造成的crash
+ 9、后台返回NSNull导致的崩溃，多见于Java做后台服务器开发语言
+```
+
+* AppDelegate的模块化+瘦身[点击前往](https://juejin.im/post/5c62caf6e51d457fc905dd75)【==小常识==】
+
+* 关于Socket，看我这几篇就够了(三)原来你是这样的Websocket[点击前往](https://juejin.im/post/5c60e31251882562cf29bdb5)【==基础知识==】
+
+* iOS国际化（多语言）漫谈[点击前往](https://juejin.im/post/5c64cdd2e51d45015b4ca8aa)【==基础知识==】
+
+<br>
+<br>
+<br>
+
+
+
 ## <div align=center>2019/02/20</div>
 * 丧心病狂的Github技巧[点击前往](https://www.jianshu.com/p/758e8bd48308)【==基础知识==】
-
-    ![](https://user-gold-cdn.xitu.io/2019/2/18/16900fde7fec739e?imageslim)
 
 * Flutter试用报告[点击前往](https://juejin.im/post/5c64cc2d518825626b76d7a5)【==混编==】
 
