@@ -41,12 +41,25 @@
 <br>
 <br>
 
-## <div align=center>2019/02/27</div>
+## <div align=center>2019/03/01</div>
+* Why flutter, how to flutter?[点击前往](https://www.jianshu.com/p/a1344cfea21d)【==开发模式==】
+
+* flutter基础-看完这篇就可以撸app了[点击前往](http://www.cocoachina.com/ios/20180612/23765.html)【==开发模式==】
+
+* Flutter知乎App实践：UI+Json+Utils[点击前往](https://juejin.im/post/5c5014a6518825260d7ef89a)【==开发模式==】
+
+* Flutter调试技巧总结——高效开发的秘密[点击前往](https://juejin.im/post/5bb9b8a75188255c791b1984)【==开发模式==】
+
+<br>
+<br>
+<br>
+
+## <div align=center>2019/02/28</div>
 * Flutter中文网[点击前往](https://flutterchina.club/get-started/codelab/)【==开发模式==】
 
 * React Native中文网[点击前往](https://reactnative.cn/docs/next/getting-started/)【==开发模式==】
 
-* Flutter知乎App实践：UI+Json+Utils[点击前往](https://juejin.im/post/5c5014a6518825260d7ef89a)【==开发模式==】
+* flutter的一个强大的特性就是其炫酷霸气的UI库，官方传送门 Material-UI库[点击前往](https://v0.material-ui.com/#/)【==开发模式==】
 
 <br>
 <br>
