@@ -41,6 +41,23 @@
 <br>
 <br>
 
+## <div align=center>2019/03/11</div>
+* Flutter 即学即用系列博客——04 Flutter UI 初窥[点击前往](https://juejin.im/post/5c862d15f265da2da67c65d4)【==开发模式==】
+
+* Dart vs Swift[点击前往](https://juejin.im/post/5c506a7c51882525c71333d2)【==开发模式==】
+    ![](https://user-gold-cdn.xitu.io/2019/1/29/1689a21b2d263a75?imageView2/1/w/1304/h/734/q/85/interlace/1)
+
+* Flutter开发之Dart语法基础[点击前往](https://juejin.im/post/5c6ba76551882562ea7233a3)【==开发模式==】
+
+* Flutter开发之Dart的数据类型01[点击前往](https://juejin.im/post/5c6cbd7651882523f026608c)【==开发模式==】
+
+* Flutter开发之Dart的数据类型02[点击前往](https://juejin.im/post/5c788a7cf265da2d8b635742)【==开发模式==】
+
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2019/03/01</div>
 * Why flutter, how to flutter?[点击前往](https://www.jianshu.com/p/a1344cfea21d)【==开发模式==】
 
