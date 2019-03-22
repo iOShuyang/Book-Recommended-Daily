@@ -41,6 +41,19 @@
 <br>
 <br>
 
+## <div align=center>2019/03/22</div>
+![](https://user-gold-cdn.xitu.io/2019/1/20/1686a75118251a47?imageslim)
+
+* Flutter学习之入门和体验[点击前往](https://juejin.im/post/5c443681f265da613a544bca)【==开发模式==】
+
+* Flutter学习之Dart语法特性[点击前往](https://juejin.im/post/5c44727df265da611c274087)【==开发模式==】
+
+* Flutter学习之认知基础组件[点击前往](https://juejin.im/post/5c5c1f21e51d457fcc5a9f9f)【==开发模式==】
+
+* Flutter学习之布局、交互、动画[点击前往](https://juejin.im/post/5c617e34f265da2d90581613)【==开发模式==】
+
+* Flutter学习之事件循环机制、数据库、网络请求[点击前往](https://juejin.im/post/5c698a606fb9a049d81c63df)【==开发模式==】
+
 ## <div align=center>2019/03/11</div>
 * Flutter 即学即用系列博客——04 Flutter UI 初窥[点击前往](https://juejin.im/post/5c862d15f265da2da67c65d4)【==开发模式==】
 
