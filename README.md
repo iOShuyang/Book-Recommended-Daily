@@ -41,6 +41,25 @@
 <br>
 <br>
 
+
+## <div align=center>2019/03/25</div>
+
+```
+Pusher Channels provides realtime communication between servers, apps and devices. Pusher Channels is used for notifications, chat, gaming, web-page updates, IoT, and many other systems requiring realtime communication.
+
+When something happens in your system, it can update web-pages, apps and devices. When an event happens on an app, the app can notify all other apps and your system. For example, If the price of Bitcoin changes, your system could update the display of all open apps and web-pages. Or if Bob starts typing a message, his app could tell Alice’s app to display “Bob is typing …”.
+
+Pusher Channels has libraries for everything: web browsers, iOS and Android apps, PHP frameworks, cloud functions, bash scripts, IoT devices. Pusher Channels works everywhere because it uses WebSockets and HTTP, and provides fallbacks for devices that don’t support WebSockets.
+```
+* [iOS快速入门](https://pusher.com/docs/ios_quick_start)
+
+* [Pusher的github](https://github.com/pusher/pusher-websocket-swift#configuration)
+
+![](https://www.vixverify.com/assets/uploads/2016/08/verification-ID2-600x476.jpg)
+* [身份验证Green ID](https://www.vixverify.com/greenid-services/verification-of-identity/)
+
+* [IOS GreenID SDK](https://vixverify.atlassian.net/wiki/spaces/GREEN/pages/63746413/IOS+GreenID+SDK+GIDResources.bundle+Configuration.)
+
 ## <div align=center>2019/03/22</div>
 ![](https://user-gold-cdn.xitu.io/2019/1/20/1686a75118251a47?imageslim)
 
