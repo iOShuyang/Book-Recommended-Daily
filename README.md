@@ -40,7 +40,20 @@
 <br>
 <br>
 <br>
+## <div align=center>2019/03/26</div>
+* Swift5 新特性预览[点击前往](http://www.cocoachina.com/ios/20180510/23345.html)【==基础知识==】
 
+* Dart Packages[点击前往](https://pub.dartlang.org)【==开发模式==】
+
+* flutter常用插件[点击前往](https://www.jianshu.com/p/028b9d4c65e3)【==开发模式==】
+
+* Flutter 一些常用库[点击前往](https://www.cnblogs.com/yangyxd/p/9232308.html)【==开发模式==】
+
+* Flutter部分插件 后续持续更新～[点击前往](https://www.jianshu.com/p/c78ef5cf7f6a)【==开发模式==】
+
+<br>
+<br>
+<br>
 
 ## <div align=center>2019/03/25</div>
 
@@ -60,6 +73,10 @@ Pusher Channels has libraries for everything: web browsers, iOS and Android apps
 
 * [IOS GreenID SDK](https://vixverify.atlassian.net/wiki/spaces/GREEN/pages/63746413/IOS+GreenID+SDK+GIDResources.bundle+Configuration.)
 
+<br>
+<br>
+<br>
+
 ## <div align=center>2019/03/22</div>
 ![](https://user-gold-cdn.xitu.io/2019/1/20/1686a75118251a47?imageslim)
 
@@ -72,6 +89,10 @@ Pusher Channels has libraries for everything: web browsers, iOS and Android apps
 * Flutter学习之布局、交互、动画[点击前往](https://juejin.im/post/5c617e34f265da2d90581613)【==开发模式==】
 
 * Flutter学习之事件循环机制、数据库、网络请求[点击前往](https://juejin.im/post/5c698a606fb9a049d81c63df)【==开发模式==】
+
+<br>
+<br>
+<br>
 
 ## <div align=center>2019/03/11</div>
 * Flutter 即学即用系列博客——04 Flutter UI 初窥[点击前往](https://juejin.im/post/5c862d15f265da2da67c65d4)【==开发模式==】
@@ -223,6 +244,8 @@ Pusher Channels has libraries for everything: web browsers, iOS and Android apps
 * [Auth0集成文档](https://auth0.com/docs/quickstart/native/ios-swift)
 
 * [Auth0的GitHub上的demo](https://github.com/auth0/Auth0.swift)
+
+* [Auth0的Lock for iOS v2 Style Customization ](https://auth0.com/docs/libraries/lock-ios/v2/customization)
 
 <br>
 <br>
