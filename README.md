@@ -41,6 +41,17 @@
 <br>
 <br>
 
+## <div align=center>2019/04/19</div>
+* Xcode9 Swift4下编译Swift第三方框架时报错Swift compiler Error的解决方案[点击前往](https://www.jianshu.com/p/2c0e9c70b8ad)【==小常识==】
+
+* iOS Xcode自定义代码块以及迁移[点击前往](http://www.cocoachina.com/ios/20190416/26821.html)【==小常识==】
+
+* RunLoop实战：实时卡顿监控[点击前往](https://juejin.im/post/5cacb2baf265da03904bf93b)【==性能==】
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2019/03/29</div>
 * iOS开发常用框架总览！[点击前往](http://www.cocoachina.com/ios/20190314/26565.html)【==基础知识==】
 
@@ -58,7 +69,7 @@
 <br>
 
 ## <div align=center>2019/03/29</div>
-![](https://user-gold-cdn.xitu.io/2018/8/2/164fb2a8c8db84df?imageView2/1/w/1304/h/734/q/85/interlace/1)
+![](https://raw.githubusercontent.com/iOShuyang/Book-Save-PhotoAlbum/master/164fb2a8c8db84df.png)
 * Flutter 完整开发实战详解(一、Dart 语言和 Flutter 基础)[点击前往](https://juejin.im/post/5b631d326fb9a04fce524db2)【==开发模式==】
 
 * Flutter 完整开发实战详解(二、快速实战篇)[点击前往](https://juejin.im/post/5b685a2a5188251ac22b71c0)【==开发模式==】
@@ -73,6 +84,11 @@
 
 * Flutter 完整开发实战详解(七、 深入布局原理)[点击前往](https://juejin.im/post/5c8c6ef7e51d450ba7233f51)【==开发模式==】
 
+* Flutter完整开发实战详解(八、 实用技巧与填坑)[点击前往](https://www.jianshu.com/p/8117fbc5b4d3)【==开发模式==】
+
+* Flutter完整开发实战详解(九、 深入绘制原理)[点击前往](https://www.jianshu.com/p/d7693c47a70e)【==开发模式==】
+
+* Flutter完整开发实战详解(十、 深入图片加载流程)[点击前往](https://www.jianshu.com/p/d3c94d01bd3f)【==开发模式==】
 
 <br>
 <br>
@@ -83,7 +99,6 @@
 * iOS 如何查找app在模拟器下的文件[点击前往](https://www.jianshu.com/p/a1e3e526a997)<br>[翻墙点击前往](https://stackoverflow.com/questions/6480607/is-there-any-way-to-see-the-file-system-on-the-ios-simulator)【==小常识==】
 
 * Navicat Premium 12.1.18 强大的数据库管理工具[点击前往](https://xclient.info/s/navicat-premium.html#versions)
-    ![](https://img.xclient.info/attachment/2017/06/4b2b3f4a-8a69-8d4c-a776-99633d4a8eec.png)
 
 <br>
 <br>
