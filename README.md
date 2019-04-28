@@ -41,6 +41,26 @@
 <br>
 <br>
 
+## <div align=center>2019/04/28</div>
+* iOS Enabled 和 UserInteractionEnabled 的区别[点击前往](https://www.jianshu.com/p/6d9791541747)【==小常识==】
+
+* iOS 录音、音频的拼接剪切以及边录边压缩转码[点击前往](https://www.jianshu.com/p/1a752b92070b)【==视频==】
+   
+    `总体内容
+    1、录音实现
+    2、录音的编辑 (拼接音频:可以设置多段，音频的剪切：按照时间段剪切)
+    3、lame静态库进行压缩转码`
+    
+* 如何用好 github 中的 watch、star、fork[点击前往](https://www.jianshu.com/p/6c366b53ea41)【==小常识==】
+
+* 自从升级到Xcode 10.2后，我无法再通过cli运行react-native run-ios[点击前往](https://cloud.tencent.com/developer/ask/210512)【==小常识==】
+    
+    `此问题这两天一直困扰着我，请问有没有高手知道如何具体处理，按照此文章思路暂时未解决`
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2019/04/19</div>
 * Xcode9 Swift4下编译Swift第三方框架时报错Swift compiler Error的解决方案[点击前往](https://www.jianshu.com/p/2c0e9c70b8ad)【==小常识==】
 
