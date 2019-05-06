@@ -41,6 +41,25 @@
 <br>
 <br>
 
+## <div align=center>2019/05/06</div>
+* Firebase 初步使用教程[点击前往](https://www.jianshu.com/p/d5f3fa462515)【==三方框架==】
+
+* Firebase 教程 —— 一个实时聊天室  [点击前往](https://www.jianshu.com/p/98eb3356593b)【==三方框架==】  
+     
+     `Firebase是一家实时后端数据库创业公司，它能帮助开发者很快的写出Web端和移动端的应用。自2014年10月Google收购Firebase以来，用户可以在更方便地使用Firebase的同时，结合Google的云服务。`
+     
+     `Firebase能让你的App从零到一。也就是说它可以帮助手机以及网页应用的开发者轻松构建App。通过Firebase背后负载的框架就可以简单地开发一个App，无需服务器以及基础设施。`
+     ![](https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike180%2C5%2C5%2C180%2C60/sign=14e1c399a76eddc432eabca958b2dd98/78310a55b319ebc4ad509be58826cffc1e1716a5.jpg)
+
+
+* Mac下配置全局gradlew命令  [点击前往](https://www.cnblogs.com/huyang011/p/9758126.html)【==小常识==】
+
+
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2019/04/28</div>
 * iOS Enabled 和 UserInteractionEnabled 的区别[点击前往](https://www.jianshu.com/p/6d9791541747)【==小常识==】
 
