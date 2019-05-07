@@ -41,6 +41,41 @@
 <br>
 <br>
 
+## <div align=center>2019/05/07</div>
+`在项目实战当中遇到的问题`
+
+* flutter环境搭建mac版[点击前往](https://segmentfault.com/a/1190000014845833)【==开发模式==】
+  
+  `1.系统环境要求
+   2.下载flutter
+   3.配置环境变量
+   4.检查环境
+   5.搭建环境常见问题整理
+  `
+
+* flutter APP 编译运行时报 package androidx && AAPT 、AAPT2 && parsing resources[点击前往](https://blog.csdn.net/julystroy/article/details/88793817)【==开发模式==】
+
+     `This version of image_picker will break your Android build if it or its dependencies aren't compatible with Android`
+
+
+* flutter错误解决--Error running Gradle 错误[点击前往](https://blog.csdn.net/mo911108/article/details/88603003)【==开发模式==】
+
+    `在Debug项目的时候， 出现  Error running Gradle:一般是因为不能翻墙的原因`
+    
+    
+* Flutter已有项目导入，没法启动Android模拟器的解决方法(iOS模拟器可以启动)[点击前往](https://juejin.im/post/5b5044d26fb9a04f9a5cd1a8)【==开发模式==】
+   
+   
+* Flutter打包IPA报错Could not find an option named "track-widget-creation".[点击前往](https://blog.csdn.net/weixin_34306446/article/details/87538720)【==开发模式==】
+
+     `在Xcode上进行archive之前先在终端运行以下命令行：
+     进入项目目录
+     $flutter build ios --release`
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2019/05/06</div>
 * Firebase 初步使用教程[点击前往](https://www.jianshu.com/p/d5f3fa462515)【==三方框架==】
 
