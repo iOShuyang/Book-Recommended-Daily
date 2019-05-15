@@ -41,6 +41,39 @@
 <br>
 <br>
 
+
+## <div align=center>2019/05/15</div>
+```
+Pusher Channels provides realtime communication between servers, apps and devices. Pusher Channels is used for notifications, chat, gaming, web-page updates, IoT, and many other systems requiring realtime communication.
+
+When something happens in your system, it can update web-pages, apps and devices. When an event happens on an app, the app can notify all other apps and your system. For example, If the price of Bitcoin changes, your system could update the display of all open apps and web-pages. Or if Bob starts typing a message, his app could tell Alice’s app to display “Bob is typing …”.
+
+Pusher Channels has libraries for everything: web browsers, iOS and Android apps, PHP frameworks, cloud functions, bash scripts, IoT devices. Pusher Channels works everywhere because it uses WebSockets and HTTP, and provides fallbacks for devices that don’t support WebSockets.
+```
+
+* [Pusher的CHANNELS](https://pusher.com/docs/channels)
+
+* [Pusher的CHANNELS的github](https://github.com/pusher/pusher-websocket-swift#configuration)
+
+
+```
+Chatkit is designed to make it as simple as possible to add chat to your app. It lets you add 1-1 and group chat to your app, along with typing indicators, file attachments and storage, user online presence and a flexible permissions system.
+```
+* [Pusher的CHATKIT](https://pusher.com/docs/chatkit)
+
+* [Pusher的CHATKIT的github](https://github.com/pusher/chatkit-swift#installation)
+
+
+```
+Beams makes it easy to send push notifications to iOS and Android apps. It takes the hassle out of managing device tokens and interacting with Apple and Google's messaging services. With Interest subscriptions to notify segmented devices in each request and delivery SLAs offered on premium plans, it's built to scale.
+```
+* [Pusher的BEAMS](https://pusher.com/docs/beams)
+
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2019/05/13</div>
 * 学习并理解 23 种设计模式[点击前往](https://juejin.im/post/5c8756e6e51d456cda2e7ff1)【==基础知识==】
   
@@ -219,18 +252,6 @@
 <br>
 
 ## <div align=center>2019/03/25</div>
-
-```
-Pusher Channels provides realtime communication between servers, apps and devices. Pusher Channels is used for notifications, chat, gaming, web-page updates, IoT, and many other systems requiring realtime communication.
-
-When something happens in your system, it can update web-pages, apps and devices. When an event happens on an app, the app can notify all other apps and your system. For example, If the price of Bitcoin changes, your system could update the display of all open apps and web-pages. Or if Bob starts typing a message, his app could tell Alice’s app to display “Bob is typing …”.
-
-Pusher Channels has libraries for everything: web browsers, iOS and Android apps, PHP frameworks, cloud functions, bash scripts, IoT devices. Pusher Channels works everywhere because it uses WebSockets and HTTP, and provides fallbacks for devices that don’t support WebSockets.
-```
-* [iOS快速入门](https://pusher.com/docs/ios_quick_start)
-
-* [Pusher的github](https://github.com/pusher/pusher-websocket-swift#configuration)
-
 ![](https://www.vixverify.com/assets/uploads/2016/08/verification-ID2-600x476.jpg)
 * [身份验证Green ID](https://www.vixverify.com/greenid-services/verification-of-identity/)
 
