@@ -41,6 +41,30 @@
 <br>
 <br>
 
+## <div align=center>2019/05/16</div>
+* 关于iOS选取相册中iCloud云上图片和视频[点击前往](http://www.cnblogs.com/junhuawang/p/8034247.html)【==小常识==】
+
+    `由于手机内存小，而用户又打开了相册同步iCloud，在这时，如果本地可用内存过小，会导致
+    将本地相册中的图片或视频删除只留缩略图，如果App调用的时候想要选取这种图片就需要从iCloud云中进行下载，
+    才能获取原图或原视频。`
+
+* iOS iCloud入门  [点击前往](https://blog.csdn.net/u012265444/article/details/77714727)【==基础知识==】
+   
+    `1.1为应用开启iCloud服务
+    1.2设置iCloud的数据
+    1.3代码操作iCloud功能`
+
+* iOS项目iCloud及CloudKit Dashboard运用  [点击前往](http://www.cnblogs.com/wujy/p/5971273.html)【==基础知识==】
+
+
+
+* iOS开发-iCloud的简单使用（1）-配置iCloud环境以及key-value storage的使用  [点击前往](https://www.jianshu.com/p/c1373fb12ebc)【==基础知识==】
+* iOS开发-iCloud的简单使用（2）-Documents数据的使用 [点击前往](https://www.jianshu.com/p/43186b39f9b0)【==基础知识==】
+* iOS开发-iCloud的简单使用（3）-Cloud Kit的使用 [点击前往](https://www.jianshu.com/p/ddb8f4ff7ac3)【==基础知识==】
+
+<br>
+<br>
+<br>
 
 ## <div align=center>2019/05/15</div>
 ```
