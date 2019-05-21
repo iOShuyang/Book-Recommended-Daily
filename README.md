@@ -41,6 +41,31 @@
 <br>
 <br>
 
+## <div align=center>2019/05/21</div>
+* Flutter 接入 firebase 快速构建应用[点击前往](https://juejin.im/post/5c90514e6fb9a070c859029c)【==三方框架==】
+     `
+     Firebase 为后台开发提供以下几个功能
+    1.实时数据库（Realtime database）
+    2.用户认证（Authentication）
+    3.自定义API（Cloud function）
+    4.消息推送（Cloud messaging）
+    5.静态网页Hosting
+    6.云存储（Cloud storage）
+    7.实时监控（Analytics）`
+    
+* 将 Firebase 添加到您的 Flutter 应用 [点击前往](https://firebase.google.cn/docs/flutter/setup?hl=zh-cn)【==三方框架==】 
+
+
+* Flutter进阶—Firebase数据库实例 [点击前往](https://blog.csdn.net/hekaiyou/article/details/74990042)【==三方框架==】 
+
+* firebase cloud message 使用 [点击前往](https://www.jianshu.com/p/db752f05db30)【==三方框架==】 
+
+* Flutter – Firestore CRUD (Reading and writing data) [点击前往](https://tphangout.com/flutter-firestore-crud-reading-and-writing-data/)【==三方框架==】 
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2019/05/16</div>
 * 关于iOS选取相册中iCloud云上图片和视频[点击前往](http://www.cnblogs.com/junhuawang/p/8034247.html)【==小常识==】
 
