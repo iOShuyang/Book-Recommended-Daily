@@ -41,6 +41,21 @@
 <br>
 <br>
 
+## <div align=center>2019/06/04</div>
+* WWDC2019之SwiftUI[点击前往](https://juejin.im/post/5cf5f4596fb9a07ede0b2fa1)【==开发模式==】
+ 
+    `SwiftUI只支持Xcode 11、iOS 13版本及以上。`
+    
+* Introducing SwiftUI[官网](https://developer.apple.com/tutorials/swiftui)【==开发模式==】
+    ![](https://docs-assets.developer.apple.com/published/b7f464081b/d04c64b4-ca23-47b6-8701-7d1468760d7c.png)
+
+* iOS13-适配夜间模式/深色外观(Dark Mode)[点击前往](https://juejin.im/post/5cf6276be51d455a68490b26)【==小常识==】
+
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2019/05/21</div>
 * Flutter 接入 firebase 快速构建应用[点击前往](https://juejin.im/post/5c90514e6fb9a070c859029c)【==三方框架==】
      `
