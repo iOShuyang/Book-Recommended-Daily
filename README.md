@@ -41,6 +41,38 @@
 <br>
 <br>
 
+## <div align=center>2019/07/19</div>
+* 使用Moya库,进行https证书校验[点击前往](https://www.jianshu.com/p/7d4b96f69087)【==网络==】
+
+```
+public func defaultAlamofireManager() -> Manager {
+   let configuration = URLSessionConfiguration.default
+   configuration.httpAdditionalHeaders = Alamofire.SessionManager.defaultHTTPHeaders
+   //获取本地证书
+   let path: String = Bundle.main.path(forResource: "证书名", ofType: "cer")!
+   let certificateData = try? Data(contentsOf: URL(fileURLWithPath: path)) as CFData
+   let certificate = SecCertificateCreateWithData(nil, certificateData!)
+   let certificates :[SecCertificate] = [certificate!]
+   
+   let policies: [String: ServerTrustPolicy] = [
+       "域名" : .pinCertificates(certificates: certificates, validateCertificateChain: true, validateHost: true)
+   ]
+   let manager = Alamofire.SessionManager(configuration: configuration,serverTrustPolicyManager: ServerTrustPolicyManager(policies: policies))
+   return manager
+}
+//把defaultAlamofireManager当参数传进去就行了
+let kProvider = MoyaProvider<APIManager>(endpointClosure: myEndpointClosure, requestClosure: requestClosure, manager:defaultAlamofireManager(), plugins: [networkPlugin], trackInflights: false)
+```
+
+* iOS：自签名证书 xxx.crt 转化成 xxx.cer 格式[点击前往](https://www.jianshu.com/p/128b0275eeea)【==网络==】
+
+* iOS - Swift NSTimeZone	时区[点击前往](https://www.cnblogs.com/QianChia/p/5777449.html)【==小常识==】
+
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2019/06/10</div>
 * ios 日期格式 日期转换[点击前往](https://blog.csdn.net/reylen/article/details/8028641)【==小常识==】
   
