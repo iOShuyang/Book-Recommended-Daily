@@ -41,6 +41,24 @@
 <br>
 <br>
 
+## <div align=center>2019/08/06</div>
+* 分析一个App需要的技术手段[点击前往](https://www.jianshu.com/p/7d4b96f69087)【==逆向==】
+    ![](https://mmbiz.qpic.cn/mmbiz_png/rzprzksWzSgJFj1Ls4DT4nWwxhiblZjgnKjQqesTVNk1E9eBos1Gd35ymLK4jH6d7ZUz0f4Aicfh1mF0rh9ia7szw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+    
+    
+* (强烈推荐)移动端音视频从零到上手[点击前往](https://juejin.im/post/5d29d884f265da1b971aa220)【==视频==】
+    * 原理（采集-处理-编码-传输-解码-音视频同步）
+    * 推流，拉流
+
+
+* RoyalPay网关支付接口[点击前往](https://mpay.royalpay.com.au/docs/cn/#api-JSApi-WxJSAPIPay)【==支付==】
+![](https://mpay.royalpay.com.au/docs/cn/img/RoyalPay_Gateway_choose_cn.jpg)
+
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2019/07/19</div>
 * 使用Moya库,进行https证书校验[点击前往](https://www.jianshu.com/p/7d4b96f69087)【==网络==】
 
