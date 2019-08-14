@@ -41,8 +41,27 @@
 <br>
 <br>
 
+## <div align=center>2019/08/14</div>
+* contentful iOS SDK[点击前往](https://www.contentful.com/developers/docs/ios/tutorials/using-delivery-api-with-swift/)【==三方框架==】
+
+    `Contentful希望通过将存储内容的位置与显示内容的方式分离的手段，解决目前存在的种种问题。在这种解决方案之下，开发人员可以通过应用程序接口（API）访问每段内容（如本文的标题）。事实上，在目前的现代网络环境大背景之下，对于开发人员来说，基于API的内容管理系统操作更简洁。同时，由于内容创建者能够在同一个存储库里编写和更改内容，所以他们能够随心所以地进行跨平台无缝修改。
+    `
+
+* 如何优雅地解决 Objective-C 不支持方法默认参数的问题[点击前往](https://juejin.im/post/5d4ff10f51882515084f55a3)【==基础知识==】
+
+* 有赞移动 iOS 组件化（模块化）架构设计实践[点击前往](https://juejin.im/post/5d4136295188255d5861d0e4)【==基础知识==】
+
+    `业务组件化（或者叫模块化）作为移动端应用架构的主流方式之一，近年来一直是业界积极探索和实践的方向。有赞移动团队自16年起也在不断尝试各种组件化方案，在有赞微信商城，有赞零售，有赞美业等多个应用中进行了实践。我们踩过一些坑，也收获了很多宝贵的经验，并沉淀出 iOS 相关框架 Bifrost (雷神里的彩虹桥)。在过程中我们深刻体会到“没有绝对正确的架构，只有最合适的架构”这句话的意义。很多通用方案只是组件化的冰山一角，实际落地过程中还有相当多的东西需要考量。
+    `
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2019/08/06</div>
 * 分析一个App需要的技术手段[点击前往](https://www.jianshu.com/p/7d4b96f69087)【==逆向==】
+
+
     ![](https://mmbiz.qpic.cn/mmbiz_png/rzprzksWzSgJFj1Ls4DT4nWwxhiblZjgnKjQqesTVNk1E9eBos1Gd35ymLK4jH6d7ZUz0f4Aicfh1mF0rh9ia7szw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
     
     
