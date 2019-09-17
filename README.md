@@ -30,13 +30,26 @@
 
 -------
 
-【==开发模式==】【==混编==】【==开发==】【==版本管理==】
+【==开发模式==】【==混编==】【==开发==】【==版本管理==】【==服务器==】
 
 -------
 
 【==审核==】 【==推广==】
 
 -------
+<br>
+<br>
+<br>
+
+## <div align=center>2019/09/17</div>
+`目前比较流行服务端框架主要有Vapor、Perfect、Kitura和Zewo`
+* 阿里云[点击前往](https://www.aliyun.com/?spm=5176.12302674.fszjobuve.2.7f854e01auD8Yy)
+
+* Mac下 Ubuntu 16.04 配置http、https[点击前往](https://www.jianshu.com/p/4a4af62efa35)【==服务器==】
+* Swift + Perfect 开发你的服务器（初级版）[点击前往](https://www.jianshu.com/p/0531baaff867)【==服务器==】
+* Swift + Perfect 开发你的服务器（中级版）[点击前往](https://www.jianshu.com/p/de9fe773ee86)【==服务器==】
+* Swift + Perfect 开发你的服务器（高级版）[点击前往](https://www.jianshu.com/p/a63d23fc8614)【==服务器==】
+
 <br>
 <br>
 <br>
