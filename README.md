@@ -18,7 +18,7 @@
 
 -------
 
-【==小常识==】【==时间==】【==颜色==】【==二维码==】【==地图==】【==网络==】【==相册==】【==定时器==】【==推送==】
+【==小常识==】【==时间==】【==颜色==】【==二维码==】【==地图==】【==网络==】【==相册==】【==定时器==】【==推送==】【==模拟器==】
 
 -------
 
@@ -40,6 +40,20 @@
 <br>
 <br>
 <br>
+
+## <div align=center>2019/10/08</div>
+* iOS 使用模拟器模拟定位[点击前往](https://www.jianshu.com/p/c8e5badacd37)【==模拟器==】
+
+* 史上最强、最详细无痕埋点方案[点击前往](http://www.cocoachina.com/articles/50070)【==架构==】
+
+
+* iOS动画总结：UIKit动画和Core Animation[点击前往](https://www.jianshu.com/p/043e7ec7f3ef)【==动画==】
+* iOS动画，从入门到放弃?[点击前往](https://www.jianshu.com/p/2fcc2a318925)【==动画==】
+
+<br>
+<br>
+<br>
+
 
 ## <div align=center>2019/09/17</div>
 `目前比较流行服务端框架主要有Vapor、Perfect、Kitura和Zewo`
