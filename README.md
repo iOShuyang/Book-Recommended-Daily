@@ -41,6 +41,17 @@
 <br>
 <br>
 
+## <div align=center>2019/11/13</div>
+* iOS 13 适配要点总结[点击前往](https://juejin.im/post/5d8af88ef265da5b6e0a23ac)【==小常识==】
+
+* post使用form-data和x-www-form-urlencoded的本质区别[点击前往](https://blog.csdn.net/u013827143/article/details/86222486)【==基础知识==】
+
+* form-data、x-www-form-urlencoded、raw、binary的区别[点击前往](https://blog.csdn.net/ye1992/article/details/49998511)【==基础知识==】
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2019/10/08</div>
 * iOS 使用模拟器模拟定位[点击前往](https://www.jianshu.com/p/c8e5badacd37)【==模拟器==】
 
