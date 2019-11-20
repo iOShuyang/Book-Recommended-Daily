@@ -41,6 +41,18 @@
 <br>
 <br>
 
+
+## <div align=center>2019/11/20</div>
+* 理解RESTful架构[点击前往](https://www.ruanyifeng.com/blog/2011/09/restful.html)【==规范==】
+
+* RESTful API 设计指南[点击前往](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)【==规范==】
+
+* RESTful API 最佳实践[点击前往](http://www.ruanyifeng.com/blog/2018/10/restful-api-best-practices.html)【==规范==】
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2019/11/13</div>
 * iOS 13 适配要点总结[点击前往](https://juejin.im/post/5d8af88ef265da5b6e0a23ac)【==小常识==】
 
