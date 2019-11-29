@@ -41,6 +41,16 @@
 <br>
 <br>
 
+## <div align=center>2019/11/29</div>
+* 在 iOS 里 100% 还原 Sketch 实现的阴影效果[点击前往](https://juejin.im/post/5dd4cd71f265da0bf80b5820)【==小常识==】
+
+* iOS使用模拟器各种网络环境调试[点击前往](https://www.jianshu.com/p/cbaa06715b75)【==小常识==】
+
+* iOS Universal Links实现微信内网页跳转至App的方案[点击前往](https://www.jianshu.com/p/704fc947a1d8)【==小常识==】
+
+<br>
+<br>
+<br>
 
 ## <div align=center>2019/11/20</div>
 * 理解RESTful架构[点击前往](https://www.ruanyifeng.com/blog/2011/09/restful.html)【==规范==】
