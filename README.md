@@ -41,6 +41,51 @@
 <br>
 <br>
 
+## <div align=center>2019/12/31</div>
+* iOS 13 适配要点总结[点击前往](https://juejin.im/post/5d8af88ef265da5b6e0a23ac)【==小常识==】
+
+```
+适配要求
+根据官网的说法，2020年4月之后所有提交到 App Store 的 iPhone 和 iPad 应用必须使用 iOS 13 以上的 SDK 进行编译，并支持 iPhone Xs Max 或 12.9 寸 iPad Pro (3代) 及以后版本的全屏幕设计。
+
+新特性适配
+1. Dark Mode
+2. Sign In with Apple
+
+API 适配
+1. 私有方法 KVC 可能导致崩溃
+2. 推送的 deviceToken 获取到的格式发生变化
+3. 模态视图的默认样式发生改变
+4. UISearchBar 黑线处理导致崩溃
+5. UITabBarButton 不同状态下结构不同
+6. UINavigationBar 设置按钮边距导致崩溃
+7. 子线程修改界面导致崩溃（相册首次授权回调必现）
+
+方法弃用
+1. UIWebView 将被禁止提交审核
+2. 使用 UISearchDisplayController 导致崩溃
+3. MPMoviePlayerController 被弃用
+
+工程适配
+1. 蓝牙权限字段更新导致崩溃以及提交审核失败
+2. CNCopyCurrentNetworkInfo 使用要求更严格
+3. LaunchImage 被弃用
+4. UISegmentedControl 默认样式改变
+5. Xcode 11 创建的工程在低版本设备上运行黑屏
+6. 默认弹出样式打开的页面在 WKWebView 中获取照片崩溃
+
+SDK 适配
+1. 使用 @available 导致旧版本 Xcode 编译出错
+```
+
+* iOS导航栏之UINavigationController,UINavigationbar和UINavigationItem的关系[点击前往](https://www.jianshu.com/p/6803ead6df48)【==小常识==】
+
+* iOS中使用blend改变图片颜色[点击前往](https://onevcat.com/2013/04/using-blending-in-ios/)【==绘制==】
+
+<br>
+<br>
+<br> 
+
 ## <div align=center>2019/11/29</div>
 * 在 iOS 里 100% 还原 Sketch 实现的阴影效果[点击前往](https://juejin.im/post/5dd4cd71f265da0bf80b5820)【==小常识==】
 
