@@ -40,6 +40,19 @@
 <br>
 <br>
 <br>
+## <div align=center>2019/12/31</div>
+* Xcode 打包到蒲公英[点击前往](https://blog.csdn.net/zhangyingeiOS/article/details/93473543)【==小常识==】
+* Xcode10+打包内测版苹果ipa并发布到蒲公英平台[点击前往](https://www.jianshu.com/p/d32c174c51ec)【==小常识==】
+<br>
+
+* iOS APP之间的跳转方式[点击前往](https://www.jianshu.com/p/5c77f6e5ef90)【==小常识==】
+* iOS--两个APP之间的相互跳转[点击前往](https://www.jianshu.com/p/403d9e067b81)【==小常识==】
+* iOS应用之间的跳转，看这篇就够了[点击前往](https://www.jianshu.com/p/6b746f95b568)【==小常识==】
+
+
+<br>
+<br>
+<br>
 
 ## <div align=center>2019/12/31</div>
 * iOS 13 适配要点总结[点击前往](https://juejin.im/post/5d8af88ef265da5b6e0a23ac)【==小常识==】
