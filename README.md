@@ -41,6 +41,23 @@
 <br>
 <br>
 
+## <div align=center>2020/05/22</div>
+* podfile中 use_frameworks! 和 #use_frameworks!区别[点击前往](https://www.jianshu.com/p/ac629a1cb8f5)【==小常识==】
+
+* ZFJObsLib-iOS代码混淆工具-马甲包混淆工具（Python脚本混淆iOS工程）[点击前往](https://zfj1128.blog.csdn.net/article/details/95482006)【==审核==】
+
+* pod install速度慢，pod repo update 速度慢解决方法 [点击前往](https://www.cnblogs.com/jys509/p/12016226.html)【==小常识==】
+    ```
+    打开终端
+    输入export ALL_PROXY=socks5://127.0.0.1:1080
+    再 pod install
+    需要开一个终端输入一次有效
+    ```
+    
+<br>
+<br>
+<br>
+
 ## <div align=center>2020/03/23</div>
 * pod忽略引入库的所有警告[点击前往](https://blog.csdn.net/syzd451529064/article/details/100071299)【==小常识==】
 <br>
