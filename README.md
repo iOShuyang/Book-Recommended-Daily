@@ -42,6 +42,37 @@
 <br>
 
 
+## <div align=center>2020/06/05</div>
+* 让iOS 开发更便捷-JSONConverter[点击前往](https://www.jianshu.com/p/cc604d8b1f7a)【==小常识==】
+
+    `JSONConverter是MAC上iOS开发的辅助小工具，可以快速的把json数据转换生成对应的模型类属性，目前支持Objective-C、Swift以及目前流行的第三方库: SwiftyJSON、HandyJSON，ObjectMapper,可以灵活选择构建class/struct，并支持配置类名前缀等,省去手敲模型的麻烦，借此提高我们的开发效率。`
+    
+* 在JSONConverter的基础上调整后的工具JsonModel👍[点击前往](https://github.com/iOShuyang/JsonModel)【==小常识==】  
+<br>
+
+* 学习 Swift Moya（一）[点击前往](https://www.jianshu.com/p/265343901b79)【==框架==】 
+* 学习 Swift Moya（二）- Moya + SwiftyJSON + RxSwift[点击前往](https://www.jianshu.com/p/aba7aed61afd)【==框架==】 
+
+* RxSwift、Alamofire、Moya和HandyJson的结合使用[点击前往](https://blog.csdn.net/LuodeCoding/article/details/106519567)【==框架==】 
+
+<br>
+<br>
+<br>
+
+## <div align=center>2020/06/03</div>
+* iOS 单元测试（Unit Test 和 UI Test）[点击前往](https://www.jianshu.com/p/84ffc4f11042)【==基础知识==】
+* Xcode:为你的项目集成单元测试(unit tests)时记得避开这些坑[点击前往](https://www.jianshu.com/p/d15a7dea0c5a)【==基础知识==】
+<br>
+
+* iOS 13 SceneDelegate适配[点击前往](https://blog.csdn.net/weixin_38735568/article/details/101266408)【==基础知识==】
+* iOS App生命周期及AppDelegate、SceneDelegate[点击前往](https://www.cnblogs.com/Jamwong/p/12347288.html)【==基础知识==】
+* 如何删除SceneDelegate[点击前往](https://blog.csdn.net/weixin_43864837/article/details/104232482)【==基础知识==】
+
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2020/05/28</div>
 * Swift中消失的main函数[点击前往](https://a1049145827.github.io/2018/03/22/Swift%E4%B8%AD%E6%B6%88%E5%A4%B1%E7%9A%84main%E5%87%BD%E6%95%B0/)【==小常识==】
 
