@@ -42,6 +42,25 @@
 <br>
 
 
+## <div align=center>2020/06/11</div>
+* 苹果强制要求更换启动方式的解决方案[点击前往](https://mp.weixin.qq.com/s/mdReGqt5E7T8VWC2q7ImKw)【==审核==】 
+
+    `苹果要求：2020年June 30之前必须将启动方式通过storyboard进行加载。具体参考官方文档(https://developer.apple.com/news/?id=03262020b)。`
+
+* 苹果审核上报[点击前往](https://juejin.im/post/5edafe106fb9a047dd275cc5)【==审核==】 
+
+    `为了能够更好的过审，需要能全面监控苹果审核人员的操作，记录下来，并通过机器人接口上报钉钉群。`
+
+* iOS定义静态变量、静态常量、全局变量[点击前往](https://www.jianshu.com/p/aec2e85b9e84)【==基础知识==】
+
+* iOS 静态、全局变量、常量[点击前往](https://www.jianshu.com/p/7fafc3157432)【==基础知识==】
+
+* 浅谈iOS开发中static变量的三大作用[点击前往](https://www.jb51.net/article/108393.htm)【==基础知识==】
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2020/06/05</div>
 * 让iOS 开发更便捷-JSONConverter[点击前往](https://www.jianshu.com/p/cc604d8b1f7a)【==小常识==】
 
