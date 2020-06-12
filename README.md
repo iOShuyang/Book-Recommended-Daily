@@ -37,10 +37,42 @@
 【==审核==】 【==推广==】
 
 -------
+
 <br>
 <br>
 <br>
 
+## <div align=center>2020/06/12</div>
+* iOS内存缓存和磁盘缓存的区别[点击前往](https://www.jianshu.com/p/3b0e290cc049)【==基础知识==】 
+    `缓存分为内存缓存和磁盘缓存两种，其中内存是指当前程序的运行空间，缓存速度快容量小，是临时存储文件用的，供CPU直接读取，比如说打开一个程序,他是在内存中存储,关闭程序后内存就又回到原来的空闲空间；磁盘是程序的存储空间，缓存容量大速度慢可持久化与内存不同的是磁盘是永久存储东西的，只要里面存放东西,不管运行不运行 ，他都占用空间！磁盘缓存是存在Library/Caches。`
+    
+<br>
+    
+* iOS NSSetUncaughtExceptionHandler[点击前往](https://www.jianshu.com/p/3b0e290cc049)【==优化==】
+    `Foundation里面提供了一个NSSetUncaughtExceptionHandler函数，可以设置一个顶层异常处理函数，让我们在程序发生异常并终止前，有最后的机会来捕获并输出异常信息`
+  
+* ios Crash闪退日志获取和上传至服务器（NSSetUncaughtExceptionHandler）[点击前往](https://blog.csdn.net/folish_audi/article/details/36001629)【==优化==】
+
+* iOS监听signal捕捉崩溃[点击前往](https://www.jianshu.com/p/579a8597cf95)【==优化==】
+
+* [iOS]使用signal让app能够在从容崩溃[点击前往](https://www.cnblogs.com/daxiaxiaohao/p/4466097.html)【==优化==】
+
+* Baymax：网易iOS App运行时Crash自动防护实践[点击前往](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247488311&idx=1&sn=0db090c8d4a5efafa47f00af4b3f174f&source=41&key=136c1b77805d77d5e3fc94f9961e1208e8a1c83f09dd489c62c8423767471a4467f741bbfcd082aa746c107aa7d6d3567ba344fad24ef9d9310961495da22364a024d6bff7ac263ff476828ae770bea4&ascene=0&uin=MTY2Nzc0OTY4MQ%3D%3D&devicetype=iMac+MacBookPro11%2C4+OSX+OSX+10.13.6+build(17G65)&version=12010210&nettype=WIFI&lang=zh_CN&fontScale=100&pass_ticket=PZLiwk2GvlCCMNT7WmjU3s5ly58yCkcbEJvLmX4klJnlEF5y1QmU0ldTSZypp8SM)【==优化==】
+
+    `当然目前系统的功能并没有强大到可以把所有的crash都处理掉，不过一些常见的高频次发生的crash，系统均会针对他们一一处理。目前可以处理掉的crash类型具体有以下几种：
+    1.unrecognized selector crash
+    2.KVO crash
+    3.NSNotification crash
+    4.NSTimer crash
+    5.Container crash（数组越界，插nil等）
+    6.NSString crash （字符串操作的crash）
+    7.Bad Access crash （野指针）
+    8.UI not on Main Thread Crash (非主线程刷UI(机制待改善))
+    对于每种类型的crash，安全系统都采取不同的方式，进行了对应的处理。`
+
+<br>
+<br>
+<br>
 
 ## <div align=center>2020/06/11</div>
 * 苹果强制要求更换启动方式的解决方案[点击前往](https://mp.weixin.qq.com/s/mdReGqt5E7T8VWC2q7ImKw)【==审核==】 
