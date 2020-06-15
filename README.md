@@ -43,6 +43,23 @@
 <br>
 
 ## <div align=center>2020/06/12</div>
+* Swift Combine[点击前往](https://www.jianshu.com/p/df8535b40079)【==基础知识==】 
+    
+    `Combine是Apple在2019年WWDC上推出的一个新框架。该框架提供了一个声明性的Swift API，用于随时间处理值。这些值可以表示多种异步事件。`
+
+* MVVM with Combine Tutorial for iOS[点击前往](https://www.jianshu.com/p/79e5fcf82446)【==基础知识==】 
+    
+    `本教程将介绍如何使用 Combine + SwiftUI + MVVM架构模式 来构建一个简单的天气App。`
+    
+* ios building for ios simulator, but the linked framework ''xxxx" was built for ios 解决[点击前往](https://www.jianshu.com/p/fe75ae11da9a)【==小常识==】
+
+    `在xcode中选择File->WorkSpace Settings->Build System 选择 Legacy Build System 就可以编译通过啦。`
+
+<br>
+<br>
+<br>
+
+## <div align=center>2020/06/12</div>
 * iOS内存缓存和磁盘缓存的区别[点击前往](https://www.jianshu.com/p/3b0e290cc049)【==基础知识==】 
     `缓存分为内存缓存和磁盘缓存两种，其中内存是指当前程序的运行空间，缓存速度快容量小，是临时存储文件用的，供CPU直接读取，比如说打开一个程序,他是在内存中存储,关闭程序后内存就又回到原来的空闲空间；磁盘是程序的存储空间，缓存容量大速度慢可持久化与内存不同的是磁盘是永久存储东西的，只要里面存放东西,不管运行不运行 ，他都占用空间！磁盘缓存是存在Library/Caches。`
     
