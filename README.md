@@ -43,6 +43,53 @@
 <br>
 
 ## <div align=center>2020/06/12</div>
+* JSPatch 平台介绍[点击前往](https://jspatch.com/Docs/intro)【==审核==】
+
+      `JSPatch 是一个开源项目(Github链接)，只需要在项目里引入极小的引擎文件，就可以使用 JavaScript 调用任何 Objective-C 的原生接口，替换任意 Objective-C 原生方法。目前主要用于下发 JS 脚本替换原生 Objective-C 代码，实时修复线上 bug。`
+
+* iOS WKWebView+UITableView混排[点击前往](https://juejin.im/post/5ed999fd51882542f9389949)【==性能==】
+
+* 前端电商 sku 的全排列算法很难吗？学会这个套路，彻底掌握排列组合。[点击前往](https://juejin.im/post/5ee6d9026fb9a047e60815f1)【==算法==】
+
+    ```
+    let names = ["iPhone X", "iPhone XS"]
+    
+    let colors = ["黑色", "白色"]
+    
+    let storages = ["64g", "256g"]
+    
+    let combine = function (...chunks) {
+      let res = []
+    
+      let helper = function (chunkIndex, prev) {
+        let chunk = chunks[chunkIndex]
+        let isLast = chunkIndex === chunks.length - 1
+        for (let val of chunk) {
+          let cur = prev.concat(val)
+          if (isLast) {
+            // 如果已经处理到数组的最后一项了 则把拼接的结果放入返回值中
+            res.push(cur)
+          } else {
+            helper(chunkIndex + 1, cur)
+          }
+        }
+      }
+    
+      // 从属性数组下标为 0 开始处理
+      // 并且此时的 prev 是个空数组
+      helper(0, [])
+    
+      return res
+    }
+    
+    console.log(combine(names, colors, storages))
+    ```
+
+<br>
+<br>
+<br>
+
+## <div align=center>2020/06/12</div>
 * Swift Combine[点击前往](https://www.jianshu.com/p/df8535b40079)【==基础知识==】 
     
     `Combine是Apple在2019年WWDC上推出的一个新框架。该框架提供了一个声明性的Swift API，用于随时间处理值。这些值可以表示多种异步事件。`
