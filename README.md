@@ -42,6 +42,36 @@
 <br>
 <br>
 
+## <div align=center>2020/06/28</div>
+* Xcode 实用快捷键（持续更新）[点击前往](https://juejin.im/post/5ef2a3f06fb9a0586e268724)【==小常识==】
+
+    `文件方法:  command + shift + o
+    选中自动对齐:  control + i
+    当前文件栈 前进｜后退:  command + ctrl + ➡️ ｜ ⬅️
+    切当前页面的兄弟页面 ｜ 方法:  control + 5 ｜ 6
+    到文件目录:  command + shfit + J
+    `
+    
+    
+* iOS | 多态的实际运用[点击前往](https://juejin.im/entry/5c20fdf95188256ec35ff89c)【==基础知识==】
+
+    `子类重写父类的方法，父类指针指向子类。`
+
+
+* iOS中的设计模式——工厂模式(Factory)[点击前往](http://ibloodline.com/articles/2016/09/06/factory.html)【==基础知识==】
+
+    `简单工厂模式:
+    通过工厂类根据参数负责创建具体的产品，即工厂类在工厂方法中通过对参数进行条件判断(if、switch)来创建不同的实例)。
+    `
+    
+    `抽象工厂模式:
+    抽象工厂模式：提供了创建一系列相关抽象子类的接口，而无需指定它们具体的类型。也叫做Kit模式。
+    `
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2020/06/23</div>
 * iOS-类方法与实例方法[点击前往](https://www.jianshu.com/p/8248468ef54f)【==基础知识==】
     * 动态方法/实例方法
