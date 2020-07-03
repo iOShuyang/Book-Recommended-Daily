@@ -42,6 +42,25 @@
 <br>
 <br>
 
+## <div align=center>2020/07/03</div>
+* iTerm2 + Oh My Zsh 打造舒适终端体验[点击前往](https://www.jianshu.com/p/9c3439cc3bdb)【==小常识==】
+
+* iOS界面调试工具Reveal4 配置[点击前往](https://www.jianshu.com/p/25f6d16627e1)【==小常识==】
+
+* iOS比优鸡调试技巧篇（一）：reveal视图调试[点击前往](https://jakciehoo.github.io/2016/09/12/2016-09-12-using-reveal-to-debug/)【==小常识==】
+
+* Dart vs Swift[点击前往](https://juejin.im/post/5c506a7c51882525c71333d2)【==开发模式==】
+    ![](https://user-gold-cdn.xitu.io/2019/1/29/1689a21b2d263a75?imageView2/1/w/1304/h/734/q/85/interlace/1)
+    
+    ```
+    强烈推荐，很好的学习swift和dart语法。
+    避免将两门语言的语法搞混。
+    ```
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2020/06/30</div>
 * iOS Protocol 详解[点击前往](https://juejin.im/entry/58806914128fe1006c205041)【==基础知识==】
 
@@ -876,9 +895,6 @@ Beams makes it easy to send push notifications to iOS and Android apps. It takes
 
 ## <div align=center>2019/03/11</div>
 * Flutter 即学即用系列博客——04 Flutter UI 初窥[点击前往](https://juejin.im/post/5c862d15f265da2da67c65d4)【==开发模式==】
-
-* Dart vs Swift[点击前往](https://juejin.im/post/5c506a7c51882525c71333d2)【==开发模式==】
-    ![](https://user-gold-cdn.xitu.io/2019/1/29/1689a21b2d263a75?imageView2/1/w/1304/h/734/q/85/interlace/1)
 
 * Flutter开发之Dart语法基础[点击前往](https://juejin.im/post/5c6ba76551882562ea7233a3)【==开发模式==】
 
