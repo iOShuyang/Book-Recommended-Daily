@@ -41,6 +41,23 @@
 <br>
 <br>
 <br>
+## <div align=center>2020/08/17</div>
+* 保姆级教程，如何发现 GitHub 上的优质项目[点击前往](https://juejin.im/post/6854818587808464910)【==小常识==】
+
+* GitHub 统计卡片[点击前往](https://github.com/anuraghazra/github-readme-stats/blob/master/docs/readme_cn.md)【==小常识==】
+
+
+* 如何访问/var/mobile/Containers/Data/Application...这样的文件夹[点击前往](https://www.jianshu.com/p/14fea5f91f92)【==小常识==】
+
+* R.swift 运行失败 xcode Cycle inside xxx; building could produce unreliable results. 错误解决 xcode10[点击前往](https://www.jianshu.com/p/b2931d7b916f)【==小常识==】
+
+
+* 编程范式：命令式编程(Imperative)、声明式编程(Declarative)和函数式编程(Functional)[点击前往](https://www.cnblogs.com/sirkevin/p/8283110.html)【==小常识==】
+
+
+<br>
+<br>
+<br>
 
 ## <div align=center>2020/07/03</div>
 * iTerm2 + Oh My Zsh 打造舒适终端体验[点击前往](https://www.jianshu.com/p/9c3439cc3bdb)【==小常识==】
