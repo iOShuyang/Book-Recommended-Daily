@@ -41,6 +41,18 @@
 <br>
 <br>
 <br>
+
+## <div align=center>2020/08/27</div>
+* 一天精通iOS Swift多线程（GCD）[点击前往](https://juejin.im/post/6858126631760986126)【==多线程==】
+
+* Flutter - 混合开发[点击前往](https://juejin.im/post/6850418111096324103)【==混编==】
+
+* Rickey-iOS-Notes[点击前往](https://github.com/RickeyBoy/Rickey-iOS-Notes)【==小常识==】
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2020/08/17</div>
 * 保姆级教程，如何发现 GitHub 上的优质项目[点击前往](https://juejin.im/post/6854818587808464910)【==小常识==】
 
