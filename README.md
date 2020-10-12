@@ -42,6 +42,18 @@
 <br>
 <br>
 
+## <div align=center>2020/10/12</div>
+* iOS14 Widget小组件开发实践1——了解Widget[点击前往](https://www.jianshu.com/p/55dce7a524f5)【==基础控件==】
+
+* iOS(Swift)通过极光推送实现跳转自定义页面[点击前往](https://izumi.pub/ios/622/)【==推送==】
+
+* 极光推送iOS SDk集成指南[点击前往](https://docs.jiguang.cn/jpush/client/iOS/ios_guide_new/)【==推送==】
+
+<br>
+<br>
+<br>
+
+
 ## <div align=center>2020/08/27</div>
 * 一天精通iOS Swift多线程（GCD）[点击前往](https://juejin.im/post/6858126631760986126)【==多线程==】
 
