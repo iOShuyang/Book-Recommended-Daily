@@ -42,6 +42,18 @@
 <br>
 <br>
 
+## <div align=center>2020/10/27</div>
+* iOS 性能优化实践：头条抖音如何实现 OOM 崩溃率下降50%+[点击前往](https://juejin.im/post/6885144933997494280)【==优化==】
+
+* 抖音品质建设 - iOS启动优化《原理篇》[点击前往](https://juejin.im/post/6887741815529832456)【==优化==】
+
+* 网易云音乐 iOS 14 小组件实战手册[点击前往](https://juejin.im/post/6887759096506744840)【==基础控件==】
+    ![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7b524e1281824d8a9b51146e23170963~tplv-k3u1fbpfcp-zoom-1.image)
+    
+<br>
+<br>
+<br>
+
 ## <div align=center>2020/10/12</div>
 * iOS14 Widget小组件开发实践1——了解Widget[点击前往](https://www.jianshu.com/p/55dce7a524f5)【==基础控件==】
 
