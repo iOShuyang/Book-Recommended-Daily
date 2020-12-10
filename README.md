@@ -42,6 +42,59 @@
 <br>
 <br>
 
+
+## <div align=center>2020/12/10</div>
+* iOS warning 警告禁用与启用[点击前往](https://www.jianshu.com/p/cbd1f2e52542)【==优化==】
+    ```
+    1、code will never be executed
+    -Wno-unreachable-code   全局禁用警告
+    -Wunreachable-code      全局启用警告
+    .
+    2、Unused Entity Issue / unused function 'xxxxx'
+    -Wno-unused-function    全局禁用
+    -Wunused-function       全局启用
+    ```
+
+* Pointer is missing a nullability type specifier[点击前往](https://www.jianshu.com/p/a95ebd6befc9)【==优化==】
+    ```
+    NS_ASSUME_NONNULL_BEGIN
+    NS_ASSUME_NONNULL_END
+    ```
+
+* Xcode 忽略第三方库的警告[点击前往](https://www.shiqidu.com/d/820)【==优化==】
+    ```
+    Pods -> target -> Other Warning Flags 添加 -w
+    ```
+    
+* Suppressing deprecated warnings in Xcode[点击前往](https://stackoverflow.com/questions/2622017/suppressing-deprecated-warnings-in-xcode)【==优化==】
+    ```
+    Try -Wno-deprecated-declarations, 
+    or its corresponding setting in Xcode, 
+    GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS 
+    (pro tip: just type in "deprecated" in the build settings to find the specific setting for this warning).
+   
+   
+    Deprecated Functions  -- NO
+    ```
+
+* “This function declaration is not a prototype” warning in Xcode 9[点击前往](https://stackoverflow.com/questions/44473146/this-function-declaration-is-not-a-prototype-warning-in-xcode-9)【==优化==】
+    ```
+    void (^)(void)
+    ```
+
+* 消除xcode8中Empty paragraph passed to '***' command的警告[点击前往](https://blog.csdn.net/studying_ios/article/details/53840996)【==优化==】
+    ![](https://img-blog.csdn.net/20161223160455763?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3R1ZHlpbmdfaW9z/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+
+* Double-quoted include "pb.h" in framework header, expected angle-bracke[点击前往](https://stackoverflow.com/questions/63951540/googledatatransport-is-throwing-double-quoted-include-in-framework-header-expect)【==优化==】
+    ```
+    quoted include -- No
+    ```
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2020/12/8</div>
 * iOS单元测试和集成测试[点击前往](https://www.jishudog.com/20853/html)【==测试==】
   
