@@ -90,6 +90,16 @@
     ```
     quoted include -- No
     ```
+    
+* “View Controller“ is unreachable because it has no entry points[点击前往](https://medium.com/彼得潘的-swift-ios-app-開發問題解答集/view-controller-is-unreachable-because-it-has-no-entry-points-8149f8cca8eb)【==优化==】
+    ```
+    設定 Storyboard ID
+    或者
+    删除没有使用的controller
+    ```
+    
+* 去除烦人的第三方引用库警告[点击前往](https://www.jianshu.com/p/6c2233dc92c3)【==优化==】
+    ![](https://upload-images.jianshu.io/upload_images/10899155-137b589f3feb1903.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200)
 
 <br>
 <br>
@@ -115,6 +125,14 @@
 
 * iOS-单元测试[点击前往](https://blog.csdn.net/samuelandkevin/article/details/104947613)【==测试==】
     * iOS进阶之单元测试 [视频链接](https://www.bilibili.com/video/av46726217/)
+
+* iOS 单元测试[点击前往](https://chars.tech/blog/ios-unit-test/)【==测试==】
+
+    `单元测试（unit testing），是指对软件中的最小可测试单元进行检查和验证。对于单元测试中单元的含义，一般来说，要根据实际情况去判定其具体含义，如 C 语言中单元指一个函数，Java 里单元指一个类，图形化的软件中可以指一个窗口或一个菜单等。总的来说，单元就是人为规定的最小的被测功能模块。`
+    
+* iOS 单元测试[点击前往](https://juejin.cn/post/6844903618793963534)【==测试==】
+
+* ios自动化测试（xcode自带的UI测试）[点击前往](https://www.jianshu.com/p/877f2a1dcabc)【==测试==】
 
 <br>
 <br>
