@@ -42,6 +42,25 @@
 <br>
 <br>
 
+## <div align=center>2020/12/14</div>
+* iOS-简单易用的GCD计时器[点击前往](https://juejin.cn/post/6844903721374056456)【==基础知识==】
+
+* Objective C Char *,Const Char *,Cstring,CFString互转[点击前往](https://www.cnblogs.com/xiaoqiangink/p/12516958.html)【==基础知识==】
+
+* iOS深思篇 | 宏定义[点击前往](http://www.cocoachina.com/articles/28315)【==基础知识==】
+
+* iOS13 presentViewController样式调整[点击前往](https://www.jianshu.com/p/547cba7aa3dd)【==基础知识==】
+
+
+* ios 13 暗黑模式(Dark Mode)适配（上）[点击前往](https://www.jianshu.com/p/ea2d60959c4b)【==基础知识==】
+
+* SVProgressHUD原理解析[点击前往](https://www.jianshu.com/p/71ca8bf5736b)【==基础知识==】
+
+* iOS读取plist文件[点击前往](https://www.jianshu.com/p/bb4e4b418165)【==基础知识==】
+
+<br>
+<br>
+<br>
 
 ## <div align=center>2020/12/10</div>
 * iOS warning 警告禁用与启用[点击前往](https://www.jianshu.com/p/cbd1f2e52542)【==优化==】
