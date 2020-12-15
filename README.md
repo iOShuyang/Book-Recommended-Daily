@@ -42,6 +42,42 @@
 <br>
 <br>
 
+## <div align=center>2020/12/15</div>
+* 自动布局第三方框架-pureLayout学习[点击前往](https://www.jianshu.com/p/ed178ce81655)【==三方框架==】
+     ![](https://upload-images.jianshu.io/upload_images/1792274-11e5049e24c8aaed.png?imageMogr2/auto-orient/strip|imageView2/2/w/640)
+
+* ios purelayout--基础使用--进阶使用--看这就够了[点击前往](https://www.cnblogs.com/justqi/p/7435477.html)【==三方框架==】
+
+* PureLayout 的详细使用方法[点击前往](https://www.jianshu.com/p/322374f396a0)【==三方框架==】
+
+* PureAutoLayout 自动适配主要方法解析[点击前往](https://blog.csdn.net/u013749108/article/details/50811479)【==三方框架==】
+
+<br>
+
+* 解决sqlite删除数据后，文件大小不变问题[点击前往](http://www.voidcn.com/article/p-pzdrqpfs-ek.html)【==三方框架==】
+
+* iOS SQLite - 使用FMDB类获取数据记录集合Count的方法[点击前往](http://blog.sina.com.cn/s/blog_6f72ff900102v0nj.html)【==三方框架==】
+
+* iOS-FMDB[点击前往](https://www.jianshu.com/p/e6a5c8e96780)【==三方框架==】
+
+* FMDB 使用方法[点击前往](https://www.jianshu.com/p/7958d31c2a97)【==三方框架==】
+
+<br>
+
+* iOS数据库之FMDB、Realm、WCDB[点击前往](https://www.jianshu.com/p/899541691876)【==三方框架==】
+
+* Realm数据库 从入门到“放弃”[点击前往](http://www.cocoachina.com/articles/17935)【==三方框架==】
+
+* IOS数据库篇之realm数据库详解[点击前往](https://www.jianshu.com/p/c483a0de030b)【==三方框架==】
+
+* iOS realm数据库使用笔记[点击前往](https://www.jianshu.com/p/ffdea2854675)【==三方框架==】
+
+* iOS 数据持久化方案-Realm的使用[点击前往](http://www.cocoachina.com/articles/26443)【==三方框架==】
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2020/12/14</div>
 * iOS-简单易用的GCD计时器[点击前往](https://juejin.cn/post/6844903721374056456)【==基础知识==】
 
@@ -135,6 +171,7 @@
 
 <br>
 * XCTAssert单元测试[点击前往](https://blog.csdn.net/u010130947/article/details/47320083)【==测试==】
+
 * iOS测试各个断言用法[点击前往](https://www.jianshu.com/p/560656589757)【==测试==】
 <br>
 
