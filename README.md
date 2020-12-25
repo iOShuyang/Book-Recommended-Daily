@@ -42,6 +42,26 @@
 <br>
 <br>
 
+## <div align=center>2020/12/25</div>
+* mac下代码行数统计工具-cloc[点击前往](https://www.jianshu.com/p/ac0a03623c2c)【==小常识==】
+
+* Version value must be a string; got a NilClass () (TypeError)[点击前往](https://www.cnblogs.com/war1111/p/14035856.html)【==小常识==】
+
+* iOS - Xcode项目统计总代码行数[点击前往](https://www.cnblogs.com/gongyuhonglou/p/10299027.html)【==小常识==】
+
+    ```
+    find . "(" -name "*.m" -or -name "*.mm" -or -name "*.cpp" -or -name "*.h" -or -name "*.rss" -or -name "*.swift" ")" -print | xargs wc -l
+    ```
+    
+    ```
+    find . "(" -name "*.m" -or -name "*.mm" -or -name "*.cpp" -or -name "*.h" -or -name "*.rss" -or -name "*.swift" ")" -print |xargs grep -v "^$"|wc -l
+    ```
+    
+<br>
+<br>
+<br>
+
+
 ## <div align=center>2020/12/15</div>
 * 自动布局第三方框架-pureLayout学习[点击前往](https://www.jianshu.com/p/ed178ce81655)【==三方框架==】
      ![](https://upload-images.jianshu.io/upload_images/1792274-11e5049e24c8aaed.png?imageMogr2/auto-orient/strip|imageView2/2/w/640)
