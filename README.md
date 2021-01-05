@@ -42,6 +42,53 @@
 <br>
 <br>
 
+## <div align=center>2021/01/05</div>
+* 你不可错过的 10 个 Xcode 技巧和快捷键[点击前往](https://juejin.cn/post/6913888065937211399)【==小常识==】
+
+* iOS开发之隐私权限[点击前往](https://www.jianshu.com/p/c7a374649c16)【==小常识==】
+      ![](https://upload-images.jianshu.io/upload_images/4191750-cc49a2ae4207ac80.png?imageMogr2/auto-orient/strip|imageView2/2/w/743)
+
+* iOS获取手机号[点击前往](https://blog.csdn.net/watson2017/article/details/104778846)【==三方框架==】
+  
+    | 平台 | 网址 | 号码支持 |
+    | --- | --- | --- |
+    | 中国移动互联网能力平台 | http://dev.10086.cn | 移动/电信/联通 |
+    | 中国电信天翼账号开放平台 | https://id.189.cn | 电信 |
+    | 中国移动互联网能力平台 | http://dev.10086.cn | 移动/电信/联通 |
+    | 中国联通通信创新平台 | https://onlinebusiness.10010.com | 移动/电信/联通 |
+    | 小沃SAAS服务平台 | http://saas.wostore.cn/solution.html | 移动/电信/联通 |
+    | 极光 | https://www.jiguang.cn | 移动/电信/联通 |
+    | 阿里云 | https://www.aliyun.com | 移动/电信/联通 |
+
+
+* 删除Main.storyboard后报错黑屏 Could not find a storyboard named ‘Main‘ in bundle NSBundle[点击前往](https://blog.csdn.net/ximiaoweilai/article/details/108668586)【==小常识==】
+
+-------
+
+* iOS Framework 包含 图片 Plist XIB 静态库[点击前往](https://www.jianshu.com/p/f7da0f77bf51?utm_campaign=hugo)【==架构==】
+
+* 做一個自己的 iOS Framework[点击前往](https://medium.com/@kuotinyen/手把手做一個自己的-ios-framework-2aca19dbab95)【==架构==】
+
+* iOS封装功能生成 .framework[点击前往](https://www.jianshu.com/p/87dbf57cfe4a)【==架构==】
+
+* iOS 静态库 .FrameWork[点击前往](https://www.jianshu.com/p/18fc84657a77)【==架构==】
+
+* iOS 构建静态库[点击前往](https://www.cnblogs.com/dins/p/ios-gou-jian-jing-tai-ku.html)【==架构==】
+
+* 打包静态库（ios）[点击前往](https://www.cnblogs.com/TruceLee/p/12356045.html)【==架构==】
+
+* iOS Framework制作流程[点击前往](https://juejin.cn/post/6844903796380794893)【==架构==】
+
+-------
+
+* IOS时间本地化处理[点击前往](https://juejin.cn/post/6910031891370360839)【==时间==】
+
+* iOS如何获取当前时间--看我就够了[点击前往](https://juejin.cn/post/6905671622037307405)【==时间==】
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2020/12/25</div>
 * mac下代码行数统计工具-cloc[点击前往](https://www.jianshu.com/p/ac0a03623c2c)【==小常识==】
 
