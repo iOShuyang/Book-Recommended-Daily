@@ -42,6 +42,25 @@
 <br>
 <br>
 
+## <div align=center>2021/01/26</div>
+* yyyy 和 YYYY 区别[点击前往](https://www.zhihu.com/question/348581329)【==小常识==】
+  
+    `在Api里面y 的释义是year，很好理解就是年的意思，那Y的释义是Week year ，代表的是本周所在年份，而只要本周跨年，那么本周都是算到下一年的`
+    
+* iOS语音播放之切换听筒和扬声器的方法解决方案[点击前往](https://blog.csdn.net/xdrt81y/article/details/38926663)【==小常识==】
+
+* iOS获取设备的唯一标识的方法[点击前往](https://blog.csdn.net/wwj256/article/details/112372626)【==推送==】
+
+* iOS UITableView reloadData 刷新结束后执行后续操作[点击前往](https://www.cnblogs.com/ficow/p/7119199.html)【==小常识==】
+
+* 指针常量extern NSString * const[点击前往](https://www.cnblogs.com/dengchaojie/p/7814927.html)【==基础知识==】
+ 
+* extern字符串常量，宏定义字符串常量，怎么选[点击前往](https://www.imooc.com/wenda/detail/545375)【==基础知识==】
+
+<br>
+<br>
+<br>
+
 ## <div align=center>2021/01/05</div>
 * 你不可错过的 10 个 Xcode 技巧和快捷键[点击前往](https://juejin.cn/post/6913888065937211399)【==小常识==】
 
