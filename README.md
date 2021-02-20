@@ -18,7 +18,7 @@
 
 -------
 
-【==小常识==】【==时间==】【==颜色==】【==二维码==】【==地图==】【==网络==】【==相册==】【==定时器==】【==推送==】【==模拟器==】
+【==小常识==】【==时间==】【==颜色==】【==二维码==】【==地图==】【==网络==】【==相册==】【==定时器==】【==推送==】【==模拟器==】【==通讯录==】
 
 -------
 
@@ -38,6 +38,37 @@
 
 -------
 
+<br>
+<br>
+<br>
+
+## <div align=center>2021/02/20</div>
+* iOS通讯录介绍和使用[点击前往](https://www.jianshu.com/p/df0ea100c3da)【==通讯录==】
+    ![](https://upload-images.jianshu.io/upload_images/987457-0e3476d43388a95e.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200)
+    ![](https://upload-images.jianshu.io/upload_images/987457-a99ced4897708c01.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200)
+
+* iOS - Contacts 通訊錄[点击前往](https://iter01.com/95173.html)【==通讯录==】
+
+* IOS13 CNMutableContact Bug[点击前往](https://stackoverflow.com/questions/58112849/ios13-cnmutablecontact-bug)【==通讯录==】
+
+* iOS WKWebView 跳转appStore或者拨号[点击前往](https://blog.csdn.net/sinat_31177681/article/details/90240000)【==基础控件==】
+
+    `
+    1.UIWebView
+    打开ituns.apple.com跳转到appStore, 拨打电话, 唤起邮箱等一系列操作UIWebView默认支持的.
+    2.WKWebView
+    默认禁止了以上行为,除此之外,js端通过window.open()打开新的网页的动作也被禁掉了.`
+    
+* WKWebView中的那些坑[点击前往](https://www.jianshu.com/p/432583b3b6e0)【==基础控件==】
+
+
+* Xcode 不使用数据线真机调试[点击前往](https://www.jianshu.com/p/acfa0e318aa0)【==小常识==】
+
+* OC的NSPredicate Class[点击前往](https://blog.csdn.net/yxwlzsh/article/details/48032219)【==小常识==】
+
+    ` Predicate根据组合表达式的计算结果返回一个BOOL值. 可用于约束搜索或内存过滤.`
+    
+    
 <br>
 <br>
 <br>
