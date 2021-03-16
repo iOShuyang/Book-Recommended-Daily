@@ -42,6 +42,47 @@
 <br>
 <br>
 
+## <div align=center>2021/03/16</div>
+* iOS之武功秘籍㉑: 组件化[点击前往](https://juejin.cn/post/6937307792659185700)【==架构==】
+
+* iOS 稳定性问题治理：卡死崩溃监控原理及最佳实践[点击前往](https://juejin.cn/post/6937091641656721438)【==性能==】
+
+* 浅谈iOS中的锁的介绍及实战使用[点击前往](https://juejin.cn/post/6939717373541203981)【==多线程==】
+
+* iOS内购—— In-App Purchase（消耗型）[点击前往](https://www.jianshu.com/p/321efc31078d)【==支付==】
+
+* ios 内购详解（2019）[点击前往](https://www.jianshu.com/p/eb81e5e1d2f0)【==支付==】
+
+
+<br>
+<br>
+<br>
+
+## <div align=center>2021/03/15</div>
+
+* 监测手机扬声器是否打开[点击前往](https://www.jianshu.com/p/68b339939c94?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)【==视频==】
+
+* 扬声器听筒的切换[点击前往](https://www.cnblogs.com/whqios/p/5356488.html)【==视频==】
+
+* AVAudioSession音频会话(类别选择/音频输出切换)[点击前往](https://blog.csdn.net/wangyanchang21/article/details/52925031)【==视频==】
+
+<br>
+<br>
+<br>
+
+## <div align=center>2021/03/14</div>
+
+* iOS两种方法限制拖拽手势的范围[点击前往](http://www.cocoachina.com/articles/17677)【==绘制==】
+
+* WKWebView 请求拦截探索与实践[点击前往](https://juejin.cn/post/6922625242796032007)【==基础控件==】
+
+* 2021全新iOS学习方向[点击前往](https://mp.weixin.qq.com/s?__biz=MzI3MjU1MjE2NQ==&mid=2247485877&idx=1&sn=7c919667b73ee826cbe850a07df054db&chksm=eb31903fdc46192950d0a9f36f8540d0ca03cc53c33565c6a1445fa1dadab6331399e8e070a4&token=1405749238&lang=zh_CN#rd)【==逆向==】
+
+<br>
+<br>
+<br>
+
+
 ## <div align=center>2021/02/20</div>
 * iOS通讯录介绍和使用[点击前往](https://www.jianshu.com/p/df0ea100c3da)【==通讯录==】
     ![](https://upload-images.jianshu.io/upload_images/987457-0e3476d43388a95e.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200)
